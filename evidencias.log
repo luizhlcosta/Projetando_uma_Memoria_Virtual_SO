@@ -264,3 +264,291 @@ gcc -Wall -Wextra -o vm vm.o memoria.o
 [?2004lexit
 
 Script done on 2026-11-24 08:57:25-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-24 09:21:25-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="74" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra -o teste_inicializar_gerenciador teste_inicializ[27m[7ma[27m[7mr_gerenciador.c memoria.c[27m[A[C[C[C[C[C[C[C[Cgcc -Wall -Wextra -o teste_inicializar_gerenciador teste_inicializar_gerenciador.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_inicializar_gerenciador[27m
+[A[C[C[C[C[C[C[C[C./teste_inicializar_gerenciador
+[A
+[?2004lPaginas verificadas: 256
+Bytes verificados: 32768
+Proximo frame: 0
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clena[K[Kan
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 09:22:09-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-24 09:35:13-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="100" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_consulta_tabela teste_consulta_tabela.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_consulta_tabela teste_consulta_tabela.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_consulta_t[27m[7ma[27m[7mbela[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_consulta_tabela
+[?2004lPagina: 10 | Esperado: 5 | Obtido: 5
+Pagina: 20 | Esperado: 0 | Obtido: 0
+Pagina: 30 | Esperado: -1 | Obtido: -1
+Pagina: 255 | Esperado: 127 | Obtido: 127
+Pagina: -1 | Esperado: -1 | Obtido: -1
+Pagina: 256 | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make[Ke cla[Ken[Kan
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_linkar_pagina teste_linkar_pagina.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_linkar_pagina teste_linkar_pagina.c memoria.c
+[?2004l[01m[Kteste_linkar_pagina.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kteste_linkar_pagina.c:11:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   11 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, 10, 5);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+In file included from [01m[Kteste_linkar_pagina.c:3[m[K:
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:12:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   12 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, 20, 0);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:13:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   13 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, 255, 127);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:15:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   15 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, 30, 128);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:16:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.or;
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:16:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   16 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, 40, -1);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:17:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   17 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, 300, 5);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:18:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   18 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, -1, 5);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:24:50:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kconsultar_tabela_paginas[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   24 |         int resultado = consultar_tabela_paginas([01;35m[Ktabela_paginas[m[K, paginas[index]);
+      |                                                  [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                                  [01;35m[K|[m[K
+      |                                                  [01;35m[Kint *[m[K
+[01m[Kmemoria.h:21:45:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kconst Memoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   21 | int consultar_tabela_paginas([0g/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   16 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, 40, -1);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:17:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   17 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, 300, 5);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:18:28:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Klinkar_pagina_ao_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   18 |     linkar_pagina_ao_frame([01;35m[Ktabela_paginas[m[K, -1, 5);
+      |                            [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kint *[m[K
+[01m[Kmemoria.h:22:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   22 | void linkar_pagina_ao_frame([01;36m[KMemoria *memoria[m[K, int numero_da_pagina, int numero_do_frame);
+      |                             [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_linkar_pagina.c:24:50:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kconsultar_tabela_paginas[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   24 |         int resultado = consultar_tabela_paginas([01;35m[Ktabela_paginas[m[K, paginas[index]);
+      |                                                  [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                                  [01;35m[K|[m[K
+      |                                                  [01;35m[Kint *[m[K
+[01m[Kmemoria.h:21:45:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kconst Memoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   21 | int consultar_tabela_paginas([01;36m[Kconst Memoria *memoria[m[K, int numero_pagina);
+      |                              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit[K[K[K[K[7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_linkar_pagina teste_linkar_pagina.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_linkar_pagina teste_linkar_pagin1;36m[Kconst Memoria *memoria[m[K, int numero_pagina);
+      |                              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~[m[K
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit[K[K[K[K[7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_linkar_pagina teste_linkar_pagina.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_linkar_pagina teste_linkar_pagina.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_linkar_pag[27m[7mi[27m[7mna[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_linkar_pagina
+[?2004lPagina 10 | Esperado: 5 | Obtido: 5
+Pagina 20 | Esperado: 0 | Obtido: 0
+Pagina 255 | Esperado: 127 | Obtido: 127
+Pagina 30 | Esperado: -1 | Obtido: -1
+Pagina 40 | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_proximo_frame teste_proximo_frame.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_proximo_frame teste_proximo_frame.c memoria.c
+[?2004l[01m[Kteste_proximo_frame.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kteste_proximo_frame.c:9:45:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kobter_proximo_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+    9 |         int resultado = obter_proximo_frame([01;35m[K&proximo_frame[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kint *[m[K
+In file included from [01m[Kteste_proximo_frame.c:2[m[K:
+[01m[Kmemoria.h:23:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   23 | int obter_proximo_frame([01;36m[KMemoria *memoria[m[K);
+      |                         [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_proximo_frame.c:19:41:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kobter_proximo_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   19 |     int resultado = obter_proximo_frame([01;35m[K&proximo_frame[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                         [01;35m[K|[m[K
+      |                                         [01;35m[Kint *[m[K
+[01m[Kmemoria.h:23:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   23 | int obter_a.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_linkar_pag[27m[7mi[27m[7mna[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_linkar_pagina
+[?2004lPagina 10 | Esperado: 5 | Obtido: 5
+Pagina 20 | Esperado: 0 | Obtido: 0
+Pagina 255 | Esperado: 127 | Obtido: 127
+Pagina 30 | Esperado: -1 | Obtido: -1
+Pagina 40 | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_proximo_frame teste_proximo_frame.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_proximo_frame teste_proximo_frame.c memoria.c
+[?2004l[01m[Kteste_proximo_frame.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kteste_proximo_frame.c:9:45:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kobter_proximo_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+    9 |         int resultado = obter_proximo_frame([01;35m[K&proximo_frame[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kint *[m[K
+In file included from [01m[Kteste_proximo_frame.c:2[m[K:
+[01m[Kmemoria.h:23:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   23 | int obter_proximo_frame([01;36m[KMemoria *memoria[m[K);
+      |                         [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_proximo_frame.c:19:41:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kobter_proximo_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   19 |     int resultado = obter_proximo_frame([01;35m[K&proximo_frame[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                         [01;35m[K|[m[K
+      |                                         [01;35m[Kint *[m[K
+[01m[Kmemoria.h:23:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   23 | int obter_proximo_frame([01;36m[KMemoria *memoria[m[K);
+      |                         [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_proximo_frame teste_proximo_frame.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_proximo_frame teste_proximo_frame.c memoria.c
+[?2004l[01m[Kteste_prproximo_frame([01;36m[KMemoria *memoria[m[K);
+      |                         [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_proximo_frame teste_proximo_frame.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_proximo_frame teste_proximo_frame.c memoria.c
+[?2004l[01m[Kteste_proximo_frame.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kteste_proximo_frame.c:9:45:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kobter_proximo_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+    9 |         int resultado = obter_proximo_frame([01;35m[K&proximo_frame[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kint *[m[K
+In file included from [01m[Kteste_proximo_frame.c:2[m[K:
+[01m[Kmemoria.h:23:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   23 | int obter_proximo_frame([01;36m[KMemoria *memoria[m[K);
+      |                         [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_proximo_frame.c:19:41:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kobter_proximo_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   19 |     int resultado = obter_proximo_frame([01;35m[K&proximo_frame[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                         [01;35m[K|[m[K
+      |                                         [01;35m[Kint *[m[K
+[01m[Kmemoria.h:23:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   23 | int obter_proximo_frame([01;36m[KMemoria *memoria[m[K);
+      |                         [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_proximo_frame teste_proximo_frame.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_proximo_frame teste_proximo_frame.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_proximo_fr[27m[7ma[27m[7mme[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_proximo_frame
+[?2004lFrames distribuidos: 128
+Memoria cheia | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/coximo_frame.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kteste_proximo_frame.c:9:45:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kobter_proximo_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+    9 |         int resultado = obter_proximo_frame([01;35m[K&proximo_frame[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kint *[m[K
+In file included from [01m[Kteste_proximo_frame.c:2[m[K:
+[01m[Kmemoria.h:23:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   23 | int obter_proximo_frame([01;36m[KMemoria *memoria[m[K);
+      |                         [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[01m[Kteste_proximo_frame.c:19:41:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kobter_proximo_frame[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   19 |     int resultado = obter_proximo_frame([01;35m[K&proximo_frame[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~[m[K
+      |                                         [01;35m[K|[m[K
+      |                                         [01;35m[Kint *[m[K
+[01m[Kmemoria.h:23:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KMemoria *[m[K’ but argument is of type ‘[01m[Kint *[m[K’
+   23 | int obter_proximo_frame([01;36m[KMemoria *memoria[m[K);
+      |                         [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_proximo_frame teste_proximo_frame.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_proximo_frame teste_proximo_frame.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_proximo_fr[27m[7ma[27m[7mme[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_proximo_frame
+[?2004lFrames distribuidos: 128
+Memoria cheia | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean [K
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ maje[K[Kke
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memo/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean [K
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ maje[K[Kke
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 09:42:20-03:00 [COMMAND_EXIT_CODE="0"]

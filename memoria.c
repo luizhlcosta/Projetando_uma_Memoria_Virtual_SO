@@ -14,15 +14,15 @@ void inicializar_tabela_paginas(int tabela_paginas[]) {
     }
 }
 
-int consultar_tabela_paginas(const int tabela_paginas[], int numero_pagina) {
+int consultar_tabela_paginas(const Memoria *memoria, int numero_pagina) {
     if (numero_pagina < 0 || numero_pagina >= NUM_PAGES) {
         return -1;
     }
 
-    return tabela_paginas[numero_pagina];
+    return memoria->tabela_paginas[numero_pagina];
 }
 
-void linkar_pagina_ao_frame(int tabela_paginas[], int numero_da_pagina, int numero_do_frame) {
+void linkar_pagina_ao_frame(Memoria *memoria, int numero_da_pagina, int numero_do_frame) {
     if (numero_da_pagina < 0 || numero_da_pagina >= NUM_PAGES) {
         return;
     }
@@ -31,17 +31,28 @@ void linkar_pagina_ao_frame(int tabela_paginas[], int numero_da_pagina, int nume
         return;
     }
 
-    tabela_paginas[numero_da_pagina] = numero_do_frame;
+    memoria->tabela_paginas[numero_da_pagina] = numero_do_frame;
 }
 
-
-int obter_proximo_frame(int *proximo_frame) {
-    if (*proximo_frame < 0 || *proximo_frame >= NUM_FRAMES) {
+int obter_proximo_frame(Memoria *memoria) {
+    if (memoria->proximo_frame < 0 || memoria->proximo_frame >= NUM_FRAMES) {
         return -1;
     }
 
-    int frame_vazio = *proximo_frame;
-    (*proximo_frame)++;
+    int frame_vazio = memoria->proximo_frame;
+    memoria->proximo_frame++;
 
     return frame_vazio;
+}
+
+void inicializar_gerenciador(Memoria *memoria) {
+    inicializar_tabela_paginas(memoria->tabela_paginas);
+
+    for (int frame_index = 0; frame_index < NUM_FRAMES; frame_index++) {
+        for (int byte_index = 0; byte_index < FRAME_SIZE; byte_index++) {
+            memoria->memoria_fisica[frame_index][byte_index] = 0;
+        }
+    }
+
+    memoria->proximo_frame = 0;
 }
