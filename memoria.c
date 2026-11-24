@@ -56,3 +56,33 @@ void inicializar_gerenciador(Memoria *memoria) {
 
     memoria->proximo_frame = 0;
 }
+
+
+int carregar_pagina(Memoria *memoria, FILE *arquivo_binario, int numero_da_pagina, int numero_do_frame) {
+    if (memoria == NULL || arquivo_binario == NULL) {
+        return -1;
+    }
+
+    if (numero_da_pagina < 0 || numero_da_pagina >= NUM_PAGES) {
+        return -1;
+    }
+
+    if (numero_do_frame < 0 || numero_do_frame >= NUM_FRAMES) {
+        return -1;
+    }
+
+    long posicao_inicial = (long) numero_da_pagina * PAGE_SIZE;
+
+    if (fseek(arquivo_binario, posicao_inicial, SEEK_SET) != 0) {
+        return -1;
+    }
+
+    size_t bytes_lidos = fread(memoria->memoria_fisica[numero_do_frame], 1, PAGE_SIZE, arquivo_binario);
+
+    if (bytes_lidos != PAGE_SIZE) {
+        return -1;
+    }
+
+    return 0;
+}
+

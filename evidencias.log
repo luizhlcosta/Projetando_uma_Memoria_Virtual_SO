@@ -552,3 +552,750 @@ gcc -Wall -Wextra -o vm vm.o memoria.o
 [?2004lexit
 
 Script done on 2026-11-24 09:42:20-03:00 [COMMAND_EXIT_CODE="0"]
+ria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ git add memoria.c  memoria [K.h evidencias.log
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ git o[Kcommit -m ""i"n" [A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct"e"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"r"e" [A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf"a"c"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce" [A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf"a"t"o"r"a"ç"a"o"[1P"[1P"c"a"o"[1P"[1P"[1P"[1P"c"a"o" "d"o" "c"o"d"i"g"o"."[1P"," "i"n"t"e"g"r"a" "[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P","."[1P"."[1P"[1P"." "I"n"t"e"g"r"a" "g"e"r"e"n"c"i"a"m"e"n"t"o" "d"e" "m"o"e"[1P"[1P"e"m"o"r"i"a" "c"o"m" "s"t"r"u"c"t"
+[?2004l[main 7430ee0] refatoracao do codigo. Integra gerenciamento de memoria com struct
+ 3 files changed, 322 insertions(+), 14 deletions(-)
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ -[Ks[K[7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_carregar_pagina teste_carregar_pagina.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_carregar_pagina teste_carregar_pagina.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_carregar_p[27m[7ma[27m[7mgina[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_carregar_pagina
+[?2004lBytes comparados: 256
+Diferencas encontradas: 0
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ maje [K[K[Kke [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ 
+[7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_carregar_pagina teste_carregar_pagina.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBMScript started on 2026-11-24 09:56:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="100" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_carregar_pagina teste_carregar_pagina.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_carregar_pagina teste_carregar_pagina.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_carregar_p[27m[7ma[27m[7mgina[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_carregar_pagina
+[?2004lBytes comparados: 256
+Diferencas encontradas: 0
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ maje [K[K[Kke [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ 
+[7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_carregar_pagina teste_carregar_pagina.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_carregar_pagina teste_carregar_pagina.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_carregar_p[27m[7ma[27m[7mgina[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_carregar_pagina
+[?2004lBytes comparados: 256
+Diferencas encontradas: 0
+Todos os testScript started on 2026-11-24 10:00:30-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="100" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextra [27m[7m-[27m[7mo teste_carregar_pagina teste_carregar_pagina.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_carregar_pagina teste_carregar_pagina.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_carregar_p[27m[7ma[27m[7mgina[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_carregar_pagina
+[?2004lBytes comparados: 256
+Diferencas encontradas: 0
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:00:47-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-24 10:01:27-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="100" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make 
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:01:46-03:00 [COMMAND_EXIT_CODE="0"]
+[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_carregar_pagina teste_carregar_pagina.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_carregar_p[27m[7ma[27m[7mgina[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_carregar_pagina
+[?2004lBytes comparados: 256
+Diferencas encontradas: 0
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make 
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidenci as.log [K
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean [K
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:es passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make 
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidenci as.log [K
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean [K
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm arquivo_inexi[27m[7ms[27m[7mtente.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm arquivo_inexistente.txt lru fifo
+[?2004lArgumentos validos.
+Erro: nao foi possivel abrir o arquivo arquivo_inexistente.txt.
+[?2004h]0;luizhlcosScript started on 2026-11-24 10:11:55-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="100" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean [K
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm arquivo_inexi[27m[7ms[27m[7mtente.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm arquivo_inexistente.txt lru fifo
+[?2004lArgumentos validos.
+Erro: nao foi possivel abrir o arquivo arquivo_inexistente.txt.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7minvalido fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt invalido fifo
+[?2004lErro: algoritmo de substituicao de paginas invalido.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:14:00-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-24 10:15:15-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="100" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+Erro: nao foi possivel abrir o arquivo addresses.txt.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:15:24-03:00 [COMMAND_EXIT_CODE="0"]
+[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm arquivo_inexi[27m[7ms[27m[7mtente.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm arquivo_inexistente.txt lru fifo
+[?2004lArgumentos validos.
+Erro: nao foi possivel abrir o arquivo arquivo_inexistente.txt.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7minvalido fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt invalido fifo
+[?2004lErro: algoritmo de substituicao de paginas invalido.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+Erro: nao foi possivel abrir o arquivo addresses.txt.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Meta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7minvalido fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt invalido fifo
+[?2004lErro: algoritmo de substituicao de paginas invalido.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+Erro: nao foi possivel abrir o arquivo addresses.txt.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virmoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+Erro: nao foi possivel abrir o arquivo addresses.txt.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mprintf "16916\n123[27m[7ma[27m[7mbc\n4097\n" > enderecos_invalidos.txt [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cprintf "16916\n123abc\n4097\n" > enderecos_invalidos.txt
+[A
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm enderecos_inv[27m[7ma[27m[7mlidos.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_invalidos.txt lru fifo
+[?2004lArgumentos validos.
+Erro: formato invalido na linha 2.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_inval[27m[7mi[27m[7mdos.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_invalidos.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_inval[27m[7mi[27m[7mdos.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Viral_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_invalidos.txt
+[?2004lrm: cannot remove 'enderecos_invalidos.txt': No such file or directory
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:20:02-03:00 [COMMAND_EXIT_CODE="1"]
+tual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+Erro: nao foi possivel abrir o arquivo addresses.txt.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mprintf "16916\n123[27m[7ma[27m[7mbc\n4097\n" > enderecos_invalidos.txt [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cprintf "16916\n123abc\n4097\n" > enderecos_invalidos.txt
+[A
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm enderecos_inv[27m[7ma[27m[7mlidos.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_invalidos.txt lru fifo
+[?2004lArgumentos validos.
+Erro: formato invalido na linha 2.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_inval[27m[7mi[27m[7mdos.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_invalidos.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_inval[27m[7mi[27m[7mdos.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_invalidos.txt
+[?2004lrm: cannot remove 'enderecos_invalidos.txt': No such file or directory
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7msScript started on 2026-11-24 10:21:18-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="100" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-11-24 10:21:28-03:00 [COMMAND_EXIT_CODE="0"]
+tual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_invalidos.txt
+[?2004lrm: cannot remove 'enderecos_invalidos.txt': No such file or directory
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mexit[27mexit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+[01m[Kvm.c:7:10:[m[K [01;31m[Kfatal error: [m[Kmemoria.h: No such file or directory
+    7 | #include [01;31m[K<memoria.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make: *** [Makefile:12: vm.o] Error 1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo[K[K[K[Kam[K[Kamke[K[K[K[Kmake
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizh.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mexit[27mexit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mscript -a evidenci[27m[7ma[27m[7ms.log[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+[01m[Kvm.c:7:10:[m[K [01;31m[Kfatal error: [m[Kmemoria.h: No such file or directory
+    7 | #include [01;31m[K<memoria.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make: *** [Makefile:12: vm.o] Error 1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo[K[K[K[Kam[K[Kamke[K[K[K[Kmake
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcostaScript started on 2026-11-24 10:25:11-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="100" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+[01m[Kvm.c:7:10:[m[K [01;31m[Kfatal error: [m[Kmemoria.h: No such file or directory
+    7 | #include [01;31m[K<memoria.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make: *** [Makefile:12: vm.o] Error 1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo[K[K[K[Kam[K[Kamke[K[K[K[Kmake
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:26:57-03:00 [COMMAND_EXIT_CODE="0"]
+lcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidenc ias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $/[K?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.tx[27m[7mt[27m[7m lru fifo > saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo > saida_temporaria.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233H@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt[27m[7m [27m[7mlru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidenc ias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $/[K?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.tx[27m[7mt[27m[7m lru fifo > saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo > saida_temporaria.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mhead -n 10 saida_[27m[7mt[27m[7memporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ head -n 10 saida_temporaria.txt
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -c "EndereScript started on 2026-11-24 10:30:56-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="99" LINES="17"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $/[K?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.tx[27m[7mt[27m[7m lru fifo > saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo > saida_temporaria.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mhead -n 10 saida_[27m[7mt[27m[7memporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ head -n 10 saida_temporaria.txt
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -c "Endereco[27m[7m [27m[7mlogico:" saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -c "Endereco logico:" saida_temporaria.txt
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@MBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mhead -n 10 saida_[27m[7mt[27m[7memporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ head -n 10 saida_temporaria.txt
+[?2004lArgumentos validos.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -c "Endereco[27m[7m [27m[7mlogico:" saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -c "Endereco logico:" saida_temporaria.txt
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_co[27m[7m [27m[7mlogico:" saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -c "Endereco logico:" saida_temporaria.txt
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:36:29-03:00 [COMMAND_EXIT_CODE="1"]
+SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [10Pecho $?
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pmake clean[Kecho $?script -a evidencias.log[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/PrSO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [10Pecho $?
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pmake clean[Kecho $?script -a evidencias.log[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+ec[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SScript started on 2026-11-24 10:36:37-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="99" LINES="20"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+ec[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.tx[27m[7mt[27m[7m lru fifo > saida_temporaria.txt [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./vm addresses.txt lru fifo > saida_temporaria.txt
+[A
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mhead -n 10 saida_[27m[7mt[27m[7memporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ head -n 10 saida_temporaria.txt
+[?2004lArgumentos validos.
+Page fault: pagina 66 nao esta na memoria fisica.
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Page fault: pagina 244 nao esta na memoria fisica.
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Page fault: pagina 117 nao esta na memoria fisica.
+Endereco logico: 30198 | Pagina: 117 | Deslocamento: 246
+Page fault: pagina 209 nao esta na memoria fisica.
+Endereco logico: 53683 | Pagina: 209 | Deslocamento: 179
+Page fault: pagina 156 nao esta na memoria fisica.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -c "Endereco[27m[7m [27m[7mlogico:" saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -c "Endereco logico:" saida_temporaria.txt
+[?2004l1000
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:37:18-03:00 [COMMAND_EXIT_CODE="0"]
+ojetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+ec[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.tx[27m[7mt[27m[7m lru fifo > saida_temporaria.txt [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./vm addresses.txt lru fifo > saida_temporaria.txt
+[A
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mhead -n 10 saida_[27m[7mt[27m[7memporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ head -n 10 saida_temporaria.txt
+[?2004lArgumentos validos.
+Page fault: pagina 66 nao esta na memoria fisica.
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Page fault: pagina 244 nao esta na memoria fisica.
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Page fault: pagina 117 nao esta na memoria fisica.
+Endereco logico: 30198 | Pagina: 117 | Deslocamento: 246
+Page fault: pagina 209 nao esta na memoria fisica.
+Endereco logico: 53683 | Pagina: 209 | Deslocamento: 179
+Page fault: pagina 156 nao esta na memoria fisica.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -c "Endereco[27m[7m [27m[7mlogico:" saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -c "Endereco logico:" saida_temporaria.txt
+[?2004l1000
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[0O[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.tx[27m[7mt[27m[7m lru fifo > saida_temporaria.txt [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./vm addresses.txt lru fifo > saida_temporaria.txt
+[A
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mhead -n 10 saida_[27m[7mt[27m[7memporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ head -n 10 saida_temporaria.txt
+[?2004lArgumentos validos.
+Page fault: pagina 66 nao esta na memoria fisica.
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Page fault: pagina 244 nao esta na memoria fisica.
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Page fault: pagina 117 nao esta na memoria fisica.
+Endereco logico: 30198 | Pagina: 117 | Deslocamento: 246
+Page fault: pagina 209 nao esta na memoria fisica.
+Endereco logico: 53683 | Pagina: 209 | Deslocamento: 179
+Page fault: pagina 156 nao esta na memoria fisica.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -c "Endereco[27m[7m [27m[7mlogico:" saida_temporaria.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -c "Endereco logico:" saida_temporaria.txt
+[?2004l1000
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /0m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidenc a[Kias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMmnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K[A[K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidenc a[Kias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+e[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mprintf "16916\n16[27m[7m9[27m[7m17\n62493\n16918\n" > enderecos_teste.txt[2Script started on 2026-11-24 10:41:26-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="99" LINES="26"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+e[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mprintf "16916\n16[27m[7m9[27m[7m17\n62493\n16918\n" > enderecos_teste.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf "16916\n16917\n62493\n16918\n" > enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm enderecos_te[27m[7ms[27m[7mte.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_teste.txt lru fifo
+[?2004lPage fault: pagina 66 carregada no frame 0.
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Pagina 66 encontrada no frame 0.
+Endereco logico: 16917 | Pagina: 66 | Deslocamento: 21
+Page fault: pagina 244 carregada no frame 1.
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Pagina 66 encontrada no frame 0.
+Endereco logico: 16918 | Pagina: 66 | Deslocamento: 22
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_test[27m[7me[27m[7m.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:41:59-03:00 [COMMAND_EXIT_CODE="0"]
+BM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make [K
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+e[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mprintf "16916\n16[27m[7m9[27m[7m17\n62493\n16918\n" > enderecos_teste.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf "16916\n16917\n62493\n16918\n" > enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm enderecos_te[27m[7ms[27m[7mte.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_teste.txt lru fifo
+[?2004lPage fault: pagina 66 carregada no frame 0.
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Pagina 66 encontrada no frame 0.
+Endereco logico: 16917 | Pagina: 66 | Deslocamento: 21
+Page fault: pagina 244 carregada no frame 1.
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Pagina 66 encontrada no frame 0.
+Endereco logico: 16918 | Pagina: 66 | Deslocamento: 22
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_test[27m[7me[27m[7m.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [10Pecho $?
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ a[Kmake clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/7m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf "16916\n16917\n62493\n16918\n" > enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm enderecos_te[27m[7ms[27m[7mte.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_teste.txt lru fifo
+[?2004lPage fault: pagina 66 carregada no frame 0.
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Pagina 66 encontrada no frame 0.
+Endereco logico: 16917 | Pagina: 66 | Deslocamento: 21
+Page fault: pagina 244 carregada no frame 1.
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Pagina 66 encontrada no frame 0.
+Endereco logico: 16918 | Pagina: 66 | Deslocamento: 22
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_test[27m[7me[27m[7m.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ script -a evidencias.log[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [10Pecho $?
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ a[Kmake clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mprintf Script started on 2026-11-24 10:45:10-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="99" LINES="26"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ a[Kmake clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mprintf "16916\n16[27m[7m9[27m[7m17\n62493\n16918\n" > enderecos_teste.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf "16916\n16917\n62493\n16918\n" > enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm enderecos_te[27m[7ms[27m[7mte.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_teste.txt lru fifo
+[?2004lPage fault: pagina 66 carregada no frame 0.
+Endereco fisico: 20 | Valor: 0
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Pagina 66 encontrada no frame 0.
+Endereco fisico: 21 | Valor: 0
+Endereco logico: 16917 | Pagina: 66 | Deslocamento: 21
+Page fault: pagina 244 carregada no frame 1.
+Endereco fisico: 285 | Valor: 0
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Pagina 66 encontrada no frame 0.
+Endereco fisico: 22 | Valor: 16
+Endereco logico: 16918 | Pagina: 66 | Deslocamento: 22
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_test[27m[7me[27m[7m.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 10:46:01-03:00 [COMMAND_EXIT_CODE="0"]

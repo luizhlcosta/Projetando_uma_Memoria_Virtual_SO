@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #ifndef MEMORIA_H
 #define MEMORIA_H
 
@@ -21,5 +23,7 @@ void inicializar_gerenciador(Memoria *memoria);
 int consultar_tabela_paginas(const Memoria *memoria, int numero_pagina);
 void linkar_pagina_ao_frame(Memoria *memoria, int numero_da_pagina, int numero_do_frame);
 int obter_proximo_frame(Memoria *memoria);
+
+int carregar_pagina(Memoria *memoria, FILE *arquivo_binario, int numero_da_pagina, int numero_do_frame);
 
 #endif
