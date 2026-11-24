@@ -34,3 +34,14 @@ void linkar_pagina_ao_frame(int tabela_paginas[], int numero_da_pagina, int nume
     tabela_paginas[numero_da_pagina] = numero_do_frame;
 }
 
+
+int obter_proximo_frame(int *proximo_frame) {
+    if (*proximo_frame < 0 || *proximo_frame >= NUM_FRAMES) {
+        return -1;
+    }
+
+    int frame_vazio = *proximo_frame;
+    (*proximo_frame)++;
+
+    return frame_vazio;
+}

@@ -234,3 +234,33 @@ gcc -Wall -Wextra -o vm vm.o memoria.o
 [?2004lexit
 
 Script done on 2026-11-23 17:38:06-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-24 08:56:52-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="98" LINES="28"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgcc -Wall -Wextr[27m[7ma[27m[7m -o teste_proximo_frame teste_proximo_frame.c memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gcc -Wall -Wextra -o teste_proximo_frame teste_proximo_frame.c memoria.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./teste_proximo_[27m[7mf[27m[7mrame[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./teste_proximo_frame
+[?2004lFrames distribuidos: 128
+Memoria cheia | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ maje
+[?2004lCommand 'maje' not found, did you mean:
+  command 'mace' from snap mace (0.2.0)
+  command 'mame' from snap mame (mame0289)
+  command 'make' from deb make (4.3-4.1build1)
+  command 'make' from deb make-guile (4.3-4.1build1)
+  command 'mame' from deb mame (0.261+dfsg.1-1)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 08:57:25-03:00 [COMMAND_EXIT_CODE="0"]
