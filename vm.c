@@ -95,13 +95,19 @@ int main(int argc, char *argv[]) {
         int numero_do_frame = consultar_tabela_paginas(&memoria, numero_da_pagina);
 
         if (numero_do_frame == -1) {
+            int pagina_antiga = -1;
             numero_do_frame = obter_proximo_frame(&memoria);
 
             if (numero_do_frame == -1) {
-                fprintf(stderr, "Limite de frames atingido. Substituicao de paginas ainda nao implementada.\n");
-                fclose(arquivo_binario);
-                fclose(arquivo_enderecos);
-                return 1;
+                if (strcmp(argv[2], "fifo") == 0) {
+                    numero_do_frame = selecionar_frame_fifo(&memoria);
+                    pagina_antiga = memoria.vetor_paginas_dos_frames[numero_do_frame];
+                } else {
+                    fprintf(stderr, "Memoria cheia. Algoritmo LRU ainda nao implementado.\n");
+                    fclose(arquivo_binario);
+                    fclose(arquivo_enderecos);
+                    return 1;
+                }
             }
 
             if (carregar_pagina(&memoria, arquivo_binario, numero_da_pagina, numero_do_frame) == -1) {
@@ -109,6 +115,10 @@ int main(int argc, char *argv[]) {
                 fclose(arquivo_binario);
                 fclose(arquivo_enderecos);
                 return 1;
+            }
+
+            if (pagina_antiga != -1) {
+                memoria.tabela_paginas[pagina_antiga] = -1;
             }
 
             linkar_pagina_ao_frame(&memoria, numero_da_pagina, numero_do_frame);

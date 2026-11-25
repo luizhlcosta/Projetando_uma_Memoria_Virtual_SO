@@ -32,6 +32,7 @@ void linkar_pagina_ao_frame(Memoria *memoria, int numero_da_pagina, int numero_d
     }
 
     memoria->tabela_paginas[numero_da_pagina] = numero_do_frame;
+    memoria->vetor_paginas_dos_frames[numero_do_frame] = numero_da_pagina;
 }
 
 int obter_proximo_frame(Memoria *memoria) {
@@ -45,16 +46,25 @@ int obter_proximo_frame(Memoria *memoria) {
     return frame_vazio;
 }
 
+int selecionar_frame_fifo(Memoria *memoria) {
+    int frame_selecionado = memoria->proximo_frame_fifo;
+    memoria->proximo_frame_fifo = (memoria->proximo_frame_fifo + 1) % NUM_FRAMES;
+
+    return frame_selecionado;
+}
+
 void inicializar_gerenciador(Memoria *memoria) {
     inicializar_tabela_paginas(memoria->tabela_paginas);
 
     for (int frame_index = 0; frame_index < NUM_FRAMES; frame_index++) {
+        memoria->vetor_paginas_dos_frames[frame_index] = -1;
         for (int byte_index = 0; byte_index < FRAME_SIZE; byte_index++) {
             memoria->memoria_fisica[frame_index][byte_index] = 0;
         }
     }
 
     memoria->proximo_frame = 0;
+    memoria->proximo_frame_fifo = 0;
 }
 
 

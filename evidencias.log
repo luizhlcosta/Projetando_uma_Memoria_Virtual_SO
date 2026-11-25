@@ -1299,3 +1299,382 @@ Endereco logico: 16918 | Pagina: 66 | Deslocamento: 22
 [?2004lexit
 
 Script done on 2026-11-24 10:46:01-03:00 [COMMAND_EXIT_CODE="0"]
+Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mprintf "16916\n16[27m[7m9[27m[7m17\n62493\n16918\n" > enderecos_teste.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf "16916\n16917\n62493\n16918\n" > enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm enderecos_te[27m[7ms[27m[7mte.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_teste.txt lru fifo
+[?2004lPage fault: pagina 66 carregada no frame 0.
+Endereco fisico: 20 | Valor: 0
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Pagina 66 encontrada no frame 0.
+Endereco fisico: 21 | Valor: 0
+Endereco logico: 16917 | Pagina: 66 | Deslocamento: 21
+Page fault: pagina 244 carregada no frame 1.
+Endereco fisico: 285 | Valor: 0
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Pagina 66 encontrada no frame 0.
+Endereco fisico: 22 | Valor: 16
+Endereco logico: 16918 | Pagina: 66 | Deslocamento: 22
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_test[27m[7me[27m[7m.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ git add vm.c memo ria.c memoria.h evidencas[K[Kias.log
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gitm[K commi t[K[Kt -m "im plementa traducao de enderecos e carregamento de paginas"
+[?2004l[main efd50a8] implementa traducao de enderecos e carregamento de paginas
+ 4 files changed, 903 insertions(+), 1 deletion(-)
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ git pi[Kush
+[?2004lUsername for 'https://github.com': ^C
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO["16916\n16[27m[7m9[27m[7m17\n62493\n16918\n" > enderecos_teste.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf "16916\n16917\n62493\n16918\n" > enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm enderecos_te[27m[7ms[27m[7mte.txt lru fifo[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_teste.txt lru fifo
+[?2004lPage fault: pagina 66 carregada no frame 0.
+Endereco fisico: 20 | Valor: 0
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Pagina 66 encontrada no frame 0.
+Endereco fisico: 21 | Valor: 0
+Endereco logico: 16917 | Pagina: 66 | Deslocamento: 21
+Page fault: pagina 244 carregada no frame 1.
+Endereco fisico: 285 | Valor: 0
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Pagina 66 encontrada no frame 0.
+Endereco fisico: 22 | Valor: 16
+Endereco logico: 16918 | Pagina: 66 | Deslocamento: 22
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mrm enderecos_test[27m[7me[27m[7m.txt[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ rm enderecos_teste.txt
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ git add vm.c memo ria.c memoria.h evidencas[K[Kias.log
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ gitm[K commi t[K[Kt -m "im plementa traducao de enderecos e carregamento de paginas"
+[?2004l[main efd50a8] implementa traducao de enderecos e carregamento de paginas
+ 4 files changed, 903 insertions(+), 1 deletion(-)
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ git pi[Kush
+[?2004lUsername for 'https://github.com': ^C
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [?2004l
+exit
+
+Script done on 2026-11-24 11:02:23-03:00 [COMMAND_EXIT_CODE="130"]
+Script started on 2026-11-24 23:04:28-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf 'Retorno make clean: %d\n' "$?"
+[?2004lRetorno make clean: 0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf 'Retorno make: %d\n' "$?"
+[?2004lRetorno make: 0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ erros=0
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ for nome_arquivo in teste_*.c; do
+[?2004l[?2004h>     gcc -Wall -Wextra -o "${nome_arquivo%.c}" "$nome_arquivo" memoria.c
+[?2004l[?2004h>     resultado=$?
+[?2004l[?2004h>     printf 'Compilacao %s: retorno %d\n' "$nome_arquivo" "$resultado"
+[?2004l[?2004h>     if [ "$resultado" -eq 0 ]; then
+[?2004l[?2004h>         "./${nome_arquivo%.c}"
+[?2004l[?2004h>         resultado=$?
+[?2004l[?2004h>         printf 'Execucao %s: retorno %d\n' "${nome_arquivo%.c}" "$resultado"
+[?2004l[?2004h>     fi
+[?2004l[?2004h>     if [ "$resultado" -ne 0 ]; then
+[?2004l[?2004h>         erros=$((erros + 1))
+[?2004l[?2004h>     fi
+[?2004l[?2004h> done
+[?2004lCompilacao teste_carregar_pagina.c: retorno 0
+Bytes comparados: 256
+Diferencas encontradas: 0
+Todos os testes passaram!
+Execucao teste_carregar_pagina: retorno 0
+Compilacao teste_consulta_tabela.c: retorno 0
+Pagina: 10 | Esperado: 5 | Obtido: 5
+Pagina: 20 | Esperado: 0 | Obtido: 0
+Pagina: 30 | Esperado: -1 | Obtido: -1
+Pagina: 255 | Esperado: 127 | Obtido: 127
+Pagina: -1 | Esperado: -1 | Obtido: -1
+Pagina: 256 | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+Execucao teste_consulta_tabela: retorno 0
+Compilacao teste_fifo.c: retorno 0
+Selecao FIFO: 129 chamadas verificadas, incluindo 127 -> 0 e reutilizacao de 0.
+Carregamentos: 257 | Substituicoes: 129 | Bytes comparados: 65792
+Tabela final esperada: pagina 0 no frame 0, paginas 1..128 ausentes, paginas 129..255 nos frames 1..127.
+Diferencas encontradas: 0
+Todos os testes passaram!
+Execucao teste_fifo: retorno 0
+Compilacao teste_inicializar_gerenciador.c: retorno 0
+Paginas verificadas: 256
+Bytes verificados: 32768
+Proximo frame: 0
+Proximo frame FIFO: 0
+Todos os testes passaram!
+Execucao teste_inicializar_gerenciador: retorno 0
+Compilacao teste_linkar_pagina.c: retorno 0
+Pagina 10 | Esperado: 5 | Obtido: 5
+Pagina 20 | Esperado: 0 | Obtido: 0
+Pagina 255 | Esperado: 127 | Obtido: 127
+Pagina 30 | Esperado: -1 | Obtido: -1
+Pagina 40 | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+Execucao teste_linkar_pagina: retorno 0
+Compilacao teste_pagina.c: retorno 0
+Endereco: 0 | Pagina: 0 | Deslocamento: 0
+Endereco: 255 | Pagina: 0 | Deslocamento: 255
+Endereco: 256 | Pagina: 1 | Deslocamento: 0
+Endereco: 1000 | Pagina: 3 | Deslocamento: 232
+Endereco: 1023 | Pagina: 3 | Deslocamento: 255
+Endereco: 4097 | Pagina: 16 | Deslocamento: 1
+Endereco: 65535 | Pagina: 255 | Deslocamento: 255
+Execucao teste_pagina: retorno 0
+Compilacao teste_proximo_frame.c: retorno 0
+Frames distribuidos: 128
+Memoria cheia | Esperado: -1 | Obtido: -1
+Todos os testes passaram!
+Execucao teste_proximo_frame: retorno 0
+Compilacao teste_tabela_paginas.c: retorno 0
+Posicoes inicializadas corretamente: 256 de 256
+Teste aprovado!
+Execucao teste_tabela_paginas: retorno 0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf 'Testes com falha: %d\n' "$erros"
+[?2004lTestes com falha: 0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ python3 - <<'PY'
+[?2004l[?2004h> from pathlib import Path
+[?2004l[?2004h> import subprocess
+[?2004l[?2004h> 
+[?2004l[?2004h> arquivo_binario = Path('BACKING_STORE.bin').read_bytes()
+[?2004l[?2004h> assert len(arquivo_binario) == 65536
+[?2004l[?2004h> 
+[?2004l[?2004h> for nome_arquivo in ('enderecos_fifo.txt', 'addresses.txt'):
+[?2004l[?2004h>     enderecos = [int(linha) for linha in Path(nome_arquivo).read_text().splitlines()]
+[?2004l[?2004h>     memoria = {}
+[?2004l[?2004h>     paginas = []
+[?2004l[?2004h>     esperados = []
+[?2004l[?2004h>     erros = 0
+[?2004l[?2004h>     quantidade = 0
+[?2004l[?2004h>     numero_linha = -1
+[?2004l[?2004h> 
+[?2004l[?2004h>     for endereco_logico in enderecos:
+[?2004l[?2004h>         endereco_16bits = endereco_logico & 65535
+[?2004l[?2004h>         numero_da_pagina, valor_deslocamento = divmod(endereco_16bits, 256)
+[?2004l[?2004h>         if numero_da_pagina in memoria:
+[?2004l[?2004h>             numero_do_frame = memoria[numero_da_pagina]
+[?2004l[?2004h>             esperados.append(f'Pagina {numero_da_pagina} encontrada no frame {numero_do_frame}.')
+[?2004l[?2004h>             quantidade += 1
+[?2004l[?2004h>         else:
+[?2004l[?2004h>             if len(memoria) == 128:
+[?2004l[?2004h>                 if numero_linha == -1:
+[?2004l[?2004h>                     numero_linha = len(esperados)
+[?2004l[?2004h>                 pagina_antiga = paginas.pop(0)
+[?2004l[?2004h>                 numero_do_frame = memoria.pop(pagina_antiga)
+[?2004l[?2004h>             else:
+[?2004l[?2004h>                 numero_do_frame = len(memoria)
+[?2004l[?2004h>             memoria[numero_da_pagina] = numero_do_frame
+[?2004l[?2004h>             paginas.append(numero_da_pagina)
+[?2004l[?2004h>             erros += 1
+[?2004l[?2004h>             esperados.append(f'Page fault: pagina {numero_da_pagina} carregada no frame {numero_do_frame}.')
+[?2004l[?2004h>         assert 0 <= numero_do_frame < 128
+[?2004l[?2004h>         valor_byte = arquivo_binario[endereco_16bits]
+[?2004l[?2004h>         if valor_byte >= 128:
+[?2004l[?2004h>             valor_byte -= 256
+[?2004l[?2004h>         esperados.append(f'Endereco fisico: {numero_do_frame * 256 + valor_deslocamento} | Valor: {valor_byte}')
+[?2004l[?2004h>         esperados.append(f'Endereco logico: {endereco_logico} | Pagina: {numero_da_pagina} | Deslocamento: {valor_deslocamento}')
+[?2004l[?2004h> 
+[?2004l[?2004h>     if nome_arquivo == 'enderecos_fifo.txt':
+[?2004l[?2004h>         assert len(enderecos) == 261 and erros == 257 and quantidade == 4
+[?2004l[?2004h>         assert esperados[129 * 3] == 'Page fault: pagina 128 carregada no frame 0.'
+[?2004l[?2004h>         assert esperados[131 * 3] == 'Page fault: pagina 129 carregada no frame 1.'
+[?2004l[?2004h>         assert esperados[259 * 3] == 'Page fault: pagina 0 carregada no frame 0.'
+[?2004l[?2004h> 
+[?2004l[?2004h>     for argv in ('fifo', 'lru'):
+[?2004l[?2004h>         resultado = subprocess.run(['./vm', nome_arquivo, 'fifo', argv], capture_output=True, text=True)
+[?2004l[?2004h>         print(f'./vm {nome_arquivo} fifo {argv}: retorno {resultado.returncode}', flush=True)
+[?2004l[?2004h>         assert resultado.returncode == 0, resultado.stderr
+[?2004l[?2004h>         assert resultado.stderr == ''
+[?2004l[?2004h>         assert resultado.stdout.splitlines() == esperados, 'Divergencia em traducao, frame, byte ou ordem FIFO'
+[?2004l[?2004h>         print(f'Conferidos {len(enderecos)} enderecos, {erros} page faults, {quantidade} acertos e todos os bytes/end. fisicos.', flush=True)
+[?2004l[?2004h> 
+[?2004l[?2004h>         resultado = subprocess.run(['./vm', nome_arquivo, 'lru', argv], capture_output=True, text=True)
+[?2004l[?2004h>         print(f'./vm {nome_arquivo} lru {argv}: retorno {resultado.returncode} (esperado: 1)', flush=True)
+[?2004l[?2004h>         assert resultado.returncode == 1
+[?2004l[?2004h>         assert resultado.stderr == 'Memoria cheia. Algoritmo LRU ainda nao implementado.\n'
+[?2004l[?2004h>         assert resultado.stdout.splitlines() == esperados[:numero_linha]
+[?2004l[?2004h>         print(f'LRU: {numero_linha // 3} traducoes corretas antes da memoria cheia; nenhuma substituicao FIFO.', flush=True)
+[?2004l[?2004h> 
+[?2004l[?2004h> print('Integracao: todas as verificacoes passaram.')
+[?2004l[?2004h> PY
+[?2004l./vm enderecos_fifo.txt fifo fifo: retorno 0
+Conferidos 261 enderecos, 257 page faults, 4 acertos e todos os bytes/end. fisicos.
+./vm enderecos_fifo.txt lru fifo: retorno 1 (esperado: 1)
+LRU: 129 traducoes corretas antes da memoria cheia; nenhuma substituicao FIFO.
+./vm enderecos_fifo.txt fifo lru: retorno 0
+Conferidos 261 enderecos, 257 page faults, 4 acertos e todos os bytes/end. fisicos.
+./vm enderecos_fifo.txt lru lru: retorno 1 (esperado: 1)
+LRU: 129 traducoes corretas antes da memoria cheia; nenhuma substituicao FIFO.
+./vm addresses.txt fifo fifo: retorno 0
+Conferidos 1000 enderecos, 538 page faults, 462 acertos e todos os bytes/end. fisicos.
+./vm addresses.txt lru fifo: retorno 1 (esperado: 1)
+LRU: 171 traducoes corretas antes da memoria cheia; nenhuma substituicao FIFO.
+./vm addresses.txt fifo lru: retorno 0
+Conferidos 1000 enderecos, 538 page faults, 462 acertos e todos os bytes/end. fisicos.
+./vm addresses.txt lru lru: retorno 1 (esperado: 1)
+LRU: 171 traducoes corretas antes da memoria cheia; nenhuma substituicao FIFO.
+Integracao: todas as verificacoes passaram.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf 'Retorno verificacao de integracao: %d\n' "$?"
+[?2004lRetorno verificacao de integracao: 0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ git diff --check
+[?2004l[?1h=Makefile:1: trailing whitespace.[m
+[32m+[m[32mCC = gcc[m[41m[7m^M[27m[m[m
+Makefile:2: trailing whitespace.[m
+[32m+[m[32mCFLAGS = -Wall -Wextra[m[41m[7m^M[27m[m[m
+Makefile:3: trailing whitespace.[m
+[32m+[m[32mTARGET = vm[m[41m[7m^M[27m[m[m
+Makefile:4: trailing whitespace.[m
+[32m+[m[32mOBJS = vm.o memoria.o[m[41m [7m^M[27m[m[m
+Makefile:5: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+Makefile:6: trailing whitespace.[m
+[32m+[m[32mall: $(TARGET)[m[41m[7m^M[27m[m[m
+Makefile:7: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+Makefile:8: trailing whitespace.[m
+[32m+[m[32m$(TARGET): $(OBJS)[m[41m[7m^M[27m[m[m
+Makefile:9: trailing whitespace.[m
+[32m+[m       [32m$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)[m[41m[7m^M[27m[m[m
+Makefile:10: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+Makefile:11: trailing whitespace.[m
+[32m+[m[32mvm.o: vm.c[m[41m[7m^M[27m[m[m
+Makefile:12: trailing whitespace.[m
+:[K[K[K[7mDetermining length of file... (interrupt to abort)[27m[K[K:[K[K...skipping...
+Makefile:1: trailing whitespace.[m
+[32m+[m[32mCC = gcc[m[41m[7m^M[27m[m[m
+Makefile:2: trailing whitespace.[m
+[32m+[m[32mCFLAGS = -Wall -Wextra[m[41m[7m^M[27m[m[m
+Makefile:3: trailing whitespace.[m
+[32m+[m[32mTARGET = vm[m[41m[7m^M[27m[m[m
+Makefile:4: trailing whitespace.[m
+[32m+[m[32mOBJS = vm.o memoria.o[m[41m [7m^M[27m[m[m
+Makefile:5: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+Makefile:6: trailing whitespace.[m
+[32m+[m[32mall: $(TARGET)[m[41m[7m^M[27m[m[m
+Makefile:7: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+Makefile:8: trailing whitespace.[m
+[32m+[m[32m$(TARGET): $(OBJS)[m[41m[7m^M[27m[m[m
+Makefile:9: trailing whitespace.[m
+[32m+[m       [32m$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)[m[41m[7m^M[27m[m[m
+Makefile:10: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+Makefile:11: trailing whitespace.[m
+[32m+[m[32mvm.o: vm.c[m[41m[7m^M[27m[m[m
+Makefile:12: trailing whitespace.[m
+:[K[K:[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[24;1H[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K[32m+[m       [32m$(CC) $(CFLAGS) -c vm.c[m[41m[7m^M[27m[m[m
+Makefile:13: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+Makefile:14: trailing whitespace.[m
+[32m+[m[32mmemoria.o: memoria.c memoria.h[m[41m[7m^M[27m[m[m
+Makefile:15: trailing whitespace.[m
+[32m+[m       [32m$(CC) $(CFLAGS) -c memoria.c[m[41m [7m^M[27m[m[m
+Makefile:16: trailing whitespace.[m
+[32m+[m[41m       [7m^M[27m[m[m
+Makefile:17: trailing whitespace.[m
+[32m+[m[32mclean:[m[41m[7m^M[27m[m[m
+Makefile:18: trailing whitespace.[m
+[32m+[m       [32mrm -f $(TARGET) $(OBJS)[m[41m[7m^M[27m[m[m
+Makefile:19: trailing whitespace.[m
+[32m+[m[41m[7m^M[27m[m[m
+evidencias.log:1302: trailing whitespace.[m
+[32m+[m[32mUsers/luizh/Projetando_uma_Memoria_Virtual_SO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt[m [32m[m[32m[01;32m[00m[01;34m/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make[m[41m[7m^M[27m[m[m
+evidencias.log:1303: trailing whitespace.[m
+[32m+[m[32m[7m^M[27mgcc -Wall -Wextra -c vm.c[m[41m[7m^M[27m[m[m
+evidencias.log:1304: trailing whitespace.[m
+[32m+[m[32mgcc -Wall -Wextra -c memoria.c[m[41m [7m^M[27m[m[m
+evidencias.log:1305: trailing whitespace.[m
+:[K[K[32m+[m[32mgcc -Wall -Wextra -o vm vm.o memoria.o[m[41m [7m^M[27m[m[m
+evidencias.log:1306: trailing whitespace.[m
+[32m+[m[32muizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_S[m [32m[m[32mO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual[m [32m[m[32m[01;32m[00m[01;34m_SO[00m$ echo $?[m[41m[7m^M[27m[m[m
+evidencias.log:1307: trailing whitespace.[m
+[32m+[m[32m[7m^M[27m0[m[41m[7m^M[27m[m[m
+evidencias.log:1308: trailing whitespace.[m
+[32m+[m[32muizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_S[m [32m[m[32mO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual[m [32m[m[32m[01;32m[00m[01;34m_SO[00m$ [7mprintf "16916\n16[27m[7m9[27m[7m17\n62493\n16918\n" > enderecos_teste.txt[27m[7m^M[27muizhlcosta@DES[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27mKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[7m^G[27m[01;32mluizhlcosta@[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27m[01;32mDESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf "16[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27m[01;32m[00m[01;34m[00m916\n16917\n62493\n16918\n" > enderecos_teste.txt[m[41m[7m^M[27m[m[m
+evidencias.log:1309: trailing whitespace.[m
+[32m+[m[32m[7m^M[27muizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual[m [32m[m[32m_SO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtu[m [32m[m[32m[01;32m[00m[01;34mal_SO[00m$ [7m./vm enderecos_te[27m[7ms[27m[7mte.txt lru fifo[27m[7m^M[27muizhlcosta@DESKTOP-233HMBM: /mnt/c/Use[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27mrs/luizh/Projetando_uma_Memoria_Virtual_SO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/U[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27m[01;32m[00m[01;34msers/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_teste.txt lru fifo[m[41m[7m^[27m[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27m[01;32m[00m[01;34m[00m[m[41m[7m^M[27m[m[m
+evidencias.log:1310: trailing whitespace.[m
+[32m+[m[32m[7m^M[27mPage fault: pagina 66 carregada no frame 0.[m[41m[7m^M[27m[m[m
+:[K[Kgoto mark: [K[K[7mMark not set  (press RETURN)[27m[24;1H[K[Kevidencias.log:1311: trailing whitespace.[m
+:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K...skipping...
+evidencias.log:1306: trailing whitespace.[m
+[32m+[m[32muizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_S[m [32m[m[32mO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual[m [32m[m[32m[01;32m[00m[01;34m_SO[00m$ echo $?[m[41m[7m^M[27m[m[m
+evidencias.log:1307: trailing whitespace.[m
+[32m+[m[32m[7m^M[27m0[m[41m[7m^M[27m[m[m
+evidencias.log:1308: trailing whitespace.[m
+[32m+[m[32muizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_S[m [32m[m[32mO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual[m [32m[m[32m[01;32m[00m[01;34m_SO[00m$ [7mprintf "16916\n16[27m[7m9[27m[7m17\n62493\n16918\n" > enderecos_teste.txt[27m[7m^M[27muizhlcosta@DES[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27mKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[7m^G[27m[01;32mluizhlcosta@[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27m[01;32mDESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf "16[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27m[01;32m[00m[01;34m[00m916\n16917\n62493\n16918\n" > enderecos_teste.txt[m[41m[7m^M[27m[m[m
+evidencias.log:1309: trailing whitespace.[m
+[32m+[m[32m[7m^M[27muizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual[m [32m[m[32m_SO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtu[m [32m[m[32m[01;32m[00m[01;34mal_SO[00m$ [7m./vm enderecos_te[27m[7ms[27m[7mte.txt lru fifo[27m[7m^M[27muizhlcosta@DESKTOP-233HMBM: /mnt/c/Use[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27mrs/luizh/Projetando_uma_Memoria_Virtual_SO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/U[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27m[01;32m[00m[01;34msers/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm enderecos_teste.txt lru fifo[m[41m[7m^[27m[m [32m[m[32m[01;32m[00m[01;34m[00m[7m[27m[7m[27m[7m[27m[01;32m[00m[01;34m[00m[m[41m[7m^M[27m[m[m
+evidencias.log:1310: trailing whitespace.[m
+[32m+[m[32m[7m^M[27mPage fault: pagina 66 carregada no frame 0.[m[41m[7m^M[27m[m[m
+evidencias.log:1311: trailing whitespace.[m
+:[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[24;1H[K[K:[K[K[32m+[m[32mEndereco fisico: 20 | Valor: 0[m[41m[7m^M[27m[m[m
+evidencias.log:1312: trailing whitespace.[m
+[32m+[m[32mEndereco logico: 16916 | Pagina: 66 | Deslocamento: 20[m[41m[7m^M[27m[m[m
+evidencias.log:1313: trailing whitespace.[m
+[32m+[m[32mPagina 66 encontrada no frame 0.[m[41m[7m^M[27m[m[m
+evidencias.log:1314: trailing whitespace.[m
+[32m+[m[32mEndereco fisico: 21 | Valor: 0[m[41m[7m^M[27m[m[m
+evidencias.log:1315: trailing whitespace.[m
+[32m+[m[32mEndereco logico: 16917 | Pagina: 66 | Deslocamento: 21[m[41m[7m^M[27m[m[m
+evidencias.log:1316: trailing whitespace.[m
+[32m+[m[32mPage fault: pagina 244 carregada no frame 1.[m[41m[7m^M[27m[m[m
+evidencias.log:1317: trailing whitespace.[m
+[32m+[m[32mEndereco fisico: 285 | Valor: 0[m[41m[7m^M[27m[m[m
+evidencias.log:1318: trailing whitespace.[m
+[32m+[m[32mEndereco logico: 62493 | Pagina: 244 | Deslocamento: 29[m[41m[7m^M[27m[m[m
+evidencias.log:1319: trailing whitespace.[m
+[32m+[m[32mPagina 66 encontrada no frame 0.[m[41m[7m^M[27m[m[m
+evidencias.log:1320: trailing whitespace.[m
+[32m+[m[32mEndereco fisico: 22 | Valor: 16[m[41m[7m^M[27m[m[m
+evidencias.log:1321: trailing whitespace.[m
+[32m+[m[32mEndereco logico: 16918 | Pagina: 66 | Deslocamento: 22[m[41m[7m^M[27m[m[m
+evidencias.log:1322: trailing whitespace.[m
+[32m+[m[32muizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_S[m :[K[K...skipping...
+[32m+[m[32mEndereco fisico: 20 | Valor: 0[m[41m[7m^M[27m[m[m
+evidencias.log:1312: trailing whitespace.[m
+[32m+[m[32mEndereco logico: 16916 | Pagina: 66 | Deslocamento: 20[m[41m[7m^M[27m[m[m
+evidencias.log:1313: trailing whitespace.[m
+[32m+[m[32mPagina 66 encontrada no frame 0.[m[41m[7m^M[27m[m[m
+evidencias.log:1314: trailing whitespace.[m
+[32m+[m[32mEndereco fisico: 21 | Valor: 0[m[41m[7m^M[27m[m[m
+evidencias.log:1315: trailing whitespace.[m
+[32m+[m[32mEndereco logico: 16917 | Pagina: 66 | Deslocamento: 21[m[41m[7m^M[27m[m[m
+evidencias.log:1316: trailing whitespace.[m
+[32m+[m[32mPage fault: pagina 244 carregada no frame 1.[m[41m[7m^M[27m[m[m
+evidencias.log:1317: trailing whitespace.[m
+[32m+[m[32mEndereco fisico: 285 | Valor: 0[m[41m[7m^M[27m[m[m
+evidencias.log:1318: trailing whitespace.[m
+[32m+[m[32mEndereco logico: 62493 | Pagina: 244 | Deslocamento: 29[m[41m[7m^M[27m[m[m
+evidencias.log:1319: trailing whitespace.[m
+[32m+[m[32mPagina 66 encontrada no frame 0.[m[41m[7m^M[27m[m[m
+evidencias.log:1320: trailing whitespace.[m
+[32m+[m[32mEndereco fisico: 22 | Valor: 16[m[41m[7m^M[27m[m[m
+evidencias.log:1321: trailing whitespace.[m
+[32m+[m[32mEndereco logico: 16918 | Pagina: 66 | Deslocamento: 22[m[41m[7m^M[27m[m[m
+evidencias.log:1322: trailing whitespace.[m
+[32m+[m[32muizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_S[m :[K[K[32m[m[32mO[7m^G[27m[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual[m :[K[K[7mCannot edit standard input  (press RETURN)[27m[24;1H[K[K:[K[K-[Klog file: [Kaa[Koo[K  [Kdd[Koo[K  [Kdd[Kii[Kff[Kff[K::[K  [K%%[Kdd[K\\[Knn[K''[K  [K""[K$$[K??[K""[K/bin/bash: -c: line 1: unexpected EOF while looking for matching `''
+[K:[K[K[32m[m[32m[01;32m[00m[01;34m_SO[00m$ [7mecho $?[27m[7m^H^H^H^H^H^H^H[27mecho $?[m[41m[7m^M[27m[m[m
+:[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K[?1l>[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf 'Revisao anterior interrompida: paginador e diferenca de tratamento CRLF entre Git do WSL e Windows. Nenhum codigo alterado.\n'
+[?2004lRevisao anterior interrompida: paginador e diferenca de tratamento CRLF entre Git do WSL e Windows. Nenhum codigo alterado.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ git --no-pager -c core.autocrlf=input -c core.whitespace=cr-at-eol diff --check -- memoria.c memoria.h vm.c
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ printf 'Retorno revisao do codigo com CRLF reconhecido: %d\n' "$?"
+[?2004lRetorno revisao do codigo com CRLF reconhecido: 0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 23:06:27-03:00 [COMMAND_EXIT_CODE="0"]
