@@ -92,6 +92,15 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    FILE *arquivo_saida = fopen("correct.txt", "wb");
+
+    if (arquivo_saida == NULL) {
+        fprintf(stderr, "Erro: nao foi possivel abrir correct.txt para escrita.\n");
+        fclose(arquivo_binario);
+        fclose(arquivo_enderecos);
+        return 1;
+    }
+
     rewind(arquivo_enderecos);
 
     while (fgets(linha, sizeof(linha), arquivo_enderecos) != NULL) {
@@ -125,6 +134,7 @@ int main(int argc, char *argv[]) {
 
                 if (carregar_pagina(&memoria, arquivo_binario, numero_da_pagina, numero_do_frame) == -1) {
                     fprintf(stderr, "Erro ao carregar pagina %d.\n", numero_da_pagina);
+                    fclose(arquivo_saida);
                     fclose(arquivo_binario);
                     fclose(arquivo_enderecos);
                     return 1;
@@ -150,6 +160,7 @@ int main(int argc, char *argv[]) {
 
                 if (tlb_index < 0 || tlb_index >= TAMANHO_TLB) {
                     fprintf(stderr, "Erro ao selecionar item da TLB.\n");
+                    fclose(arquivo_saida);
                     fclose(arquivo_binario);
                     fclose(arquivo_enderecos);
                     return 1;
@@ -161,6 +172,7 @@ int main(int argc, char *argv[]) {
 
             if (tlb_index < 0 || tlb_index >= TAMANHO_TLB) {
                 fprintf(stderr, "Erro ao inserir pagina %d na TLB.\n", numero_da_pagina);
+                fclose(arquivo_saida);
                 fclose(arquivo_binario);
                 fclose(arquivo_enderecos);
                 return 1;
@@ -181,12 +193,13 @@ int main(int argc, char *argv[]) {
 
         total_enderecos++;
 
-        printf("Virtual address: %ld TLB: %d Physical address: %d Value: %d\r\n",
-               endereco_logico, tlb_index, endereco_fisico, (int) valor_byte);
+        fprintf(arquivo_saida, "Virtual address: %ld TLB: %d Physical address: %d Value: %d\r\n",
+                endereco_logico, tlb_index, endereco_fisico, (int) valor_byte);
     }
 
     if (ferror(arquivo_enderecos)) {
         fprintf(stderr, "Erro durante a leitura dos enderecos.\n");
+        fclose(arquivo_saida);
         fclose(arquivo_binario);
         fclose(arquivo_enderecos);
         return 1;
@@ -197,14 +210,25 @@ int main(int argc, char *argv[]) {
         taxa_tlb_hits = (double) total_tlb_hits / total_enderecos * 100.0;
     }
 
-    printf("Number of Translated Addresses = %d\r\n", total_enderecos);
-    printf("Page Faults = %d\r\n", total_page_faults);
-    printf("Page Fault Rate = %.3f\r\n", taxa_page_faults / 100.0);
-    printf("TLB Hits = %d\r\n", total_tlb_hits);
-    printf("TLB Hit Rate = %.3f", taxa_tlb_hits / 100.0);
+    fprintf(arquivo_saida, "Number of Translated Addresses = %d\r\n", total_enderecos);
+    fprintf(arquivo_saida, "Page Faults = %d\r\n", total_page_faults);
+    fprintf(arquivo_saida, "Page Fault Rate = %.3f\r\n", taxa_page_faults / 100.0);
+    fprintf(arquivo_saida, "TLB Hits = %d\r\n", total_tlb_hits);
+    fprintf(arquivo_saida, "TLB Hit Rate = %.3f", taxa_tlb_hits / 100.0);
+
+    int erro_escrita = ferror(arquivo_saida);
+
+    if (fclose(arquivo_saida) == EOF) {
+        erro_escrita = 1;
+    }
 
     fclose(arquivo_binario);
     fclose(arquivo_enderecos);
+
+    if (erro_escrita) {
+        fprintf(stderr, "Erro durante a escrita de correct.txt.\n");
+        return 1;
+    }
 
     return 0;
 }
