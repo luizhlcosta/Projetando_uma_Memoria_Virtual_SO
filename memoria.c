@@ -1,5 +1,111 @@
 #include "memoria.h"
 
+void inicializar_tlb(TLB *tlb) {
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        tlb->itens[item_index].numero_pagina = -1;
+        tlb->itens[item_index].numero_frame = -1;
+        tlb->ordem_insercao[item_index] = 0;
+        tlb->ultimo_acesso[item_index] = 0;
+    }
+
+    tlb->contador_insercoes = 0;
+    tlb->contador_acessos = 0;
+}
+
+int consultar_tlb(const TLB *tlb, int numero_pagina) {
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        if (tlb->itens[item_index].numero_pagina != -1 &&
+            tlb->itens[item_index].numero_pagina == numero_pagina) {
+            return item_index;
+        }
+    }
+
+    return -1;
+}
+
+void invalidar_tlb(TLB *tlb, int numero_pagina) {
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        if (tlb->itens[item_index].numero_pagina == numero_pagina) {
+            tlb->itens[item_index].numero_pagina = -1;
+            tlb->itens[item_index].numero_frame = -1;
+            tlb->ordem_insercao[item_index] = 0;
+            tlb->ultimo_acesso[item_index] = 0;
+            return;
+        }
+    }
+}
+
+int inserir_tlb(TLB *tlb, int numero_pagina, int numero_frame) {
+    if (numero_pagina < 0 || numero_pagina >= NUM_PAGES) {
+        return -1;
+    }
+
+    if (numero_frame < 0 || numero_frame >= NUM_FRAMES) {
+        return -1;
+    }
+
+    int item_index = consultar_tlb(tlb, numero_pagina);
+
+    if (item_index != -1) {
+        return item_index;
+    }
+
+    for (item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        if (tlb->itens[item_index].numero_pagina == -1) {
+            tlb->itens[item_index].numero_pagina = numero_pagina;
+            tlb->itens[item_index].numero_frame = numero_frame;
+            tlb->contador_insercoes++;
+            tlb->ordem_insercao[item_index] = tlb->contador_insercoes;
+            return item_index;
+        }
+    }
+
+    return -1;
+}
+
+void registrar_acesso_tlb(TLB *tlb, int item_index) {
+    if (item_index < 0 || item_index >= TAMANHO_TLB) {
+        return;
+    }
+
+    if (tlb->itens[item_index].numero_pagina == -1) {
+        return;
+    }
+
+    tlb->contador_acessos++;
+    tlb->ultimo_acesso[item_index] = tlb->contador_acessos;
+}
+
+int escolher_item_fifo(const TLB *tlb) {
+    int item_escolhido = -1;
+
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        if (tlb->itens[item_index].numero_pagina != -1) {
+            if (item_escolhido == -1 ||
+                tlb->ordem_insercao[item_index] < tlb->ordem_insercao[item_escolhido]) {
+                item_escolhido = item_index;
+            }
+        }
+    }
+
+    return item_escolhido;
+}
+
+int escolher_item_lru(const TLB *tlb) {
+    int item_escolhido = -1;
+
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        if (tlb->itens[item_index].numero_pagina != -1) {
+            if (item_escolhido == -1 ||
+                tlb->ultimo_acesso[item_index] < tlb->ultimo_acesso[item_escolhido]) {
+                item_escolhido = item_index;
+            }
+        }
+    }
+
+    return item_escolhido;
+}
+
 int calcular_numero_pagina(int endereco_logico) {
     return endereco_logico / PAGE_SIZE;
 }

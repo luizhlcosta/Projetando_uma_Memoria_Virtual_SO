@@ -4872,3 +4872,926 @@ Resultado: APROVADO
 [?2004lexit
 
 Script done on 2026-11-24 23:44:12-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-25 12:18:56-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="116" LINES="27"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make celan[K[K[K[Klean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ mae[Kke
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo [K$?[K[K $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ set -o pipefail
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses [K.txt fifo fifo | tai l -n 15
+[?2004lPagina 66 encontrada no frame 0.
+Endereco fisico: 175 | Valor: -85
+Endereco logico: 17071 | Pagina: 66 | Deslocamento: 175
+Pagina 34 encontrada no frame 53.
+Endereco fisico: 13804 | Valor: 0
+Endereco logico: 8940 | Pagina: 34 | Deslocamento: 236
+Pagina 38 encontrada no frame 46.
+Endereco fisico: 11977 | Valor: 0
+Endereco logico: 9929 | Pagina: 38 | Deslocamento: 201
+Pagina 177 encontrada no frame 51.
+Endereco fisico: 13307 | Valor: 126
+Endereco logico: 45563 | Pagina: 177 | Deslocamento: 251
+Pagina 47 encontrada no frame 10.
+Endereco fisico: 2635 | Valor: 18
+Endereco logico: 12107 | Pagina: 47 | Deslocamento: 75
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo @[K$?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt fifo fifo | gre[27m[7mp[27m[7m -i -c "TLB hit"[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt fifo fifo | grep -i -c "TLB hit"
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -n -C 12 'consultar_tlb' vm.c[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -n -C 12 'consultar_tlb' vm.c [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kc
+[?2004l[32m[K86[m[K[36m[K-[m[K        fclose(arquivo_enderecos);
+[32m[K87[m[K[36m[K-[m[K        return 1;
+[32m[K88[m[K[36m[K-[m[K    }
+[32m[K89[m[K[36m[K-[m[K
+[32m[K90[m[K[36m[K-[m[K    rewind(arquivo_enderecos);
+[32m[K91[m[K[36m[K-[m[K
+[32m[K92[m[K[36m[K-[m[K    while (fgets(linha, sizeof(linha), arquivo_enderecos) != NULL) {
+[32m[K93[m[K[36m[K-[m[K        endereco_logico = strtol(linha, &fim_conversao, 10);
+[32m[K94[m[K[36m[K-[m[K
+[32m[K95[m[K[36m[K-[m[K        int endereco_16bits = (int) (endereco_logico & 0xFFFF);
+[32m[K96[m[K[36m[K-[m[K        int numero_da_pagina = calcular_numero_pagina(endereco_16bits);
+[32m[K97[m[K[36m[K-[m[K        int valor_deslocamento = calcular_valor_deslocamento(endereco_16bits);
+[32m[K98[m[K[36m[K:[m[K        int tlb_index = [01;31m[Kconsultar_tlb[m[K(&tlb, numero_da_pagina);
+[32m[K99[m[K[36m[K-[m[K        int numero_do_frame;
+[32m[K100[m[K[36m[K-[m[K
+[32m[K101[m[K[36m[K-[m[K        if (tlb_index != -1) {
+[32m[K102[m[K[36m[K-[m[K            numero_do_frame = tlb.itens[tlb_index].numero_frame;
+[32m[K103[m[K[36m[K-[m[K            printf("Pagina %d encontrada no frame %d.\n",
+[32m[K104[m[K[36m[K-[m[K                   numero_da_pagina, numero_do_frame);
+[32m[K105[m[K[36m[K-[m[K        } else {
+[32m[K106[m[K[36m[K-[m[K            numero_do_frame = consultar_tabela_paginas(&memoria, numero_da_pagina);
+[32m[K107[m[K[36m[K-[m[K
+[32m[K108[m[K[36m[K-[m[K            if (numero_do_frame == -1) {
+[32m[K109[m[K[36m[K-[m[K                int pagina_antiga = -1;
+[32m[K110[m[K[36m[K-[m[K                numero_do_frame = obter_proximo_frame(&memoria);
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7msed -n '98,175p' vm.c[27msed -n '98,175p' vm.c
+[?2004l        int tlb_index = consultar_tlb(&tlb, numero_da_pagina);
+        int numero_do_frame;
+
+        if (tlb_index != -1) {
+            numero_do_frame = tlb.itens[tlb_index].numero_frame;
+            printf("Pagina %d encontrada no frame %d.\n",
+                   numero_da_pagina, numero_do_frame);
+        } else {
+            numero_do_frame = consultar_tabela_paginas(&memoria, numero_da_pagina);
+
+            if (numero_do_frame == -1) {
+                int pagina_antiga = -1;
+                numero_do_frame = obter_proximo_frame(&memoria);
+
+                if (numero_do_frame == -1) {
+                    if (strcmp(argv[2], "fifo") == 0) {
+                        numero_do_frame = selecionar_frame_fifo(&memoria);
+                    } else {
+                        numero_do_frame = escolher_frame_lru(&memoria);
+                    }
+
+                    pagina_antiga = memoria.vetor_paginas_dos_frames[numero_do_frame];
+                }
+
+                if (carregar_pagina(&memoria, arquivo_binario, numero_da_pagina, numero_do_frame) == -1) {
+                    fprintf(stderr, "Erro ao carregar pagina %d.\n", numero_da_pagina);
+                    fclose(arquivo_binario);
+                    fclose(arquivo_enderecos);
+                    return 1;
+                }
+
+                if (pagina_antiga != -1) {
+                    invalidar_tlb(&tlb, pagina_antiga);
+                }
+
+                linkar_pagina_ao_frame(&memoria, numero_da_pagina, numero_do_frame);
+
+                printf("Page fault: pagina %d carregada no frame %d.\n",
+                       numero_da_pagina, numero_do_frame);
+            } else {
+                printf("Pagina %d encontrada no frame %d.\n",
+                       numero_da_pagina, numero_do_frame);
+            }
+
+            tlb_index = inserir_tlb(&tlb, numero_da_pagina, numero_do_frame);
+
+            if (tlb_index == -1) {
+                if (strcmp(argv[3], "fifo") == 0) {
+                    tlb_index = escolher_item_fifo(&tlb);
+                } else {
+                    tlb_index = escolher_item_lru(&tlb);
+                }
+
+                if (tlb_index < 0 || tlb_index >= TAMANHO_TLB) {
+                    fprintf(stderr, "Erro ao selecionar item da TLB.\n");
+                    fclose(arquivo_binario);
+                    fclose(arquivo_enderecos);
+                    return 1;
+                }
+
+                invalidar_tlb(&tlb, tlb.itens[tlb_index].numero_pagina);
+                tlb_index = inserir_tlb(&tlb, numero_da_pagina, numero_do_frame);
+            }
+
+            if (tlb_index < 0 || tlb_index >= TAMANHO_TLB) {
+                fprintf(stderr, "Erro ao inserir pagina %d na TLB.\n", numero_da_pagina);
+                fclose(arquivo_binario);
+                fclose(arquivo_enderecos);
+                return 1;
+            }
+        }
+
+        if (strcmp(argv[2], "lru") == 0) {
+            registrar_acesso_lru(&memoria, numero_do_frame);
+        }
+
+        if (strcmp(argv[3], "lru") == 0) {
+            registrar_acesso_tlb(&tlb, tlb_index);
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ set -o pipe [Kfail
+[?2004l[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt fifof[K fifo | gre p -c "Page FAu[K[Kaulte[K":"[C
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo$[K $?
+[?2004l1
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt fifo fifo | gre[27m[7mp[27m[7m -c "Page fault:"[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt fifo fifo | grep -c "Page fault:"
+[?2004l244
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt fifof [K[K fifo | gre p -c "Page fault:"
+[?2004l538
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt lru fifo | grep[27m[7m [27m[7m-c "Page fault:"[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru fifo | grep -c "Page fault:"][K
+[?2004l539
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.[27m[7mt[27m[7mxt fifo lru | grep -c "Page fault:"[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt fifo lru | grep -c "Page fault:"
+[?2004l538
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ eco[Kho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ o resulta[K[K[K[K[K[K[K[K[K[7m./vm addresses.[27m[7mt[27m[7mxt lru lru | grep -c "Page fault:"[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru lru | grep -c "Page fault:"
+[?2004l539
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru lru | grep -c "Page fault:"[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./vm addresses.txt lru lru | grep -c "Page fault:"[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [8Pecho $?
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -n -A 24 -[27m[7mE[27m[7m '^int escolher_item_(fifo|lru)\(' memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -n -A 24 -E '^int escolher_item_(fifo|lru)\(' memoria.c
+[?2004l[32m[K79[m[K[36m[K:[m[K[01;31m[Kint escolher_item_fifo([m[Kconst TLB *tlb) {
+[32m[K80[m[K[36m[K-[m[K    int item_escolhido = -1;
+[32m[K81[m[K[36m[K-[m[K
+[32m[K82[m[K[36m[K-[m[K    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+[32m[K83[m[K[36m[K-[m[K        if (tlb->itens[item_index].numero_pagina != -1) {
+[32m[K84[m[K[36m[K-[m[K            if (item_escolhido == -1 ||
+[32m[K85[m[K[36m[K-[m[K                tlb->ordem_insercao[item_index] < tlb->ordem_insercao[item_escolhido]) {
+[32m[K86[m[K[36m[K-[m[K                item_escolhido = item_index;
+[32m[K87[m[K[36m[K-[m[K            }
+[32m[K88[m[K[36m[K-[m[K        }
+[32m[K89[m[K[36m[K-[m[K    }
+[32m[K90[m[K[36m[K-[m[K
+[32m[K91[m[K[36m[K-[m[K    return item_escolhido;
+[32m[K92[m[K[36m[K-[m[K}
+[32m[K93[m[K[36m[K-[m[K
+[32m[K94[m[K[36m[K:[m[K[01;31m[Kint escolher_item_lru([m[Kconst TLB *tlb) {
+[32m[K95[m[K[36m[K-[m[K    int item_escolhido = -1;
+[32m[K96[m[K[36m[K-[m[K
+[32m[K97[m[K[36m[K-[m[K    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+[32m[K98[m[K[36m[K-[m[K        if (tlb->itens[item_index].numero_pagina != -1) {
+[32m[K99[m[K[36m[K-[m[K            if (item_escolhido == -1 ||
+[32m[K100[m[K[36m[K-[m[K                tlb->ultimo_acesso[item_index] < tlb->ultimo_acesso[item_escolhido]) {
+[32m[K101[m[K[36m[K-[m[K                item_escolhido = item_index;
+[32m[K102[m[K[36m[K-[m[K            }
+[32m[K103[m[K[36m[K-[m[K        }
+[32m[K104[m[K[36m[K-[m[K    }
+[32m[K105[m[K[36m[K-[m[K
+[32m[K106[m[K[36m[K-[m[K    return item_escolhido;
+[32m[K107[m[K[36m[K-[m[K}
+[32m[K108[m[K[36m[K-[m[K
+[32m[K109[m[K[36m[K-[m[Kint calcular_numero_pagina(int endereco_logico) {
+[32m[K110[m[K[36m[K-[m[K    return endereco_logico / PAGE_SIZE;
+[32m[K111[m[K[36m[K-[m[K}
+[32m[K112[m[K[36m[K-[m[K
+[32m[K113[m[K[36m[K-[m[Kint calcular_valor_deslocamento(int endereco_logico) {
+[32m[K114[m[K[36m[K-[m[K    return endereco_logico % PAGE_SIZE;
+[32m[K115[m[K[36m[K-[m[K}
+[32m[K116[m[K[36m[K-[m[K
+[32m[K117[m[K[36m[K-[m[Kvoid inicializar_tabela_paginas(int tabela_paginas[]) {
+[32m[K118[m[K[36m[K-[m[K    for (int index = 0; index < NUM_PAGES; index++) {
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -n -A 30 -[27m[7mE[27m[7m '^(int inserir_tlb|void registrar_acesso_tlb)\(' memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -n -A 30 -E '^(int inserir_tlb|void registrar_acesso_tlb)\(' memoria.c
+[?2004l[32m[K38[m[K[36m[K:[m[K[01;31m[Kint inserir_tlb([m[KTLB *tlb, int numero_pagina, int numero_frame) {
+[32m[K39[m[K[36m[K-[m[K    if (numero_pagina < 0 || numero_pagina >= NUM_PAGES) {
+[32m[K40[m[K[36m[K-[m[K        return -1;
+[32m[K41[m[K[36m[K-[m[K    }
+[32m[K42[m[K[36m[K-[m[K
+[32m[K43[m[K[36m[K-[m[K    if (numero_frame < 0 || numero_frame >= NUM_FRAMES) {
+[32m[K44[m[K[36m[K-[m[K        return -1;
+[32m[K45[m[K[36m[K-[m[K    }
+[32m[K46[m[K[36m[K-[m[K
+[32m[K47[m[K[36m[K-[m[K    int item_index = consultar_tlb(tlb, numero_pagina);
+[32m[K48[m[K[36m[K-[m[K
+[32m[K49[m[K[36m[K-[m[K    if (item_index != -1) {
+[32m[K50[m[K[36m[K-[m[K        return item_index;
+[32m[K51[m[K[36m[K-[m[K    }
+[32m[K52[m[K[36m[K-[m[K
+[32m[K53[m[K[36m[K-[m[K    for (item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+[32m[K54[m[K[36m[K-[m[K        if (tlb->itens[item_index].numero_pagina == -1) {
+[32m[K55[m[K[36m[K-[m[K            tlb->itens[item_index].numero_pagina = numero_pagina;
+[32m[K56[m[K[36m[K-[m[K            tlb->itens[item_index].numero_frame = numero_frame;
+[32m[K57[m[K[36m[K-[m[K            tlb->contador_insercoes++;
+[32m[K58[m[K[36m[K-[m[K            tlb->ordem_insercao[item_index] = tlb->contador_insercoes;
+[32m[K59[m[K[36m[K-[m[K            return item_index;
+[32m[K60[m[K[36m[K-[m[K        }
+[32m[K61[m[K[36m[K-[m[K    }
+[32m[K62[m[K[36m[K-[m[K
+[32m[K63[m[K[36m[K-[m[K    return -1;
+[32m[K64[m[K[36m[K-[m[K}
+[32m[K65[m[K[36m[K-[m[K
+[32m[K66[m[K[36m[K:[m[K[01;31m[Kvoid registrar_acesso_tlb([m[KTLB *tlb, int item_index) {
+[32m[K67[m[K[36m[K-[m[K    if (item_index < 0 || item_index >= TAMANHO_TLB) {
+[32m[K68[m[K[36m[K-[m[K        return;
+[32m[K69[m[K[36m[K-[m[K    }
+[32m[K70[m[K[36m[K-[m[K
+[32m[K71[m[K[36m[K-[m[K    if (tlb->itens[item_index].numero_pagina == -1) {
+[32m[K72[m[K[36m[K-[m[K        return;
+[32m[K73[m[K[36m[K-[m[K    }
+[32m[K74[m[K[36m[K-[m[K
+[32m[K75[m[K[36m[K-[m[K    tlb->contador_acessos++;
+[32m[K76[m[K[36m[K-[m[K    tlb->ultimo_acesso[item_index] = tlb->contador_acessos;
+[32m[K77[m[K[36m[K-[m[K}
+[32m[K78[m[K[36m[K-[m[K
+[32m[K79[m[K[36m[K-[m[Kint escolher_item_fifo(const TLB *tlb) {
+[32m[K80[m[K[36m[K-[m[K    int item_escolhido = -1;
+[32m[K81[m[K[36m[K-[m[K
+[32m[K82[m[K[36m[K-[m[K    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+[32m[K83[m[K[36m[K-[m[K        if (tlb->itens[item_index].numero_pagina != -1) {
+[32m[K84[m[K[36m[K-[m[K            if (item_escolhido == -1 ||
+[32m[K85[m[K[36m[K-[m[K                tlb->ordem_insercao[item_index] < tlb->ordem_insercao[item_escolhido]) {
+[32m[K86[m[K[36m[K-[m[K                item_escolhido = item_index;
+[32m[K87[m[K[36m[K-[m[K            }
+[32m[K88[m[K[36m[K-[m[K        }
+[32m[K89[m[K[36m[K-[m[K    }
+[32m[K90[m[K[36m[K-[m[K
+[32m[K91[m[K[36m[K-[m[K    return item_escolhido;
+[32m[K92[m[K[36m[K-[m[K}
+[32m[K93[m[K[36m[K-[m[K
+[32m[K94[m[K[36m[K-[m[Kint escolher_item_lru(const TLB *tlb) {
+[32m[K95[m[K[36m[K-[m[K    int item_escolhido = -1;
+[32m[K96[m[K[36m[K-[m[K
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -n -A 30 -[27m[7mE[27m[7m '^(int inserir_tlb|void registrar_acesso_tlb)\(' memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -n -A 30 -E '^(int inserir_tlb|void registrar_acesso_tlb)\(' memoria.c
+[?2004l[32m[K38[m[K[36m[K:[m[K[01;31m[Kint inserir_tlb([m[KTLB *tlb, int numero_pagina, int numero_frame) {
+[32m[K39[m[K[36m[K-[m[K    if (numero_pagina < 0 || numero_pagina >= NUM_PAGES) {
+[32m[K40[m[K[36m[K-[m[K        return -1;
+[32m[K41[m[K[36m[K-[m[K    }
+[32m[K42[m[K[36m[K-[m[K
+[32m[K43[m[K[36m[K-[m[K    if (numero_frame < 0 || numero_frame >= NUM_FRAMES) {
+[32m[K44[m[K[36m[K-[m[K        return -1;
+[32m[K45[m[K[36m[K-[m[K    }
+[32m[K46[m[K[36m[K-[m[K
+[32m[K47[m[K[36m[K-[m[K    int item_index = consultar_tlb(tlb, numero_pagina);
+[32m[K48[m[K[36m[K-[m[K
+[32m[K49[m[K[36m[K-[m[K    if (item_index != -1) {
+[32m[K50[m[K[36m[K-[m[K        return item_index;
+[32m[K51[m[K[36m[K-[m[K    }
+[32m[K52[m[K[36m[K-[m[K
+[32m[K53[m[K[36m[K-[m[K    for (item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+[32m[K54[m[K[36m[K-[m[K        if (tlb->itens[item_index].numero_pagina == -1) {
+[32m[K55[m[K[36m[K-[m[K            tlb->itens[item_index].numero_pagina = numero_pagina;
+[32m[K56[m[K[36m[K-[m[K            tlb->itens[item_index].numero_frame = numero_frame;
+[32m[K57[m[K[36m[K-[m[K            tlb->contador_insercoes++;
+[32m[K58[m[K[36m[K-[m[K            tlb->ordem_insercao[item_index] = tlb->contador_insercoes;
+[32m[K59[m[K[36m[K-[m[K            return item_index;
+[32m[K60[m[K[36m[K-[m[K        }
+[32m[K61[m[K[36m[K-[m[K    }
+[32m[K62[m[K[36m[K-[m[K
+[32m[K63[m[K[36m[K-[m[K    return -1;
+[32m[K64[m[K[36m[K-[m[K}
+[32m[K65[m[K[36m[K-[m[K
+[32m[K66[m[K[36m[K:[m[K[01;31m[Kvoid registrar_acesso_tlb([m[KTLB *tlb, int item_index) {
+[32m[K67[m[K[36m[K-[m[K    if (item_index < 0 || item_index >= TAMANHO_TLB) {
+[32m[K68[m[K[36m[K-[m[K        return;
+[32m[K69[m[K[36m[K-[m[K    }
+[32m[K70[m[K[36m[K-[m[K
+[32m[K71[m[K[36m[K-[m[K    if (tlb->itens[item_index].numero_pagina == -1) {
+[32m[K72[m[K[36m[K-[m[K        return;
+[32m[K73[m[K[36m[K-[m[K    }
+[32m[K74[m[K[36m[K-[m[K
+[32m[K75[m[K[36m[K-[m[K    tlb->contador_acessos++;
+[32m[K76[m[K[36m[K-[m[K    tlb->ultimo_acesso[item_index] = tlb->contador_acessos;
+[32m[K77[m[K[36m[K-[m[K}
+[32m[K78[m[K[36m[K-[m[K
+[32m[K79[m[K[36m[K-[m[Kint escolher_item_fifo(const TLB *tlb) {
+[32m[K80[m[K[36m[K-[m[K    int item_escolhido = -1;
+[32m[K81[m[K[36m[K-[m[K
+[32m[K82[m[K[36m[K-[m[K    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+[32m[K83[m[K[36m[K-[m[K        if (tlb->itens[item_index].numero_pagina != -1) {
+[32m[K84[m[K[36m[K-[m[K            if (item_escolhido == -1 ||
+[32m[K85[m[K[36m[K-[m[K                tlb->ordem_insercao[item_index] < tlb->ordem_insercao[item_escolhido]) {
+[32m[K86[m[K[36m[K-[m[K                item_escolhido = item_index;
+[32m[K87[m[K[36m[K-[m[K            }
+[32m[K88[m[K[36m[K-[m[K        }
+[32m[K89[m[K[36m[K-[m[K    }
+[32m[K90[m[K[36m[K-[m[K
+[32m[K91[m[K[36m[K-[m[K    return item_escolhido;
+[32m[K92[m[K[36m[K-[m[K}
+[32m[K93[m[K[36m[K-[m[K
+[32m[K94[m[K[36m[K-[m[Kint escolher_item_lru(const TLB *tlb) {
+[32m[K95[m[K[36m[K-[m[K    int item_escolhido = -1;
+[32m[K96[m[K[36m[K-[m[K
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.[27m[7mt[27m[7mxt fifo fifo | python3 -c ' [27m
+[7mimport sys[27m
+[7mimport re[27m
+
+[7mdados = open("BACKING_STORE.bin", "rb").read()[27m
+[7mverificados = 0[27m
+[7merros = 0[27m
+
+[7mfor linha in sys.stdin:[27m
+[7m    if not linha.startswith("Endereco logico:"):[27m
+[7m        continue[27m
+
+[7m    numero = int(re.search(r"Endereco logico: (\d+)", linha).group(1))[27m
+[7m    endereco = numero & 0xFFFF[27m
+[7m    valor = dados[endereco][27m
+[7m    if valor >= 128:[27m
+[7m        valor -= 256[27m
+
+[7m    # A comparação completa com a saída física será feita na próxima etapa.[27m
+[7m    verificados += 1[27m
+
+[7mprint("Enderecos processados:", verificados)[27m
+[7mprint("Total esperado:", 1000)[27m
+[7m'[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt fifo fifo | python3 -c '
+import sys
+import re
+
+dados = open("BACKING_STORE.bin", "rb").read()
+verificados = 0
+erros = 0
+
+for linha in sys.stdin:
+    if not linha.startswith("Endereco logico:"):
+        continue
+
+    numero = int(re.search(r"Endereco logico: (\d+)", linha).group(1))
+    endereco = numero & 0xFFFF
+    valor = dados[endereco]
+    if valor >= 128:
+        valor -= 256
+
+    # A comparação completa com a saída física será feita na próxima etapa.
+    verificados += 1
+
+print("Enderecos processados:", verificados)
+print("Total esperado:", 1000)
+'
+[?2004lEnderecos processados: 1000
+Total esperado: 1000
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.[27m[7mt[27m[7mxt fifo fifo | python3 -c ' [27m
+[7mimport sys[27m
+[7mimport re[27m
+
+[7mwith open("BACKING_STORE.bin", "rb") as arquivo:[27m
+[7m    dados = arquivo.read()[27m
+
+[7menderecos = [][27m
+[7mvalores = [][27m
+
+[7mfor linha in sys.stdin:[27m
+[7m    if linha.startswith("Endereco fisico:"):[27m
+[7m        valor = int(re.search(r"Valor: (-?\d+)", linha).group(1))[27m
+[7m        valores.append(valor)[27m
+
+[7m    elif linha.startswith("Endereco logico:"):[27m
+[7m        endereco = int(re.search(r"Endereco logico: (\d+)", linha).group(1))[27m
+[7m        enderecos.append(endereco)[27m
+
+[7merros = 0[27m
+
+[7mfor indice, (endereco, valor) in enumerate(zip(enderecos, valores)):[27m
+[7m    esperado = dados[endereco & 0xFFFF][27m
+
+[7m    if esperado >= 128:[27m
+[7m        esperado -= 256[27m
+
+[7m    if valor != esperado:[27m
+[7m        erros += 1[27m
+[7m        if erros <= 5:[27m
+[7m            print(f"Erro no acesso {indice + 1}: esperado {esperado}, obtido {valor}")[27m
+
+[7mprint("Enderecos verificados:", len(enderecos))[27m
+[7mprint("Valores verificados:", len(valores))[27m
+[7mprint("Divergencias:", erros)[27m
+[7mprint("Resultado:", "APROVADO" if erros == 0 and len(enderecos) == len(valores) == 1000 else "REV[27m[7mI[27m[7mSAR") [27m
+[7m'[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt fifo fifo | python3 -c '
+import sys
+import re
+
+with open("BACKING_STORE.bin", "rb") as arquivo:
+    dados = arquivo.read()
+
+enderecos = []
+valores = []
+
+for linha in sys.stdin:
+    if linha.startswith("Endereco fisico:"):
+        valor = int(re.search(r"Valor: (-?\d+)", linha).group(1))
+        valores.append(valor)
+
+    elif linha.startswith("Endereco logico:"):
+        endereco = int(re.search(r"Endereco logico: (\d+)", linha).group(1))
+        enderecos.append(endereco)
+
+erros = 0
+
+for indice, (endereco, valor) in enumerate(zip(enderecos, valores)):
+    esperado = dados[endereco & 0xFFFF]
+
+    if esperado >= 128:
+        esperado -= 256
+
+    if valor != esperado:
+        erros += 1
+        if erros <= 5:
+            print(f"Erro no acesso {indice + 1}: esperado {esperado}, obtido {valor}")
+
+print("Enderecos verificados:", len(enderecos))
+print("Valores verificados:", len(valores))
+print("Divergencias:", erros)
+print("Resultado:", "APROVADO" if erros == 0 and len(enderecos) == len(valores) == 1000 else "REVISAR")
+'
+[?2004lEnderecos verificados: 1000
+Valores verificados: 1000
+Divergencias: 0
+Resultado: APROVADO
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.[27m[7mt[27m[7mxt lru lru | python3 -c ' [27m
+[7mimport sys[27m
+[7mimport re[27m
+
+[7mwith open("BACKING_STORE.bin", "rb") as arquivo:[27m
+[7m    dados = arquivo.read()[27m
+
+[7menderecos = [][27m
+[7mvalores = [][27m
+
+[7mfor linha in sys.stdin:[27m
+[7m    if linha.startswith("Endereco fisico:"):[27m
+[7m        valores.append(int(re.search(r"Valor: (-?\d+)", linha).group(1)))[27m
+[7m    elif linha.startswith("Endereco logico:"):[27m
+[7m        enderecos.append(int(re.search(r"Endereco logico: (\d+)", linha).group(1)))[27m
+
+[7merros = 0[27m
+
+[7mfor endereco, valor in zip(enderecos, valores):[27m
+[7m    esperado = dados[endereco & 0xFFFF][27m
+[7m    if esperado >= 128:[27m
+[7m        esperado -= 256[27m
+[7m    if valor != esperado:[27m
+[7m        erros += 1[27m
+
+[7mprint("Enderecos verificados:", len(enderecos))[27m
+[7mprint("Valores verificados:", len(valores))[27m
+[7mprint("Divergencias:", erros)[27m
+[7mprint("Resultado:", "APROVADO" if len(enderecos) == len(valores) == 1000 and erros == 0 else "REV[27m[7mI[27m[7mSAR") [27m
+[7m'[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.txt lru lru | python3 -c '
+import sys
+import re
+
+with open("BACKING_STORE.bin", "rb") as arquivo:
+    dados = arquivo.read()
+
+enderecos = []
+valores = []
+
+for linha in sys.stdin:
+    if linha.startswith("Endereco fisico:"):
+        valores.append(int(re.search(r"Valor: (-?\d+)", linha).group(1)))
+    elif linha.startswith("Endereco logico:"):
+        enderecos.append(int(re.search(r"Endereco logico: (\d+)", linha).group(1)))
+
+erros = 0
+
+for endereco, valor in zip(enderecos, valores):
+    esperado = dados[endereco & 0xFFFF]
+    if esperado >= 128:
+        esperado -= 256
+    if valor != esperado:
+        erros += 1
+
+print("Enderecos verificados:", len(enderecos))
+print("Valores verificados:", len(valores))
+print("Divergencias:", erros)
+print("Resultado:", "APROVADO" if len(enderecos) == len(valores) == 1000 and erros == 0 else "REVISAR")
+'
+[?2004lEnderecos verificados: 1000
+Valores verificados: 1000
+Divergencias: 0
+Resultado: APROVADO
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ c^C[?2004l[?2004h[?2004l
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7msed -n '1,80p' [27m[7mm[27m[7memoria.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ sed -n '1,80p' memoria.c
+[?2004l#include "memoria.h"
+
+void inicializar_tlb(TLB *tlb) {
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        tlb->itens[item_index].numero_pagina = -1;
+        tlb->itens[item_index].numero_frame = -1;
+        tlb->ordem_insercao[item_index] = 0;
+        tlb->ultimo_acesso[item_index] = 0;
+    }
+
+    tlb->contador_insercoes = 0;
+    tlb->contador_acessos = 0;
+}
+
+int consultar_tlb(const TLB *tlb, int numero_pagina) {
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        if (tlb->itens[item_index].numero_pagina != -1 &&
+            tlb->itens[item_index].numero_pagina == numero_pagina) {
+            return item_index;
+        }
+    }
+
+    return -1;
+}
+
+void invalidar_tlb(TLB *tlb, int numero_pagina) {
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        if (tlb->itens[item_index].numero_pagina == numero_pagina) {
+            tlb->itens[item_index].numero_pagina = -1;
+            tlb->itens[item_index].numero_frame = -1;
+            tlb->ordem_insercao[item_index] = 0;
+            tlb->ultimo_acesso[item_index] = 0;
+            return;
+        }
+    }
+}
+
+int inserir_tlb(TLB *tlb, int numero_pagina, int numero_frame) {
+    if (numero_pagina < 0 || numero_pagina >= NUM_PAGES) {
+        return -1;
+    }
+
+    if (numero_frame < 0 || numero_frame >= NUM_FRAMES) {
+        return -1;
+    }
+
+    int item_index = consultar_tlb(tlb, numero_pagina);
+
+    if (item_index != -1) {
+        return item_index;
+    }
+
+    for (item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        if (tlb->itens[item_index].numero_pagina == -1) {
+            tlb->itens[item_index].numero_pagina = numero_pagina;
+            tlb->itens[item_index].numero_frame = numero_frame;
+            tlb->contador_insercoes++;
+            tlb->ordem_insercao[item_index] = tlb->contador_insercoes;
+            return item_index;
+        }
+    }
+
+    return -1;
+}
+
+void registrar_acesso_tlb(TLB *tlb, int item_index) {
+    if (item_index < 0 || item_index >= TAMANHO_TLB) {
+        return;
+    }
+
+    if (tlb->itens[item_index].numero_pagina == -1) {
+        return;
+    }
+
+    tlb->contador_acessos++;
+    tlb->ultimo_acesso[item_index] = tlb->contador_acessos;
+}
+
+int escolher_item_fifo(const TLB *tlb) {
+    int item_escolhido = -1;
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ python3 - <<'PY' 
+import subprocess
+import re
+
+with open("addresses.txt") as arquivo:
+    enderecos = [int(linha.strip()) & 0xFFFF for linha in arquivo]
+
+resultado = subprocess.run(
+    ["./vm", "addresses.txt", "fifo", "fifo"],
+    capture_output=True, text=True
+)
+
+frames = {}
+paginas_dos_frames = [-1] * 128
+proximo_livre = 0
+proximo_fifo = 0
+[7mfisicos_esperados = [][27m
+
+[7mfor endereco in enderecos:[27m
+[7m    pagina = endereco // 256[27m
+[7m    deslocamento = endereco % 256[27m
+
+[7m    if pagina not in frames:[27m
+[7m        if proximo_livre < 128:[27m
+[7m            frame = proximo_livre[27m
+[7m            proximo_livre += 1[27m
+[7m        else:[27m
+[7m            frame = proximo_fifo[27m
+[7m            proximo_fifo = (proximo_fifo + 1) % 128[27m
+[7m            del frames[paginas_dos_frames[frame]][27m
+
+[7m        frames[pagina] = frame[27m
+[7m        paginas_dos_frames[frame] = pagina[27m
+
+[7m    fisicos_esperados.append(frames[pagina] * 256 + deslocamento)[27m
+
+[7mfisicos_obtidos = [[27m
+[7m    int(valor)[27m
+[7m    for valor in re.findall(r"Endereco fisico: (\d+)", resultado.stdout)[27m[7m][27m[7mdivergencias = sum([27m[7m    esperado != obtido[27m[7m    for esperado, obtido in zip(fisicos_esperados, fisicos_obtidos)[27m[7m)[27m[7mprint("Enderecos esperados:", len(fisicos_esperados))[27m[7mprint("Enderecos obtidos:", len(fisicos_obtidos))[27m[7mprint("Divergencias:", divergencias)[27m[7mprint("Codigo de retorno:", resultado.returncode)[27m[7mprint("Resultado:", "APROVADO" if[27m[7m      len(fisicos_esperados) == len(fisicos_obtidos) and[27m[7m      divergencias == 0 and resultado.returncode == 0[27m[7m      else "REVISAR")[27m[7mPY[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Afisicos_esperados = []
+
+for endereco in enderecos:
+    pagina = endereco // 256
+    deslocamento = endereco % 256
+
+    if pagina not in frames:
+        if proximo_livre < 128:
+            frame = proximo_livre
+            proximo_livre += 1
+        else:
+            frame = proximo_fifo
+            proximo_fifo = (proximo_fifo + 1) % 128
+            del frames[paginas_dos_frames[frame]]
+
+        frames[pagina] = frame
+        paginas_dos_frames[frame] = pagina
+
+    fisicos_esperados.append(frames[pagina] * 256 + deslocamento)
+
+fisicos_obtidos = [
+    int(valor)
+    for valor in re.findall(r"Endereco fisico: (\d+)", resultado.stdout)]divergencias = sum(    esperado != obtido    for esperado, obtido in zip(fisicos_esperados, fisicos_obtidos))print("Enderecos esperados:", len(fisicos_esperados))print("Enderecos obtidos:", len(fisicos_obtidos))print("Divergencias:", divergencias)print("Codigo de retorno:", resultado.returncode)print("Resultado:", "APROVADO" if      len(fisicos_esperados) == len(fisicos_obtidos) and      divergencias == 0 and resultado.returncode == 0      else "REVISAR")PY
+[?2004lEnderecos esperados: 1000
+Enderecos obtidos: 1000
+Divergencias: 0
+Codigo de retorno: 0
+Resultado: APROVADO
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -n -E 'pri[27m[7mn[27m[7mtf|inserir_tlb|escolher_item_fifo|invalidar_tlb' vm.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -n -E 'printf|inserir_tlb|escolher_item_fifo|invalidar_tlb' vm.c
+[?2004l[32m[K12[m[K[36m[K:[m[K        [01;31m[Kprintf[m[K("Erro: quantidade de argumentos invalida.\n");
+[32m[K13[m[K[36m[K:[m[K        [01;31m[Kprintf[m[K("Uso: ./vm <arquivo> <fifo|lru> <fifo|lru>\n");
+[32m[K18[m[K[36m[K:[m[K        [01;31m[Kprintf[m[K("Erro: algoritmo de substituicao de paginas invalido.\n");
+[32m[K23[m[K[36m[K:[m[K        [01;31m[Kprintf[m[K("Erro: algoritmo de substituicao da TLB invalido.\n");
+[32m[K31[m[K[36m[K:[m[K        f[01;31m[Kprintf[m[K(stderr, "Erro: nao foi possivel abrir o arquivo %s.\n", nome_arquivo);
+[32m[K44[m[K[36m[K:[m[K            f[01;31m[Kprintf[m[K(stderr, "Erro: linha %d muito longa.\n", numero_linha);
+[32m[K54[m[K[36m[K:[m[K            f[01;31m[Kprintf[m[K(stderr, "Erro: endereco invalido na linha %d.\n", numero_linha);
+[32m[K64[m[K[36m[K:[m[K            f[01;31m[Kprintf[m[K(stderr, "Erro: formato invalido na linha %d.\n", numero_linha);
+[32m[K71[m[K[36m[K:[m[K        f[01;31m[Kprintf[m[K(stderr, "Erro durante a leitura do arquivo.\n");
+[32m[K85[m[K[36m[K:[m[K        f[01;31m[Kprintf[m[K(stderr, "Erro: nao foi possivel abrir BACKING_STORE.bin.\n");
+[32m[K103[m[K[36m[K:[m[K            [01;31m[Kprintf[m[K("Pagina %d encontrada no frame %d.\n",
+[32m[K123[m[K[36m[K:[m[K                    f[01;31m[Kprintf[m[K(stderr, "Erro ao carregar pagina %d.\n", numero_da_pagina);
+[32m[K131[m[K[36m[K:[m[K                    [01;31m[Kinvalidar_tlb[m[K(&tlb, pagina_antiga);
+[32m[K136[m[K[36m[K:[m[K                [01;31m[Kprintf[m[K("Page fault: pagina %d carregada no frame %d.\n",
+[32m[K139[m[K[36m[K:[m[K                [01;31m[Kprintf[m[K("Pagina %d encontrada no frame %d.\n",
+[32m[K143[m[K[36m[K:[m[K            tlb_index = [01;31m[Kinserir_tlb[m[K(&tlb, numero_da_pagina, numero_do_frame);
+[32m[K147[m[K[36m[K:[m[K                    tlb_index = [01;31m[Kescolher_item_fifo[m[K(&tlb);
+[32m[K153[m[K[36m[K:[m[K                    f[01;31m[Kprintf[m[K(stderr, "Erro ao selecionar item da TLB.\n");
+[32m[K159[m[K[36m[K:[m[K                [01;31m[Kinvalidar_tlb[m[K(&tlb, tlb.itens[tlb_index].numero_pagina);
+[32m[K160[m[K[36m[K:[m[K                tlb_index = [01;31m[Kinserir_tlb[m[K(&tlb, numero_da_pagina, numero_do_frame);
+[32m[K164[m[K[36m[K:[m[K                f[01;31m[Kprintf[m[K(stderr, "Erro ao inserir pagina %d na TLB.\n", numero_da_pagina);
+[32m[K183[m[K[36m[K:[m[K        [01;31m[Kprintf[m[K("Endereco fisico: %d | Valor: %d\n", endereco_fisico, (int) valor_byte);
+[32m[K186[m[K[36m[K:[m[K        [01;31m[Kprintf[m[K("Endereco logico: %ld | Pagina: %d | Deslocamento: %d\n",
+[32m[K191[m[K[36m[K:[m[K        f[01;31m[Kprintf[m[K(stderr, "Erro durante a leitura dos enderecos.\n");
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -n -C 5 'i[27m[7mn[27m[7micializar_tlb' vm.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ grep -n -C 5 'inicializar_tlb' vm.c
+[?2004l[32m[K75[m[K[36m[K-[m[K
+[32m[K76[m[K[36m[K-[m[K    Memoria memoria;
+[32m[K77[m[K[36m[K-[m[K    inicializar_gerenciador(&memoria);
+[32m[K78[m[K[36m[K-[m[K
+[32m[K79[m[K[36m[K-[m[K    TLB tlb;
+[32m[K80[m[K[36m[K:[m[K    [01;31m[Kinicializar_tlb[m[K(&tlb);
+[32m[K81[m[K[36m[K-[m[K
+[32m[K82[m[K[36m[K-[m[K    FILE *arquivo_binario = fopen("BACKING_STORE.bin", "rb");
+[32m[K83[m[K[36m[K-[m[K
+[32m[K84[m[K[36m[K-[m[K    if (arquivo_binario == NULL) {
+[32m[K85[m[K[36m[K-[m[K        fprintf(stderr, "Erro: nao foi possivel abrir BACKING_STORE.bin.\n");
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7msed -n '140,190[27m[7mp[27m[7m' vm.c[27m[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ sed -n '140,190p' vm.c
+[?2004l                       numero_da_pagina, numero_do_frame);
+            }
+
+            tlb_index = inserir_tlb(&tlb, numero_da_pagina, numero_do_frame);
+
+            if (tlb_index == -1) {
+                if (strcmp(argv[3], "fifo") == 0) {
+                    tlb_index = escolher_item_fifo(&tlb);
+                } else {
+                    tlb_index = escolher_item_lru(&tlb);
+                }
+
+                if (tlb_index < 0 || tlb_index >= TAMANHO_TLB) {
+                    fprintf(stderr, "Erro ao selecionar item da TLB.\n");
+                    fclose(arquivo_binario);
+                    fclose(arquivo_enderecos);
+                    return 1;
+                }
+
+                invalidar_tlb(&tlb, tlb.itens[tlb_index].numero_pagina);
+                tlb_index = inserir_tlb(&tlb, numero_da_pagina, numero_do_frame);
+            }
+
+            if (tlb_index < 0 || tlb_index >= TAMANHO_TLB) {
+                fprintf(stderr, "Erro ao inserir pagina %d na TLB.\n", numero_da_pagina);
+                fclose(arquivo_binario);
+                fclose(arquivo_enderecos);
+                return 1;
+            }
+        }
+
+        if (strcmp(argv[2], "lru") == 0) {
+            registrar_acesso_lru(&memoria, numero_do_frame);
+        }
+
+        if (strcmp(argv[3], "lru") == 0) {
+            registrar_acesso_tlb(&tlb, tlb_index);
+        }
+
+        int endereco_fisico = numero_do_frame * FRAME_SIZE + valor_deslocamento;
+
+        signed char valor_byte = (signed char) memoria.memoria_fisica[numero_do_frame][valor_deslocamento];
+
+        printf("Endereco fisico: %d | Valor: %d\n", endereco_fisico, (int) valor_byte);
+
+
+        printf("Endereco logico: %ld | Pagina: %d | Deslocamento: %d\n",
+               endereco_logico, numero_da_pagina, valor_deslocamento);
+    }
+
+    if (ferror(arquivo_enderecos)) {
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mpython3 - <<'PY[27m[7m'[27m[7m [27m
+[7mwith open("addresses.txt") as arquivo:[27m
+[7m    paginas = [((int(linha.strip()) & 0xFFFF) // 256) for linha in arquivo][27m
+
+[7mprint("Total de acessos:", len(paginas))[27m
+[7mprint("Paginas distintas:", len(set(paginas)))[27m
+[7mprint("Capacidade da TLB:", 16)[27m
+[7mprint("Substituicoes necessarias em algum momento:", "SIM" if len(set(paginas)) > 16 else "NAO")[27m
+[7mPY[27m[A[A[A[A[A[A[A[A[A]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ python3 - <<'PY'
+with open("addresses.txt") as arquivo:
+    paginas = [((int(linha.strip()) & 0xFFFF) // 256) for linha in arquivo]
+
+print("Total de acessos:", len(paginas))
+print("Paginas distintas:", len(set(paginas)))
+print("Capacidade da TLB:", 16)
+print("Substituicoes necessarias em algum momento:", "SIM" if len(set(paginas)) > 16 else "NAO")
+PY
+[?2004lTotal de acessos: 1000
+Paginas distintas: 244
+Capacidade da TLB: 16
+Substituicoes necessarias em algum momento: SIM
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ python3 - <<'PY' 
+[7mwith open("addresses.txt") as arquivo:[27m
+[7m    paginas = [[27m
+[7m        (int(linha.strip()) & 0xFFFF) // 256[27m
+[7m        for linha in arquivo[27m
+[7m    ][27m
+
+[7mdef simular_tlb(politica):[27m
+[7m    tlb = {}[27m
+[7m    hits = 0[27m
+[7m    misses = 0[27m
+[7m    substituicoes = 0[27m
+
+[7m    for instante, pagina in enumerate(paginas):[27m
+[7m        if pagina in tlb:[27m
+[7m            hits += 1[27m
+
+[7m            if politica == "lru":[27m
+[7m                tlb[pagina] = instante[27m
+[7m        else:[27m
+[7m            misses += 1[27m
+
+[7m            if len(tlb) == 16:[27m
+[7m                vitima = min(tlb, key=tlb.get)[27m
+[7m                del tlb[vitima][27m
+[7m                substituicoes += 1[27m
+
+[7m            tlb[pagina] = instante[27m
+
+[7m    return hits, misses, substituicoes[27m
+
+[7mfor politica in ("fifo", "lru"):[27m
+[7m    hits, misses, substituicoes = simular_tlb(politica)[27m
+
+[7m    print(f"TLB {politica.upper()}:")[27m
+[7m    print("  Hits:", hits)[27m
+[7m    print("  Misses:", misses)[27m
+[7m    print("  Substituicoes:", substituicoes)[27m
+[7m    print("  Total de acessos:", hits + misses)[27m[7mPY[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Awith open("addresses.txt") as arquivo:
+    paginas = [
+        (int(linha.strip()) & 0xFFFF) // 256
+        for linha in arquivo
+    ]
+
+def simular_tlb(politica):
+    tlb = {}
+    hits = 0
+    misses = 0
+    substituicoes = 0
+
+    for instante, pagina in enumerate(paginas):
+        if pagina in tlb:
+            hits += 1
+
+            if politica == "lru":
+                tlb[pagina] = instante
+        else:
+            misses += 1
+
+            if len(tlb) == 16:
+                vitima = min(tlb, key=tlb.get)
+                del tlb[vitima]
+                substituicoes += 1
+
+            tlb[pagina] = instante
+
+    return hits, misses, substituicoes
+
+for politica in ("fifo", "lru"):
+    hits, misses, substituicoes = simular_tlb(politica)
+
+    print(f"TLB {politica.upper()}:")
+    print("  Hits:", hits)
+    print("  Misses:", misses)
+    print("  Substituicoes:", substituicoes)
+    print("  Total de acessos:", hits + misses)PY
+[?2004lTLB FIFO:
+  Hits: 54
+  Misses: 946
+  Substituicoes: 930
+  Total de acessos: 1000
+TLB LRU:
+  Hits: 55
+  Misses: 945
+  Substituicoes: 929
+  Total de acessos: 1000
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ python3 - <<'PY' 
+with open("addresses.txt") as arquivo:
+    paginas = [
+        (int(linha.strip()) & 0xFFFF) // 256
+        for linha in arquivo
+    ]
+
+def simular(politica_tlb):
+    paginas_memoria = {}
+    tlb = {}
+
+    proximo_frame = 0
+    proximo_fifo = 0
+
+    paginas_dos_frames = [-1] * 128
+
+    hits = 0
+    misses = 0
+    substituicoes = 0
+    invalidacoes = 0
+    page_faults = 0
+
+    for instante, pagina in enumerate(paginas):
+        if pagina in tlb:
+            hits += 1
+        else:
+            misses += 1
+
+            if pagina not in paginas_memoria:
+                page_faults += 1
+
+[7m                if proximo_frame < 128:[27m
+[7m                    frame = proximo_frame[27m
+[7m                    proximo_frame += 1[27m
+[7m                else:[27m
+[7m                    frame = proximo_fifo[27m
+[7m                    proximo_fifo = (proximo_fifo + 1) % 128[27m
+
+[7m                    pagina_antiga = paginas_dos_frames[frame][27m[7m                    del paginas_memoria[pagina_antiga][27m[7m                    if pagina_antiga in tlb:[27m[7m                        del tlb[pagina_antiga][27m[7m                        invalidacoes += 1[27m[7m                paginas_memoria[pagina] = frame[27m[7m                paginas_dos_frames[frame] = pagina[27m[7m            if len(tlb) == 16:[27m[7m                vitima = min(tlb, key=tlb.get)[27m[7m                del tlb[vitima][27m[7m                substituicoes += 1[27m[7m            tlb[pagina] = instante[27m[7m        if politica_tlb == "lru":[27m[7m            tlb[pagina] = instante[27m[7m    return hits, misses, substituicoes, invalidacoes, page_faults[27m[7mfor politica in ("fifo", "lru"):[27m[7m    hits, misses, substituicoes, invalidacoes, faults = simular(politica)[27m[7m    print(f"TLB {politica.upper()} / Paginas FIFO:")[27m[7m    print("  Hits:", hits)[27m[7m    print("  Misses:", misses)[27m[7m    print("  Substituicoes da TLB:", substituicoes)[27m[7m    print("  Invalidacoes da TLB:", invalidacoes)[27m[7m    print("  Page faults:", faults)[27m[7mPY[27m[A[A[A[A[A[A[A                if proximo_frame < 128:
+                    frame = proximo_frame
+                    proximo_frame += 1
+                else:
+                    frame = proximo_fifo
+                    proximo_fifo = (proximo_fifo + 1) % 128
+
+                    pagina_antiga = paginas_dos_frames[frame]                    del paginas_memoria[pagina_antiga]                    if pagina_antiga in tlb:                        del tlb[pagina_antiga]                        invalidacoes += 1                paginas_memoria[pagina] = frame                paginas_dos_frames[frame] = pagina            if len(tlb) == 16:                vitima = min(tlb, key=tlb.get)                del tlb[vitima]                substituicoes += 1            tlb[pagina] = instante        if politica_tlb == "lru":            tlb[pagina] = instante    return hits, misses, substituicoes, invalidacoes, page_faultsfor politica in ("fifo", "lru"):    hits, misses, substituicoes, invalidacoes, faults = simular(politica)    print(f"TLB {politica.upper()} / Paginas FIFO:")    print("  Hits:", hits)    print("  Misses:", misses)    print("  Substituicoes da TLB:", substituicoes)    print("  Invalidacoes da TLB:", invalidacoes)    print("  Page faults:", faults)PY
+[?2004lTLB FIFO / Paginas FIFO:
+  Hits: 54
+  Misses: 946
+  Substituicoes da TLB: 900
+  Invalidacoes da TLB: 30
+  Page faults: 538
+TLB LRU / Paginas FIFO:
+  Hits: 55
+  Misses: 945
+  Substituicoes da TLB: 899
+  Invalidacoes da TLB: 30
+  Page faults: 538
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-25 12:40:06-03:00 [COMMAND_EXIT_CODE="0"]

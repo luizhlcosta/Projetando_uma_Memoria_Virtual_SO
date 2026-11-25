@@ -7,6 +7,22 @@
 #define FRAME_SIZE 256
 #define NUM_FRAMES 128
 #define NUM_PAGES 256
+#define TAMANHO_TLB 16
+
+typedef struct {
+    int numero_pagina;
+    int numero_frame;
+} ItemTLB;
+
+typedef struct {
+    ItemTLB itens[TAMANHO_TLB];
+
+    unsigned long long contador_insercoes;
+    unsigned long long ordem_insercao[TAMANHO_TLB];
+
+    unsigned long long contador_acessos;
+    unsigned long long ultimo_acesso[TAMANHO_TLB];
+} TLB;
 
 typedef struct {
     int tabela_paginas[NUM_PAGES];
@@ -32,5 +48,13 @@ void registrar_acesso_lru(Memoria *memoria, int numero_do_frame);
 int escolher_frame_lru(const Memoria *memoria);
 
 int carregar_pagina(Memoria *memoria, FILE *arquivo_binario, int numero_da_pagina, int numero_do_frame);
+
+void inicializar_tlb(TLB *tlb);
+int consultar_tlb(const TLB *tlb, int numero_pagina);
+void invalidar_tlb(TLB *tlb, int numero_pagina);
+int inserir_tlb(TLB *tlb, int numero_pagina, int numero_frame);
+void registrar_acesso_tlb(TLB *tlb, int item_index);
+int escolher_item_fifo(const TLB *tlb);
+int escolher_item_lru(const TLB *tlb);
 
 #endif
