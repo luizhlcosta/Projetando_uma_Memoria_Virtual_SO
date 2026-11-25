@@ -181,7 +181,7 @@ int main(int argc, char *argv[]) {
 
         total_enderecos++;
 
-        printf("Virtual address: %ld TLB: %d Physical address: %d Value: %d\n",
+        printf("Virtual address: %ld TLB: %d Physical address: %d Value: %d\r\n",
                endereco_logico, tlb_index, endereco_fisico, (int) valor_byte);
     }
 
@@ -197,11 +197,11 @@ int main(int argc, char *argv[]) {
         taxa_tlb_hits = (double) total_tlb_hits / total_enderecos * 100.0;
     }
 
-    printf("Number of Translated Addresses = %d\n", total_enderecos);
-    printf("Page Faults = %d\n", total_page_faults);
-    printf("Page Fault Rate = %.3f\n", taxa_page_faults / 100.0);
-    printf("TLB Hits = %d\n", total_tlb_hits);
-    printf("TLB Hit Rate = %.3f\n", taxa_tlb_hits / 100.0);
+    printf("Number of Translated Addresses = %d\r\n", total_enderecos);
+    printf("Page Faults = %d\r\n", total_page_faults);
+    printf("Page Fault Rate = %.3f\r\n", taxa_page_faults / 100.0);
+    printf("TLB Hits = %d\r\n", total_tlb_hits);
+    printf("TLB Hit Rate = %.3f", taxa_tlb_hits / 100.0);
 
     fclose(arquivo_binario);
     fclose(arquivo_enderecos);
