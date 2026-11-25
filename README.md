@@ -18,7 +18,7 @@ Quando um endereço lógico é recebido, o programa calcula o número da página
 
 Primeiro, consulta a TLB. Caso a página não seja encontrada, consulta a tabela de páginas.
 
-Se a página não estiver carregada na memória física, ocorre um *page fault*. Nesse caso, o programa busca os dados correspondentes no arquivo `testes/BACKING_STORE.bin`.
+Se a página não estiver carregada na memória física, ocorre um *page fault*. Nesse caso, o programa busca os dados correspondentes no arquivo `BACKING_STORE.bin`.
 
 Quando a memória física está cheia, uma página precisa ser substituída para permitir o carregamento da nova página.
 
@@ -39,14 +39,19 @@ Os algoritmos são escolhidos por argumentos na execução do programa.
 | `memoria.c` | Implementação da memória, da TLB e dos algoritmos de substituição |
 | `memoria.h` | Estruturas, constantes e protótipos das funções |
 | `Makefile` | Compilação do programa |
-| `testes/addresses.txt` | Arquivo de entrada com os endereços lógicos |
-| `testes/BACKING_STORE.bin` | Arquivo binário utilizado para carregar as páginas |
-| `testes/correct.txt` | Saída de referência para comparação dos resultados |
+| `README.md` | Documentação do projeto |
+| `addresses.txt` | Arquivo de entrada com os endereços lógicos |
+| `BACKING_STORE.bin` | Arquivo binário utilizado para carregar as páginas |
+| `correct.txt` | Saída de referência para comparação dos resultados |
 | `evidencias.log` | Registro das compilações e dos testes realizados |
+| `lhlc.pdf` | Relatório da atividade |
+| `testes/` | Arquivos e programas auxiliares utilizados durante o desenvolvimento |
 
-Execute os comandos a partir da raiz do repositório. Os arquivos de entrada e referência ficam em `testes/`, enquanto `evidencias.log` permanece na raiz.
+Os arquivos principais, os arquivos de referência e o `evidencias.log` ficam na raiz do repositório.
 
-Os fontes e executáveis dos testes auxiliares, as saídas temporárias e os artefatos de compilações anteriores também ficam em `testes/`. Os testes auxiliares que abrem `BACKING_STORE.bin` devem ser executados a partir dessa pasta.
+A pasta `testes/` contém arquivos auxiliares utilizados durante o desenvolvimento, como testes individuais de funções e saídas temporárias.
+
+Os arquivos fornecidos pelo professor são utilizados para a execução e a conferência dos resultados, mas não precisam ser incluídos na entrega.
 
 ## 4. Compilação
 
@@ -66,6 +71,8 @@ Para remover os arquivos gerados pela compilação:
 make clean
 ```
 
+Os comandos devem ser executados a partir da raiz do repositório.
+
 ## 5. Execução
 
 A execução utiliza três argumentos:
@@ -74,7 +81,7 @@ A execução utiliza três argumentos:
 ./vm <arquivo> <algoritmo_paginas> <algoritmo_tlb>
 ```
 
-O primeiro argumento indica o caminho de qualquer arquivo válido com os endereços lógicos.
+O primeiro argumento indica o caminho do arquivo com os endereços lógicos.
 
 O segundo define o algoritmo de substituição das páginas da memória física.
 
@@ -83,10 +90,10 @@ O terceiro define o algoritmo de substituição das entradas da TLB.
 Exemplos:
 
 ```bash
-./vm testes/addresses.txt fifo fifo
-./vm testes/addresses.txt fifo lru
-./vm testes/addresses.txt lru fifo
-./vm testes/addresses.txt lru lru
+./vm addresses.txt fifo fifo
+./vm addresses.txt fifo lru
+./vm addresses.txt lru fifo
+./vm addresses.txt lru lru
 ```
 
 ## 6. Saída do programa
@@ -112,32 +119,36 @@ As taxas são apresentadas como valores entre 0 e 1.
 
 Foram realizados testes de compilação e execução com as quatro combinações de FIFO e LRU.
 
-Utilizando os 1.000 endereços do arquivo `testes/addresses.txt`, foram obtidos:
+Utilizando os 1.000 endereços do arquivo `addresses.txt`, foram obtidos:
 
-| Páginas | TLB | Page faults |
-|---|---|---:|
-| FIFO | FIFO | 538 |
-| FIFO | LRU | 538 |
-| LRU | FIFO | 539 |
-| LRU | LRU | 539 |
+| Páginas | TLB | Page faults | TLB hits |
+|---|---|---:|---:|
+| FIFO | FIFO | 538 | 54 |
+| FIFO | LRU | 538 | 55 |
+| LRU | FIFO | 539 | 54 |
+| LRU | LRU | 539 | 55 |
 
-Também foram realizados testes de tradução de endereços e conferência dos valores retornados pelo programa.
+Também foram realizados testes de tradução de endereços, conferência dos valores retornados e verificação do tratamento de entradas inválidas.
 
-Na configuração LRU para páginas e FIFO para a TLB, a saída foi comparada com o arquivo `testes/correct.txt` por meio do comando:
+Na configuração LRU para páginas e FIFO para a TLB, a saída foi comparada com o arquivo `correct.txt` por meio do comando:
 
 ```bash
-diff -u testes/correct.txt <(./vm testes/addresses.txt lru fifo)
+diff -u correct.txt <(./vm addresses.txt lru fifo)
 ```
 
-A comparação não apresentou diferenças.
+A comparação direta pode apresentar diferenças nas quebras de linha, pois o arquivo de referência utiliza o formato do Windows e o programa executado no Linux utiliza o formato Unix.
 
-Os registros dos testes estão documentados em `evidencias.log`.
+Após normalizar as quebras de linha, os resultados das traduções e das estatísticas coincidiram com a referência.
 
-Para registrar novas evidências, inicie a sessão a partir da raiz:
+Os registros dos testes realizados durante o desenvolvimento estão documentados em `evidencias.log`.
+
+Para registrar novas evidências, inicie uma sessão a partir da raiz:
 
 ```bash
 script -a evidencias.log
 ```
+
+Após executar os comandos desejados, utilize `exit` para encerrar o registro.
 
 ## 8. Considerações finais
 

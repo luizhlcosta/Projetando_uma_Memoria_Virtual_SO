@@ -84,10 +84,10 @@ int main(int argc, char *argv[]) {
     TLB tlb;
     inicializar_tlb(&tlb);
 
-    FILE *arquivo_binario = fopen("testes/BACKING_STORE.bin", "rb");
+    FILE *arquivo_binario = fopen("BACKING_STORE.bin", "rb");
 
     if (arquivo_binario == NULL) {
-        fprintf(stderr, "Erro: nao foi possivel abrir testes/BACKING_STORE.bin.\n");
+        fprintf(stderr, "Erro: nao foi possivel abrir BACKING_STORE.bin.\n");
         fclose(arquivo_enderecos);
         return 1;
     }
