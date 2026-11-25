@@ -25,6 +25,13 @@ typedef struct {
 } TLB;
 
 typedef struct {
+    const TLB *tlb;
+    int numero_pagina;
+    int item_index;
+    int encontrou;
+} DadosConsultaTLB;
+
+typedef struct {
     int tabela_paginas[NUM_PAGES];
     unsigned char memoria_fisica[NUM_FRAMES][FRAME_SIZE];
     int proximo_frame;
@@ -50,6 +57,8 @@ int escolher_frame_lru(const Memoria *memoria);
 int carregar_pagina(Memoria *memoria, FILE *arquivo_binario, int numero_da_pagina, int numero_do_frame);
 
 void inicializar_tlb(TLB *tlb);
+void *consultar_item_tlb(void *argumento);
+int consultar_tlb_sequencial(const TLB *tlb, int numero_pagina);
 int consultar_tlb(const TLB *tlb, int numero_pagina);
 void invalidar_tlb(TLB *tlb, int numero_pagina);
 int inserir_tlb(TLB *tlb, int numero_pagina, int numero_frame);

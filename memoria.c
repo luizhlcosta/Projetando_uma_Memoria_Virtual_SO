@@ -1,3 +1,5 @@
+#include <pthread.h>
+
 #include "memoria.h"
 
 void inicializar_tlb(TLB *tlb) {
@@ -12,7 +14,21 @@ void inicializar_tlb(TLB *tlb) {
     tlb->contador_acessos = 0;
 }
 
-int consultar_tlb(const TLB *tlb, int numero_pagina) {
+void *consultar_item_tlb(void *argumento) {
+    DadosConsultaTLB *dados_consulta = argumento;
+    int item_index = dados_consulta->item_index;
+
+    dados_consulta->encontrou = 0;
+
+    if (dados_consulta->tlb->itens[item_index].numero_pagina != -1 &&
+        dados_consulta->tlb->itens[item_index].numero_pagina == dados_consulta->numero_pagina) {
+        dados_consulta->encontrou = 1;
+    }
+
+    return NULL;
+}
+
+int consultar_tlb_sequencial(const TLB *tlb, int numero_pagina) {
     for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
         if (tlb->itens[item_index].numero_pagina != -1 &&
             tlb->itens[item_index].numero_pagina == numero_pagina) {
@@ -21,6 +37,41 @@ int consultar_tlb(const TLB *tlb, int numero_pagina) {
     }
 
     return -1;
+}
+
+int consultar_tlb(const TLB *tlb, int numero_pagina) {
+    pthread_t threads[TAMANHO_TLB];
+    DadosConsultaTLB dados_consulta[TAMANHO_TLB];
+    int qtd_threads = 0;
+    int posicao_pagina_encontrada = -1;
+
+    for (int item_index = 0; item_index < TAMANHO_TLB; item_index++) {
+        dados_consulta[item_index].tlb = tlb;
+        dados_consulta[item_index].numero_pagina = numero_pagina;
+        dados_consulta[item_index].item_index = item_index;
+        dados_consulta[item_index].encontrou = 0;
+
+        if (pthread_create(&threads[item_index], NULL, consultar_item_tlb,
+                           &dados_consulta[item_index]) != 0) {
+            break;
+        }
+
+        qtd_threads++;
+    }
+
+    for (int item_index = 0; item_index < qtd_threads; item_index++) {
+        pthread_join(threads[item_index], NULL);
+
+        if (dados_consulta[item_index].encontrou && posicao_pagina_encontrada == -1) {
+            posicao_pagina_encontrada = item_index;
+        }
+    }
+
+    if (qtd_threads < TAMANHO_TLB) {
+        return consultar_tlb_sequencial(tlb, numero_pagina);
+    }
+
+    return posicao_pagina_encontrada;
 }
 
 void invalidar_tlb(TLB *tlb, int numero_pagina) {
@@ -44,7 +95,7 @@ int inserir_tlb(TLB *tlb, int numero_pagina, int numero_frame) {
         return -1;
     }
 
-    int item_index = consultar_tlb(tlb, numero_pagina);
+    int item_index = consultar_tlb_sequencial(tlb, numero_pagina);
 
     if (item_index != -1) {
         return item_index;
