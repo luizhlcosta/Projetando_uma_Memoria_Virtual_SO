@@ -1678,3 +1678,3197 @@ evidencias.log:1322: trailing whitespace.[m
 [?2004lexit
 
 Script done on 2026-11-24 23:06:27-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-24 23:33:06-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="97" LINES="26"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make clean
+[?2004lrm -f vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ make
+[?2004lgcc -Wall -Wextra -c vm.c
+gcc -Wall -Wextra -c memoria.c 
+gcc -Wall -Wextra -o vm vm.o memoria.o 
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [K]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ./vm addresses.tct[K[Kxt lru fifo
+[?2004lPage fault: pagina 66 carregada no frame 0.
+Endereco fisico: 20 | Valor: 0
+Endereco logico: 16916 | Pagina: 66 | Deslocamento: 20
+Page fault: pagina 244 carregada no frame 1.
+Endereco fisico: 285 | Valor: 0
+Endereco logico: 62493 | Pagina: 244 | Deslocamento: 29
+Page fault: pagina 117 carregada no frame 2.
+Endereco fisico: 758 | Valor: 29
+Endereco logico: 30198 | Pagina: 117 | Deslocamento: 246
+Page fault: pagina 209 carregada no frame 3.
+Endereco fisico: 947 | Valor: 108
+Endereco logico: 53683 | Pagina: 209 | Deslocamento: 179
+Page fault: pagina 156 carregada no frame 4.
+Endereco fisico: 1273 | Valor: 0
+Endereco logico: 40185 | Pagina: 156 | Deslocamento: 249
+Page fault: pagina 112 carregada no frame 5.
+Endereco fisico: 1389 | Valor: 0
+Endereco logico: 28781 | Pagina: 112 | Deslocamento: 109
+Page fault: pagina 95 carregada no frame 6.
+Endereco fisico: 1678 | Valor: 23
+Endereco logico: 24462 | Pagina: 95 | Deslocamento: 142
+Page fault: pagina 189 carregada no frame 7.
+Endereco fisico: 1807 | Valor: 67
+Endereco logico: 48399 | Pagina: 189 | Deslocamento: 15
+Page fault: pagina 253 carregada no frame 8.
+Endereco fisico: 2095 | Valor: 75
+Endereco logico: 64815 | Pagina: 253 | Deslocamento: 47
+Page fault: pagina 71 carregada no frame 9.
+Endereco fisico: 2423 | Valor: -35
+Endereco logico: 18295 | Pagina: 71 | Deslocamento: 119
+Page fault: pagina 47 carregada no frame 10.
+Endereco fisico: 2746 | Valor: 11
+Endereco logico: 12218 | Pagina: 47 | Deslocamento: 186
+Page fault: pagina 88 carregada no frame 11.
+Endereco fisico: 3048 | Valor: 0
+Endereco logico: 22760 | Pagina: 88 | Deslocamento: 232
+Page fault: pagina 226 carregada no frame 12.
+Endereco fisico: 3198 | Valor: 56
+Endereco logico: 57982 | Pagina: 226 | Deslocamento: 126
+Page fault: pagina 109 carregada no frame 13.
+Endereco fisico: 3390 | Valor: 27
+Endereco logico: 27966 | Pagina: 109 | Deslocamento: 62
+Page fault: pagina 214 carregada no frame 14.
+Endereco fisico: 3694 | Valor: 53
+Endereco logico: 54894 | Pagina: 214 | Deslocamento: 110
+Page fault: pagina 152 carregada no frame 15.
+Endereco fisico: 3857 | Valor: 0
+Endereco logico: 38929 | Pagina: 152 | Deslocamento: 17
+Page fault: pagina 128 carregada no frame 16.
+Endereco fisico: 4193 | Valor: 0
+Endereco logico: 32865 | Pagina: 128 | Deslocamento: 97
+Page fault: pagina 250 carregada no frame 17.
+Endereco fisico: 4595 | Valor: -68
+Endereco logico: 64243 | Pagina: 250 | Deslocamento: 243
+Page fault: pagina 9 carregada no frame 18.
+Endereco fisico: 4619 | Valor: 66
+Endereco logico: 2315 | Pagina: 9 | Deslocamento: 11
+Page fault: pagina 251 carregada no frame 19.
+Endereco fisico: 5062 | Valor: 62
+Endereco logico: 64454 | Pagina: 251 | Deslocamento: 198
+Page fault: pagina 215 carregada no frame 20.
+Endereco fisico: 5121 | Valor: 0
+Endereco logico: 55041 | Pagina: 215 | Deslocamento: 1
+Page fault: pagina 72 carregada no frame 21.
+Endereco fisico: 5577 | Valor: 0
+Endereco logico: 18633 | Pagina: 72 | Deslocamento: 201
+Page fault: pagina 56 carregada no frame 22.
+Endereco fisico: 5853 | Valor: 0
+Endereco logico: 14557 | Pagina: 56 | Deslocamento: 221
+Page fault: pagina 238 carregada no frame 23.
+Endereco fisico: 5966 | Valor: 59
+Endereco logico: 61006 | Pagina: 238 | Deslocamento: 78
+Pagina 244 encontrada no frame 1.
+Endereco fisico: 407 | Valor: 37
+Endereco logico: 62615 | Pagina: 244 | Deslocamento: 151
+Page fault: pagina 29 carregada no frame 24.
+Endereco fisico: 6311 | Valor: 105
+Endereco logico: 7591 | Pagina: 29 | Deslocamento: 167
+Page fault: pagina 252 carregada no frame 25.
+Endereco fisico: 6635 | Valor: 58
+Endereco logico: 64747 | Pagina: 252 | Deslocamento: 235
+Page fault: pagina 26 carregada no frame 26.
+Endereco fisico: 6727 | Valor: -111
+Endereco logico: 6727 | Pagina: 26 | Deslocamento: 71
+Page fault: pagina 126 carregada no frame 27.
+Endereco fisico: 6971 | Valor: -114
+Endereco logico: 32315 | Pagina: 126 | Deslocamento: 59
+Page fault: pagina 236 carregada no frame 28.
+Endereco fisico: 7397 | Valor: 0
+Endereco logico: 60645 | Pagina: 236 | Deslocamento: 229
+Page fault: pagina 24 carregada no frame 29.
+Endereco fisico: 7588 | Valor: 0
+Endereco logico: 6308 | Pagina: 24 | Deslocamento: 164
+Page fault: pagina 178 carregada no frame 30.
+Endereco fisico: 7800 | Valor: 0
+Endereco logico: 45688 | Pagina: 178 | Deslocamento: 120
+Page fault: pagina 3 carregada no frame 31.
+Endereco fisico: 8137 | Valor: 0
+Endereco logico: 969 | Pagina: 3 | Deslocamento: 201
+Page fault: pagina 159 carregada no frame 32.
+Endereco fisico: 8379 | Valor: -18
+Endereco logico: 40891 | Pagina: 159 | Deslocamento: 187
+Page fault: pagina 192 carregada no frame 33.
+Endereco fisico: 8590 | Valor: 48
+Endereco logico: 49294 | Pagina: 192 | Deslocamento: 142
+Page fault: pagina 160 carregada no frame 34.
+Endereco fisico: 8862 | Valor: 40
+Endereco logico: 41118 | Pagina: 160 | Deslocamento: 158
+Page fault: pagina 83 carregada no frame 35.
+Endereco fisico: 9107 | Valor: -28
+Endereco logico: 21395 | Pagina: 83 | Deslocamento: 147
+Page fault: pagina 23 carregada no frame 36.
+Endereco fisico: 9419 | Valor: -14
+Endereco logico: 6091 | Pagina: 23 | Deslocamento: 203
+Page fault: pagina 127 carregada no frame 37.
+Endereco fisico: 9501 | Valor: 0
+Endereco logico: 32541 | Pagina: 127 | Deslocamento: 29
+Page fault: pagina 69 carregada no frame 38.
+Endereco fisico: 9729 | Valor: 0
+Endereco logico: 17665 | Pagina: 69 | Deslocamento: 1
+Page fault: pagina 14 carregada no frame 39.
+Endereco fisico: 10184 | Valor: 0
+Endereco logico: 3784 | Pagina: 14 | Deslocamento: 200
+Pagina 112 encontrada no frame 5.
+Endereco fisico: 1326 | Valor: 28
+Endereco logico: 28718 | Pagina: 112 | Deslocamento: 46
+Page fault: pagina 231 carregada no frame 40.
+Endereco fisico: 10344 | Valor: 0
+Endereco logico: 59240 | Pagina: 231 | Deslocamento: 104
+Pagina 156 encontrada no frame 4.
+Endereco fisico: 1266 | Valor: 39
+Endereco logico: 40178 | Pagina: 156 | Deslocamento: 242
+Page fault: pagina 234 carregada no frame 41.
+Endereco fisico: 10678 | Valor: 58
+Endereco logico: 60086 | Pagina: 234 | Deslocamento: 182
+Page fault: pagina 165 carregada no frame 42.
+Endereco fisico: 10764 | Valor: 0
+Endereco logico: 42252 | Pagina: 165 | Deslocamento: 12
+Page fault: pagina 174 carregada no frame 43.
+Endereco fisico: 11234 | Valor: 43
+Endereco logico: 44770 | Pagina: 174 | Deslocamento: 226
+Page fault: pagina 87 carregada no frame 44.
+Endereco fisico: 11506 | Valor: 21
+Endereco logico: 22514 | Pagina: 87 | Deslocamento: 242
+Page fault: pagina 11 carregada no frame 45.
+Endereco fisico: 11771 | Valor: -2
+Endereco logico: 3067 | Pagina: 11 | Deslocamento: 251
+Page fault: pagina 61 carregada no frame 46.
+Endereco fisico: 11917 | Valor: 0
+Endereco logico: 15757 | Pagina: 61 | Deslocamento: 141
+Page fault: pagina 123 carregada no frame 47.
+Endereco fisico: 12193 | Valor: 0
+Endereco logico: 31649 | Pagina: 123 | Deslocamento: 161
+Page fault: pagina 42 carregada no frame 48.
+Endereco fisico: 12378 | Valor: 10
+Endereco logico: 10842 | Pagina: 42 | Deslocamento: 90
+Page fault: pagina 170 carregada no frame 49.
+Endereco fisico: 12789 | Valor: 0
+Endereco logico: 43765 | Pagina: 170 | Deslocamento: 245
+Page fault: pagina 130 carregada no frame 50.
+Endereco fisico: 12925 | Valor: 0
+Endereco logico: 33405 | Pagina: 130 | Deslocamento: 125
+Page fault: pagina 175 carregada no frame 51.
+Endereco fisico: 13210 | Valor: 43
+Endereco logico: 44954 | Pagina: 175 | Deslocamento: 154
+Page fault: pagina 221 carregada no frame 52.
+Endereco fisico: 13393 | Valor: 0
+Endereco logico: 56657 | Pagina: 221 | Deslocamento: 81
+Page fault: pagina 19 carregada no frame 53.
+Endereco fisico: 13707 | Valor: -30
+Endereco logico: 5003 | Pagina: 19 | Deslocamento: 139
+Page fault: pagina 196 carregada no frame 54.
+Endereco fisico: 13875 | Valor: 12
+Endereco logico: 50227 | Pagina: 196 | Deslocamento: 51
+Page fault: pagina 75 carregada no frame 55.
+Endereco fisico: 14238 | Valor: 18
+Endereco logico: 19358 | Pagina: 75 | Deslocamento: 158
+Page fault: pagina 142 carregada no frame 56.
+Endereco fisico: 14513 | Valor: 0
+Endereco logico: 36529 | Pagina: 142 | Deslocamento: 177
+Page fault: pagina 40 carregada no frame 57.
+Endereco fisico: 14744 | Valor: 0
+Endereco logico: 10392 | Pagina: 40 | Deslocamento: 152
+Page fault: pagina 230 carregada no frame 58.
+Endereco fisico: 14850 | Valor: 57
+Endereco logico: 58882 | Pagina: 230 | Deslocamento: 2
+Page fault: pagina 20 carregada no frame 59.
+Endereco fisico: 15113 | Valor: 0
+Endereco logico: 5129 | Pagina: 20 | Deslocamento: 9
+Page fault: pagina 228 carregada no frame 60.
+Endereco fisico: 15546 | Valor: 57
+Endereco logico: 58554 | Pagina: 228 | Deslocamento: 186
+Pagina 228 encontrada no frame 60.
+Endereco fisico: 15576 | Valor: 0
+Endereco logico: 58584 | Pagina: 228 | Deslocamento: 216
+Page fault: pagina 107 carregada no frame 61.
+Endereco fisico: 15668 | Valor: 0
+Endereco logico: 27444 | Pagina: 107 | Deslocamento: 52
+Pagina 230 encontrada no frame 58.
+Endereco fisico: 14950 | Valor: 57
+Endereco logico: 58982 | Pagina: 230 | Deslocamento: 102
+Page fault: pagina 201 carregada no frame 62.
+Endereco fisico: 15892 | Valor: 0
+Endereco logico: 51476 | Pagina: 201 | Deslocamento: 20
+Pagina 26 encontrada no frame 26.
+Endereco fisico: 6796 | Valor: 0
+Endereco logico: 6796 | Pagina: 26 | Deslocamento: 140
+Pagina 83 encontrada no frame 35.
+Endereco fisico: 9023 | Valor: -49
+Endereco logico: 21311 | Pagina: 83 | Deslocamento: 63
+Page fault: pagina 119 carregada no frame 63.
+Endereco fisico: 16369 | Valor: 0
+Endereco logico: 30705 | Pagina: 119 | Deslocamento: 241
+Page fault: pagina 113 carregada no frame 64.
+Endereco fisico: 16420 | Valor: 0
+Endereco logico: 28964 | Pagina: 113 | Deslocamento: 36
+Pagina 160 encontrada no frame 34.
+Endereco fisico: 8747 | Valor: 10
+Endereco logico: 41003 | Pagina: 160 | Deslocamento: 43
+Page fault: pagina 79 carregada no frame 65.
+Endereco fisico: 16675 | Valor: -56
+Endereco logico: 20259 | Pagina: 79 | Deslocamento: 35
+Pagina 226 encontrada no frame 12.
+Endereco fisico: 3073 | Valor: 0
+Endereco logico: 57857 | Pagina: 226 | Deslocamento: 1
+Page fault: pagina 247 carregada no frame 66.
+Endereco fisico: 16922 | Valor: 61
+Endereco logico: 63258 | Pagina: 247 | Deslocamento: 26
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14358 | Valor: 35
+Endereco logico: 36374 | Pagina: 142 | Deslocamento: 22
+Page fault: pagina 2 carregada no frame 67.
+Endereco fisico: 17332 | Valor: 0
+Endereco logico: 692 | Pagina: 2 | Deslocamento: 180
+Page fault: pagina 168 carregada no frame 68.
+Endereco fisico: 17521 | Valor: 0
+Endereco logico: 43121 | Pagina: 168 | Deslocamento: 113
+Page fault: pagina 188 carregada no frame 69.
+Endereco fisico: 17664 | Valor: 0
+Endereco logico: 48128 | Pagina: 188 | Deslocamento: 0
+Page fault: pagina 135 carregada no frame 70.
+Endereco fisico: 17921 | Valor: 0
+Endereco logico: 34561 | Pagina: 135 | Deslocamento: 1
+Pagina 192 encontrada no frame 33.
+Endereco fisico: 8509 | Valor: 0
+Endereco logico: 49213 | Pagina: 192 | Deslocamento: 61
+Page fault: pagina 144 carregada no frame 71.
+Endereco fisico: 18234 | Valor: 36
+Endereco logico: 36922 | Pagina: 144 | Deslocamento: 58
+Pagina 231 encontrada no frame 40.
+Endereco fisico: 10266 | Valor: 57
+Endereco logico: 59162 | Pagina: 231 | Deslocamento: 26
+Page fault: pagina 197 carregada no frame 72.
+Endereco fisico: 18552 | Valor: 0
+Endereco logico: 50552 | Pagina: 197 | Deslocamento: 120
+Pagina 69 encontrada no frame 38.
+Endereco fisico: 9930 | Valor: 17
+Endereco logico: 17866 | Pagina: 69 | Deslocamento: 202
+Page fault: pagina 70 carregada no frame 73.
+Endereco fisico: 18913 | Valor: 0
+Endereco logico: 18145 | Pagina: 70 | Deslocamento: 225
+Page fault: pagina 15 carregada no frame 74.
+Endereco fisico: 18988 | Valor: 0
+Endereco logico: 3884 | Pagina: 15 | Deslocamento: 44
+Page fault: pagina 212 carregada no frame 75.
+Endereco fisico: 19316 | Valor: 0
+Endereco logico: 54388 | Pagina: 212 | Deslocamento: 116
+Page fault: pagina 167 carregada no frame 76.
+Endereco fisico: 19636 | Valor: 0
+Endereco logico: 42932 | Pagina: 167 | Deslocamento: 180
+Page fault: pagina 183 carregada no frame 77.
+Endereco fisico: 19783 | Valor: -47
+Endereco logico: 46919 | Pagina: 183 | Deslocamento: 71
+Pagina 230 encontrada no frame 58.
+Endereco fisico: 14860 | Valor: 0
+Endereco logico: 58892 | Pagina: 230 | Deslocamento: 12
+Page fault: pagina 33 carregada no frame 78.
+Endereco fisico: 20140 | Valor: 0
+Endereco logico: 8620 | Pagina: 33 | Deslocamento: 172
+Page fault: pagina 149 carregada no frame 79.
+Endereco fisico: 20416 | Valor: 0
+Endereco logico: 38336 | Pagina: 149 | Deslocamento: 192
+Pagina 251 encontrada no frame 19.
+Endereco fisico: 4965 | Valor: 0
+Endereco logico: 64357 | Pagina: 251 | Deslocamento: 101
+Page fault: pagina 91 carregada no frame 80.
+Endereco fisico: 20571 | Valor: -42
+Endereco logico: 23387 | Pagina: 91 | Deslocamento: 91
+Page fault: pagina 166 carregada no frame 81.
+Endereco fisico: 20872 | Valor: 0
+Endereco logico: 42632 | Pagina: 166 | Deslocamento: 136
+Page fault: pagina 62 carregada no frame 82.
+Endereco fisico: 21033 | Valor: 0
+Endereco logico: 15913 | Pagina: 62 | Deslocamento: 41
+Pagina 61 encontrada no frame 46.
+Endereco fisico: 11839 | Valor: 79
+Endereco logico: 15679 | Pagina: 61 | Deslocamento: 63
+Pagina 87 encontrada no frame 44.
+Endereco fisico: 11493 | Valor: 0
+Endereco logico: 22501 | Pagina: 87 | Deslocamento: 229
+Page fault: pagina 146 carregada no frame 83.
+Endereco fisico: 21412 | Valor: 0
+Endereco logico: 37540 | Pagina: 146 | Deslocamento: 164
+Page fault: pagina 21 carregada no frame 84.
+Endereco fisico: 21655 | Valor: 101
+Endereco logico: 5527 | Pagina: 21 | Deslocamento: 151
+Page fault: pagina 249 carregada no frame 85.
+Endereco fisico: 21937 | Valor: 0
+Endereco logico: 63921 | Pagina: 249 | Deslocamento: 177
+Pagina 244 encontrada no frame 1.
+Endereco fisico: 508 | Valor: 0
+Endereco logico: 62716 | Pagina: 244 | Deslocamento: 252
+Pagina 128 encontrada no frame 16.
+Endereco fisico: 4202 | Valor: 32
+Endereco logico: 32874 | Pagina: 128 | Deslocamento: 106
+Pagina 251 encontrada no frame 19.
+Endereco fisico: 4998 | Valor: 62
+Endereco logico: 64390 | Pagina: 251 | Deslocamento: 134
+Page fault: pagina 246 carregada no frame 86.
+Endereco fisico: 22141 | Valor: 0
+Endereco logico: 63101 | Pagina: 246 | Deslocamento: 125
+Page fault: pagina 241 carregada no frame 87.
+Endereco fisico: 22378 | Valor: 60
+Endereco logico: 61802 | Pagina: 241 | Deslocamento: 106
+Page fault: pagina 76 carregada no frame 88.
+Endereco fisico: 22720 | Valor: 0
+Endereco logico: 19648 | Pagina: 76 | Deslocamento: 192
+Pagina 113 encontrada no frame 64.
+Endereco fisico: 16487 | Valor: 89
+Endereco logico: 29031 | Pagina: 113 | Deslocamento: 103
+Pagina 175 encontrada no frame 51.
+Endereco fisico: 13237 | Valor: 0
+Endereco logico: 44981 | Pagina: 175 | Deslocamento: 181
+Pagina 109 encontrada no frame 13.
+Endereco fisico: 3516 | Valor: 0
+Endereco logico: 28092 | Pagina: 109 | Deslocamento: 188
+Page fault: pagina 36 carregada no frame 89.
+Endereco fisico: 23016 | Valor: 0
+Endereco logico: 9448 | Pagina: 36 | Deslocamento: 232
+Pagina 174 encontrada no frame 43.
+Endereco fisico: 11208 | Valor: 0
+Endereco logico: 44744 | Pagina: 174 | Deslocamento: 200
+Page fault: pagina 240 carregada no frame 90.
+Endereco fisico: 23096 | Valor: 0
+Endereco logico: 61496 | Pagina: 240 | Deslocamento: 56
+Page fault: pagina 122 carregada no frame 91.
+Endereco fisico: 23517 | Valor: 0
+Endereco logico: 31453 | Pagina: 122 | Deslocamento: 221
+Page fault: pagina 237 carregada no frame 92.
+Endereco fisico: 23626 | Valor: 59
+Endereco logico: 60746 | Pagina: 237 | Deslocamento: 74
+Pagina 47 encontrada no frame 10.
+Endereco fisico: 2727 | Valor: -23
+Endereco logico: 12199 | Pagina: 47 | Deslocamento: 167
+Page fault: pagina 243 carregada no frame 93.
+Endereco fisico: 23855 | Valor: -53
+Endereco logico: 62255 | Pagina: 243 | Deslocamento: 47
+Page fault: pagina 85 carregada no frame 94.
+Endereco fisico: 24097 | Valor: 0
+Endereco logico: 21793 | Pagina: 85 | Deslocamento: 33
+Page fault: pagina 103 carregada no frame 95.
+Endereco fisico: 24496 | Valor: 0
+Endereco logico: 26544 | Pagina: 103 | Deslocamento: 176
+Page fault: pagina 58 carregada no frame 96.
+Endereco fisico: 24692 | Valor: 0
+Endereco logico: 14964 | Pagina: 58 | Deslocamento: 116
+Page fault: pagina 161 carregada no frame 97.
+Endereco fisico: 25078 | Valor: 40
+Endereco logico: 41462 | Pagina: 161 | Deslocamento: 246
+Page fault: pagina 219 carregada no frame 98.
+Endereco fisico: 25113 | Valor: 0
+Endereco logico: 56089 | Pagina: 219 | Deslocamento: 25
+Page fault: pagina 203 carregada no frame 99.
+Endereco fisico: 25414 | Valor: 50
+Endereco logico: 52038 | Pagina: 203 | Deslocamento: 70
+Page fault: pagina 187 carregada no frame 100.
+Endereco fisico: 25710 | Valor: 46
+Endereco logico: 47982 | Pagina: 187 | Deslocamento: 110
+Page fault: pagina 232 carregada no frame 101.
+Endereco fisico: 25948 | Valor: 0
+Endereco logico: 59484 | Pagina: 232 | Deslocamento: 92
+Page fault: pagina 198 carregada no frame 102.
+Endereco fisico: 26348 | Valor: 0
+Endereco logico: 50924 | Pagina: 198 | Deslocamento: 236
+Page fault: pagina 27 carregada no frame 103.
+Endereco fisico: 26398 | Valor: 6
+Endereco logico: 6942 | Pagina: 27 | Deslocamento: 30
+Page fault: pagina 136 carregada no frame 104.
+Endereco fisico: 26806 | Valor: 34
+Endereco logico: 34998 | Pagina: 136 | Deslocamento: 182
+Page fault: pagina 105 carregada no frame 105.
+Endereco fisico: 27069 | Valor: 0
+Endereco logico: 27069 | Pagina: 105 | Deslocamento: 189
+Page fault: pagina 202 carregada no frame 106.
+Endereco fisico: 27350 | Valor: 50
+Endereco logico: 51926 | Pagina: 202 | Deslocamento: 214
+Pagina 236 encontrada no frame 28.
+Endereco fisico: 7397 | Valor: 0
+Endereco logico: 60645 | Pagina: 236 | Deslocamento: 229
+Pagina 168 encontrada no frame 68.
+Endereco fisico: 17581 | Valor: 0
+Endereco logico: 43181 | Pagina: 168 | Deslocamento: 173
+Page fault: pagina 41 carregada no frame 107.
+Endereco fisico: 27455 | Valor: 79
+Endereco logico: 10559 | Pagina: 41 | Deslocamento: 63
+Page fault: pagina 18 carregada no frame 108.
+Endereco fisico: 27704 | Valor: 0
+Endereco logico: 4664 | Pagina: 18 | Deslocamento: 56
+Page fault: pagina 111 carregada no frame 109.
+Endereco fisico: 28066 | Valor: 27
+Endereco logico: 28578 | Pagina: 111 | Deslocamento: 162
+Pagina 232 encontrada no frame 101.
+Endereco fisico: 25980 | Valor: 0
+Endereco logico: 59516 | Pagina: 232 | Deslocamento: 124
+Pagina 152 encontrada no frame 15.
+Endereco fisico: 3840 | Valor: 0
+Endereco logico: 38912 | Pagina: 152 | Deslocamento: 0
+Page fault: pagina 248 carregada no frame 110.
+Endereco fisico: 28234 | Valor: 62
+Endereco logico: 63562 | Pagina: 248 | Deslocamento: 74
+Pagina 253 encontrada no frame 8.
+Endereco fisico: 2126 | Valor: 63
+Endereco logico: 64846 | Pagina: 253 | Deslocamento: 78
+Page fault: pagina 245 carregada no frame 111.
+Endereco fisico: 28634 | Valor: 61
+Endereco logico: 62938 | Pagina: 245 | Deslocamento: 218
+Page fault: pagina 106 carregada no frame 112.
+Endereco fisico: 28730 | Valor: 26
+Endereco logico: 27194 | Pagina: 106 | Deslocamento: 58
+Pagina 112 encontrada no frame 5.
+Endereco fisico: 1412 | Valor: 0
+Endereco logico: 28804 | Pagina: 112 | Deslocamento: 132
+Pagina 241 encontrada no frame 87.
+Endereco fisico: 22279 | Valor: 65
+Endereco logico: 61703 | Pagina: 241 | Deslocamento: 7
+Pagina 42 encontrada no frame 48.
+Endereco fisico: 12534 | Valor: 10
+Endereco logico: 10998 | Pagina: 42 | Deslocamento: 246
+Page fault: pagina 25 carregada no frame 113.
+Endereco fisico: 29124 | Valor: 0
+Endereco logico: 6596 | Pagina: 25 | Deslocamento: 196
+Page fault: pagina 147 carregada no frame 114.
+Endereco fisico: 29273 | Valor: 0
+Endereco logico: 37721 | Pagina: 147 | Deslocamento: 89
+Page fault: pagina 169 carregada no frame 115.
+Endereco fisico: 29606 | Valor: 42
+Endereco logico: 43430 | Pagina: 169 | Deslocamento: 166
+Pagina 88 encontrada no frame 11.
+Endereco fisico: 2980 | Valor: 0
+Endereco logico: 22692 | Pagina: 88 | Deslocamento: 164
+Pagina 245 encontrada no frame 111.
+Endereco fisico: 28667 | Valor: 126
+Endereco logico: 62971 | Pagina: 245 | Deslocamento: 251
+Page fault: pagina 184 carregada no frame 116.
+Endereco fisico: 29717 | Valor: 0
+Endereco logico: 47125 | Pagina: 184 | Deslocamento: 21
+Page fault: pagina 205 carregada no frame 117.
+Endereco fisico: 29993 | Valor: 0
+Endereco logico: 52521 | Pagina: 205 | Deslocamento: 41
+Pagina 135 encontrada no frame 70.
+Endereco fisico: 18006 | Valor: 33
+Endereco logico: 34646 | Pagina: 135 | Deslocamento: 86
+Pagina 128 encontrada no frame 16.
+Endereco fisico: 4217 | Valor: 0
+Endereco logico: 32889 | Pagina: 128 | Deslocamento: 121
+Page fault: pagina 50 carregada no frame 118.
+Endereco fisico: 30463 | Valor: -65
+Endereco logico: 13055 | Pagina: 50 | Deslocamento: 255
+Page fault: pagina 255 carregada no frame 119.
+Endereco fisico: 30600 | Valor: 0
+Endereco logico: 65416 | Pagina: 255 | Deslocamento: 136
+Pagina 245 encontrada no frame 111.
+Endereco fisico: 28565 | Valor: 0
+Endereco logico: 62869 | Pagina: 245 | Deslocamento: 149
+Page fault: pagina 223 carregada no frame 120.
+Endereco fisico: 30946 | Valor: 55
+Endereco logico: 57314 | Pagina: 223 | Deslocamento: 226
+Page fault: pagina 49 carregada no frame 121.
+Endereco fisico: 31091 | Valor: 92
+Endereco logico: 12659 | Pagina: 49 | Deslocamento: 115
+Page fault: pagina 54 carregada no frame 122.
+Endereco fisico: 31460 | Valor: 0
+Endereco logico: 14052 | Pagina: 54 | Deslocamento: 228
+Pagina 128 encontrada no frame 16.
+Endereco fisico: 4284 | Valor: 0
+Endereco logico: 32956 | Pagina: 128 | Deslocamento: 188
+Pagina 192 encontrada no frame 33.
+Endereco fisico: 8569 | Valor: 0
+Endereco logico: 49273 | Pagina: 192 | Deslocamento: 121
+Pagina 196 encontrada no frame 54.
+Endereco fisico: 14000 | Valor: 0
+Endereco logico: 50352 | Pagina: 196 | Deslocamento: 176
+Page fault: pagina 194 carregada no frame 123.
+Endereco fisico: 31561 | Valor: 0
+Endereco logico: 49737 | Pagina: 194 | Deslocamento: 73
+Page fault: pagina 60 carregada no frame 124.
+Endereco fisico: 31939 | Valor: 48
+Endereco logico: 15555 | Pagina: 60 | Deslocamento: 195
+Page fault: pagina 185 carregada no frame 125.
+Endereco fisico: 32115 | Valor: 92
+Endereco logico: 47475 | Pagina: 185 | Deslocamento: 115
+Page fault: pagina 59 carregada no frame 126.
+Endereco fisico: 32480 | Valor: 0
+Endereco logico: 15328 | Pagina: 59 | Deslocamento: 224
+Pagina 135 encontrada no frame 70.
+Endereco fisico: 17981 | Valor: 0
+Endereco logico: 34621 | Pagina: 135 | Deslocamento: 61
+Page fault: pagina 200 carregada no frame 127.
+Endereco fisico: 32677 | Valor: 0
+Endereco logico: 51365 | Pagina: 200 | Deslocamento: 165
+Pagina 128 encontrada no frame 16.
+Endereco fisico: 4148 | Valor: 0
+Endereco logico: 32820 | Pagina: 128 | Deslocamento: 52
+Page fault: pagina 190 carregada no frame 0.
+Endereco fisico: 215 | Valor: -75
+Endereco logico: 48855 | Pagina: 190 | Deslocamento: 215
+Pagina 47 encontrada no frame 10.
+Endereco fisico: 2752 | Valor: 0
+Endereco logico: 12224 | Pagina: 47 | Deslocamento: 192
+Page fault: pagina 7 carregada no frame 2.
+Endereco fisico: 755 | Valor: -4
+Endereco logico: 2035 | Pagina: 7 | Deslocamento: 243
+Pagina 236 encontrada no frame 28.
+Endereco fisico: 7291 | Valor: 30
+Endereco logico: 60539 | Pagina: 236 | Deslocamento: 123
+Page fault: pagina 57 carregada no frame 3.
+Endereco fisico: 771 | Valor: 64
+Endereco logico: 14595 | Pagina: 57 | Deslocamento: 3
+Pagina 54 encontrada no frame 122.
+Endereco fisico: 31261 | Valor: 0
+Endereco logico: 13853 | Pagina: 54 | Deslocamento: 29
+Page fault: pagina 94 carregada no frame 6.
+Endereco fisico: 1615 | Valor: -109
+Endereco logico: 24143 | Pagina: 94 | Deslocamento: 79
+Pagina 59 encontrada no frame 126.
+Endereco fisico: 32368 | Valor: 0
+Endereco logico: 15216 | Pagina: 59 | Deslocamento: 112
+Page fault: pagina 31 carregada no frame 7.
+Endereco fisico: 1969 | Valor: 0
+Endereco logico: 8113 | Pagina: 31 | Deslocamento: 177
+Pagina 88 encontrada no frame 11.
+Endereco fisico: 2928 | Valor: 0
+Endereco logico: 22640 | Pagina: 88 | Deslocamento: 112
+Pagina 128 encontrada no frame 16.
+Endereco fisico: 4306 | Valor: 32
+Endereco logico: 32978 | Pagina: 128 | Deslocamento: 210
+Pagina 152 encontrada no frame 15.
+Endereco fisico: 4079 | Valor: 59
+Endereco logico: 39151 | Pagina: 152 | Deslocamento: 239
+Pagina 76 encontrada no frame 88.
+Endereco fisico: 22592 | Valor: 0
+Endereco logico: 19520 | Pagina: 76 | Deslocamento: 64
+Page fault: pagina 227 carregada no frame 9.
+Endereco fisico: 2333 | Valor: 0
+Endereco logico: 58141 | Pagina: 227 | Deslocamento: 29
+Pagina 249 encontrada no frame 85.
+Endereco fisico: 21975 | Valor: 117
+Endereco logico: 63959 | Pagina: 249 | Deslocamento: 215
+Page fault: pagina 207 carregada no frame 14.
+Endereco fisico: 3632 | Valor: 0
+Endereco logico: 53040 | Pagina: 207 | Deslocamento: 48
+Page fault: pagina 218 carregada no frame 17.
+Endereco fisico: 4386 | Valor: 54
+Endereco logico: 55842 | Pagina: 218 | Deslocamento: 34
+Pagina 2 encontrada no frame 67.
+Endereco fisico: 17225 | Valor: 0
+Endereco logico: 585 | Pagina: 2 | Deslocamento: 73
+Pagina 200 encontrada no frame 127.
+Endereco fisico: 32541 | Valor: 0
+Endereco logico: 51229 | Pagina: 200 | Deslocamento: 29
+Page fault: pagina 250 carregada no frame 18.
+Endereco fisico: 4789 | Valor: 0
+Endereco logico: 64181 | Pagina: 250 | Deslocamento: 181
+Page fault: pagina 214 carregada no frame 20.
+Endereco fisico: 5215 | Valor: -105
+Endereco logico: 54879 | Pagina: 214 | Deslocamento: 95
+Page fault: pagina 110 carregada no frame 21.
+Endereco fisico: 5426 | Valor: 27
+Endereco logico: 28210 | Pagina: 110 | Deslocamento: 50
+Pagina 40 encontrada no frame 57.
+Endereco fisico: 14620 | Valor: 0
+Endereco logico: 10268 | Pagina: 40 | Deslocamento: 28
+Pagina 60 encontrada no frame 124.
+Endereco fisico: 31779 | Valor: 8
+Endereco logico: 15395 | Pagina: 60 | Deslocamento: 35
+Pagina 50 encontrada no frame 118.
+Endereco fisico: 30292 | Valor: 0
+Endereco logico: 12884 | Pagina: 50 | Deslocamento: 84
+Page fault: pagina 8 carregada no frame 22.
+Endereco fisico: 5733 | Valor: 0
+Endereco logico: 2149 | Pagina: 8 | Deslocamento: 101
+Page fault: pagina 208 carregada no frame 23.
+Endereco fisico: 6123 | Valor: 58
+Endereco logico: 53483 | Pagina: 208 | Deslocamento: 235
+Pagina 232 encontrada no frame 101.
+Endereco fisico: 26070 | Valor: 58
+Endereco logico: 59606 | Pagina: 232 | Deslocamento: 214
+Pagina 58 encontrada no frame 96.
+Endereco fisico: 24709 | Valor: 0
+Endereco logico: 14981 | Pagina: 58 | Deslocamento: 133
+Page fault: pagina 143 carregada no frame 24.
+Endereco fisico: 6208 | Valor: 0
+Endereco logico: 36672 | Pagina: 143 | Deslocamento: 64
+Page fault: pagina 90 carregada no frame 25.
+Endereco fisico: 6557 | Valor: 0
+Endereco logico: 23197 | Pagina: 90 | Deslocamento: 157
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14502 | Valor: 35
+Endereco logico: 36518 | Pagina: 142 | Deslocamento: 166
+Page fault: pagina 52 carregada no frame 27.
+Endereco fisico: 6961 | Valor: 0
+Endereco logico: 13361 | Pagina: 52 | Deslocamento: 49
+Page fault: pagina 77 carregada no frame 29.
+Endereco fisico: 7522 | Valor: 19
+Endereco logico: 19810 | Pagina: 77 | Deslocamento: 98
+Page fault: pagina 101 carregada no frame 30.
+Endereco fisico: 7779 | Valor: 88
+Endereco logico: 25955 | Pagina: 101 | Deslocamento: 99
+Pagina 244 encontrada no frame 1.
+Endereco fisico: 470 | Valor: 61
+Endereco logico: 62678 | Pagina: 244 | Deslocamento: 214
+Pagina 101 encontrada no frame 30.
+Endereco fisico: 7845 | Valor: 0
+Endereco logico: 26021 | Pagina: 101 | Deslocamento: 165
+Page fault: pagina 114 carregada no frame 31.
+Endereco fisico: 8161 | Valor: 0
+Endereco logico: 29409 | Pagina: 114 | Deslocamento: 225
+Page fault: pagina 148 carregada no frame 32.
+Endereco fisico: 8415 | Valor: 55
+Endereco logico: 38111 | Pagina: 148 | Deslocamento: 223
+Pagina 228 encontrada no frame 60.
+Endereco fisico: 15565 | Valor: 0
+Endereco logico: 58573 | Pagina: 228 | Deslocamento: 205
+Page fault: pagina 222 carregada no frame 36.
+Endereco fisico: 9224 | Valor: 0
+Endereco logico: 56840 | Pagina: 222 | Deslocamento: 8
+Pagina 161 encontrada no frame 97.
+Endereco fisico: 24922 | Valor: 40
+Endereco logico: 41306 | Pagina: 161 | Deslocamento: 90
+Pagina 212 encontrada no frame 75.
+Endereco fisico: 19354 | Valor: 53
+Endereco logico: 54426 | Pagina: 212 | Deslocamento: 154
+Pagina 14 encontrada no frame 39.
+Endereco fisico: 10017 | Valor: 0
+Endereco logico: 3617 | Pagina: 14 | Deslocamento: 33
+Pagina 197 encontrada no frame 72.
+Endereco fisico: 18652 | Valor: 0
+Endereco logico: 50652 | Pagina: 197 | Deslocamento: 220
+Pagina 161 encontrada no frame 97.
+Endereco fisico: 25068 | Valor: 0
+Endereco logico: 41452 | Pagina: 161 | Deslocamento: 236
+Pagina 79 encontrada no frame 65.
+Endereco fisico: 16657 | Valor: 0
+Endereco logico: 20241 | Pagina: 79 | Deslocamento: 17
+Pagina 123 encontrada no frame 47.
+Endereco fisico: 12267 | Valor: -6
+Endereco logico: 31723 | Pagina: 123 | Deslocamento: 235
+Page fault: pagina 209 carregada no frame 37.
+Endereco fisico: 9715 | Valor: 124
+Endereco logico: 53747 | Pagina: 209 | Deslocamento: 243
+Pagina 111 encontrada no frame 109.
+Endereco fisico: 28038 | Valor: 27
+Endereco logico: 28550 | Pagina: 111 | Deslocamento: 134
+Pagina 91 encontrada no frame 80.
+Endereco fisico: 20586 | Valor: 22
+Endereco logico: 23402 | Pagina: 91 | Deslocamento: 106
+Page fault: pagina 82 carregada no frame 4.
+Endereco fisico: 1237 | Valor: 0
+Endereco logico: 21205 | Pagina: 82 | Deslocamento: 213
+Pagina 219 encontrada no frame 98.
+Endereco fisico: 25205 | Valor: 0
+Endereco logico: 56181 | Pagina: 219 | Deslocamento: 117
+Page fault: pagina 224 carregada no frame 41.
+Endereco fisico: 10622 | Valor: 56
+Endereco logico: 57470 | Pagina: 224 | Deslocamento: 126
+Page fault: pagina 155 carregada no frame 42.
+Endereco fisico: 11005 | Valor: 0
+Endereco logico: 39933 | Pagina: 155 | Deslocamento: 253
+Pagina 136 encontrada no frame 104.
+Endereco fisico: 26772 | Valor: 0
+Endereco logico: 34964 | Pagina: 136 | Deslocamento: 148
+Page fault: pagina 96 carregada no frame 45.
+Endereco fisico: 11725 | Valor: 0
+Endereco logico: 24781 | Pagina: 96 | Deslocamento: 205
+Page fault: pagina 163 carregada no frame 49.
+Endereco fisico: 12563 | Valor: -60
+Endereco logico: 41747 | Pagina: 163 | Deslocamento: 19
+Pagina 244 encontrada no frame 1.
+Endereco fisico: 356 | Valor: 0
+Endereco logico: 62564 | Pagina: 244 | Deslocamento: 100
+Pagina 228 encontrada no frame 60.
+Endereco fisico: 15453 | Valor: 0
+Endereco logico: 58461 | Pagina: 228 | Deslocamento: 93
+Page fault: pagina 81 carregada no frame 50.
+Endereco fisico: 12922 | Valor: 20
+Endereco logico: 20858 | Pagina: 81 | Deslocamento: 122
+Pagina 192 encontrada no frame 33.
+Endereco fisico: 8597 | Valor: 0
+Endereco logico: 49301 | Pagina: 192 | Deslocamento: 149
+Page fault: pagina 158 carregada no frame 52.
+Endereco fisico: 13436 | Valor: 0
+Endereco logico: 40572 | Pagina: 158 | Deslocamento: 124
+Page fault: pagina 93 carregada no frame 53.
+Endereco fisico: 13600 | Valor: 0
+Endereco logico: 23840 | Pagina: 93 | Deslocamento: 32
+Page fault: pagina 137 carregada no frame 55.
+Endereco fisico: 14286 | Valor: 34
+Endereco logico: 35278 | Pagina: 137 | Deslocamento: 206
+Pagina 245 encontrada no frame 111.
+Endereco fisico: 28601 | Valor: 0
+Endereco logico: 62905 | Pagina: 245 | Deslocamento: 185
+Page fault: pagina 221 carregada no frame 59.
+Endereco fisico: 15178 | Valor: 55
+Endereco logico: 56650 | Pagina: 221 | Deslocamento: 74
+Page fault: pagina 43 carregada no frame 61.
+Endereco fisico: 15757 | Valor: 0
+Endereco logico: 11149 | Pagina: 43 | Deslocamento: 141
+Pagina 152 encontrada no frame 15.
+Endereco fisico: 3848 | Valor: 0
+Endereco logico: 38920 | Pagina: 152 | Deslocamento: 8
+Pagina 91 encontrada no frame 80.
+Endereco fisico: 20614 | Valor: 22
+Endereco logico: 23430 | Pagina: 91 | Deslocamento: 134
+Pagina 224 encontrada no frame 41.
+Endereco fisico: 10744 | Valor: 0
+Endereco logico: 57592 | Pagina: 224 | Deslocamento: 248
+Page fault: pagina 12 carregada no frame 62.
+Endereco fisico: 15880 | Valor: 0
+Endereco logico: 3080 | Pagina: 12 | Deslocamento: 8
+Pagina 26 encontrada no frame 26.
+Endereco fisico: 6677 | Valor: 0
+Endereco logico: 6677 | Pagina: 26 | Deslocamento: 21
+Pagina 198 encontrada no frame 102.
+Endereco fisico: 26128 | Valor: 0
+Endereco logico: 50704 | Pagina: 198 | Deslocamento: 16
+Pagina 202 encontrada no frame 106.
+Endereco fisico: 27307 | Valor: -86
+Endereco logico: 51883 | Pagina: 202 | Deslocamento: 171
+Pagina 245 encontrada no frame 111.
+Endereco fisico: 28495 | Valor: 83
+Endereco logico: 62799 | Pagina: 245 | Deslocamento: 79
+Page fault: pagina 78 carregada no frame 35.
+Endereco fisico: 9180 | Valor: 0
+Endereco logico: 20188 | Pagina: 78 | Deslocamento: 220
+Page fault: pagina 4 carregada no frame 63.
+Endereco fisico: 16349 | Valor: 0
+Endereco logico: 1245 | Pagina: 4 | Deslocamento: 221
+Pagina 47 encontrada no frame 10.
+Endereco fisico: 2748 | Valor: 0
+Endereco logico: 12220 | Pagina: 47 | Deslocamento: 188
+Page fault: pagina 68 carregada no frame 34.
+Endereco fisico: 8898 | Valor: 17
+Endereco logico: 17602 | Pagina: 68 | Deslocamento: 194
+Pagina 111 encontrada no frame 109.
+Endereco fisico: 28097 | Valor: 0
+Endereco logico: 28609 | Pagina: 111 | Deslocamento: 193
+Pagina 166 encontrada no frame 81.
+Endereco fisico: 20934 | Valor: 41
+Endereco logico: 42694 | Pagina: 166 | Deslocamento: 198
+Page fault: pagina 116 carregada no frame 12.
+Endereco fisico: 3202 | Valor: 29
+Endereco logico: 29826 | Pagina: 116 | Deslocamento: 130
+Pagina 54 encontrada no frame 122.
+Endereco fisico: 31235 | Valor: -128
+Endereco logico: 13827 | Pagina: 54 | Deslocamento: 3
+Pagina 106 encontrada no frame 112.
+Endereco fisico: 28872 | Valor: 0
+Endereco logico: 27336 | Pagina: 106 | Deslocamento: 200
+Pagina 208 encontrada no frame 23.
+Endereco fisico: 5983 | Valor: 23
+Endereco logico: 53343 | Pagina: 208 | Deslocamento: 95
+Page fault: pagina 45 carregada no frame 66.
+Endereco fisico: 16909 | Valor: 0
+Endereco logico: 11533 | Pagina: 45 | Deslocamento: 13
+Page fault: pagina 162 carregada no frame 69.
+Endereco fisico: 17905 | Valor: 0
+Endereco logico: 41713 | Pagina: 162 | Deslocamento: 241
+Page fault: pagina 132 carregada no frame 71.
+Endereco fisico: 18274 | Valor: 33
+Endereco logico: 33890 | Pagina: 132 | Deslocamento: 98
+Page fault: pagina 19 carregada no frame 40.
+Endereco fisico: 10270 | Valor: 4
+Endereco logico: 4894 | Pagina: 19 | Deslocamento: 30
+Pagina 224 encontrada no frame 41.
+Endereco fisico: 10751 | Valor: 63
+Endereco logico: 57599 | Pagina: 224 | Deslocamento: 255
+Pagina 15 encontrada no frame 74.
+Endereco fisico: 18974 | Valor: 3
+Endereco logico: 3870 | Pagina: 15 | Deslocamento: 30
+Pagina 228 encontrada no frame 60.
+Endereco fisico: 15614 | Valor: 57
+Endereco logico: 58622 | Pagina: 228 | Deslocamento: 254
+Pagina 116 encontrada no frame 12.
+Endereco fisico: 3156 | Valor: 0
+Endereco logico: 29780 | Pagina: 116 | Deslocamento: 84
+Pagina 244 encontrada no frame 1.
+Endereco fisico: 345 | Valor: 0
+Endereco logico: 62553 | Pagina: 244 | Deslocamento: 89
+Pagina 8 encontrada no frame 22.
+Endereco fisico: 5887 | Valor: 63
+Endereco logico: 2303 | Pagina: 8 | Deslocamento: 255
+Pagina 202 encontrada no frame 106.
+Endereco fisico: 27339 | Valor: -78
+Endereco logico: 51915 | Pagina: 202 | Deslocamento: 203
+Page fault: pagina 24 carregada no frame 38.
+Endereco fisico: 9835 | Valor: 26
+Endereco logico: 6251 | Pagina: 24 | Deslocamento: 107
+Pagina 148 encontrada no frame 32.
+Endereco fisico: 8411 | Valor: 54
+Endereco logico: 38107 | Pagina: 148 | Deslocamento: 219
+Page fault: pagina 231 carregada no frame 73.
+Endereco fisico: 18877 | Valor: 0
+Endereco logico: 59325 | Pagina: 231 | Deslocamento: 189
+Page fault: pagina 239 carregada no frame 76.
+Endereco fisico: 19567 | Valor: -37
+Endereco logico: 61295 | Pagina: 239 | Deslocamento: 111
+Page fault: pagina 104 carregada no frame 77.
+Endereco fisico: 19787 | Valor: 18
+Endereco logico: 26699 | Pagina: 104 | Deslocamento: 75
+Page fault: pagina 199 carregada no frame 58.
+Endereco fisico: 15092 | Valor: 0
+Endereco logico: 51188 | Pagina: 199 | Deslocamento: 244
+Pagina 232 encontrada no frame 101.
+Endereco fisico: 25983 | Valor: 31
+Endereco logico: 59519 | Pagina: 232 | Deslocamento: 127
+Page fault: pagina 28 carregada no frame 78.
+Endereco fisico: 20145 | Valor: 0
+Endereco logico: 7345 | Pagina: 28 | Deslocamento: 177
+Pagina 79 encontrada no frame 65.
+Endereco fisico: 16741 | Valor: 0
+Endereco logico: 20325 | Pagina: 79 | Deslocamento: 101
+Page fault: pagina 154 carregada no frame 79.
+Endereco fisico: 20433 | Valor: 0
+Endereco logico: 39633 | Pagina: 154 | Deslocamento: 209
+Page fault: pagina 6 carregada no frame 82.
+Endereco fisico: 21018 | Valor: 1
+Endereco logico: 1562 | Pagina: 6 | Deslocamento: 26
+Page fault: pagina 29 carregada no frame 46.
+Endereco fisico: 11932 | Valor: 0
+Endereco logico: 7580 | Pagina: 29 | Deslocamento: 156
+Pagina 31 encontrada no frame 7.
+Endereco fisico: 2026 | Valor: 7
+Endereco logico: 8170 | Pagina: 31 | Deslocamento: 234
+Pagina 243 encontrada no frame 93.
+Endereco fisico: 23856 | Valor: 0
+Endereco logico: 62256 | Pagina: 243 | Deslocamento: 48
+Page fault: pagina 139 carregada no frame 44.
+Endereco fisico: 11503 | Valor: -5
+Endereco logico: 35823 | Pagina: 139 | Deslocamento: 239
+Page fault: pagina 108 carregada no frame 83.
+Endereco fisico: 21390 | Valor: 27
+Endereco logico: 27790 | Pagina: 108 | Deslocamento: 142
+Page fault: pagina 51 carregada no frame 84.
+Endereco fisico: 21639 | Valor: -31
+Endereco logico: 13191 | Pagina: 51 | Deslocamento: 135
+Page fault: pagina 38 carregada no frame 19.
+Endereco fisico: 4908 | Valor: 0
+Endereco logico: 9772 | Pagina: 38 | Deslocamento: 44
+Pagina 29 encontrada no frame 46.
+Endereco fisico: 11829 | Valor: 0
+Endereco logico: 7477 | Pagina: 29 | Deslocamento: 53
+Page fault: pagina 173 carregada no frame 86.
+Endereco fisico: 22183 | Valor: 105
+Endereco logico: 44455 | Pagina: 173 | Deslocamento: 167
+Pagina 232 encontrada no frame 101.
+Endereco fisico: 26010 | Valor: 58
+Endereco logico: 59546 | Pagina: 232 | Deslocamento: 154
+Pagina 192 encontrada no frame 33.
+Endereco fisico: 8643 | Valor: 48
+Endereco logico: 49347 | Pagina: 192 | Deslocamento: 195
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14523 | Valor: -82
+Endereco logico: 36539 | Pagina: 142 | Deslocamento: 187
+Page fault: pagina 48 carregada no frame 64.
+Endereco fisico: 16549 | Valor: 0
+Endereco logico: 12453 | Pagina: 48 | Deslocamento: 165
+Page fault: pagina 193 carregada no frame 51.
+Endereco fisico: 13288 | Valor: 0
+Endereco logico: 49640 | Pagina: 193 | Deslocamento: 232
+Pagina 110 encontrada no frame 21.
+Endereco fisico: 5506 | Valor: 27
+Endereco logico: 28290 | Pagina: 110 | Deslocamento: 130
+Page fault: pagina 175 carregada no frame 13.
+Endereco fisico: 3345 | Valor: 0
+Endereco logico: 44817 | Pagina: 175 | Deslocamento: 17
+Page fault: pagina 33 carregada no frame 89.
+Endereco fisico: 22901 | Valor: 0
+Endereco logico: 8565 | Pagina: 33 | Deslocamento: 117
+Page fault: pagina 64 carregada no frame 43.
+Endereco fisico: 11023 | Valor: 3
+Endereco logico: 16399 | Pagina: 64 | Deslocamento: 15
+Pagina 163 encontrada no frame 49.
+Endereco fisico: 12750 | Valor: 40
+Endereco logico: 41934 | Pagina: 163 | Deslocamento: 206
+Page fault: pagina 177 carregada no frame 90.
+Endereco fisico: 23185 | Valor: 0
+Endereco logico: 45457 | Pagina: 177 | Deslocamento: 145
+Pagina 132 encontrada no frame 71.
+Endereco fisico: 18240 | Valor: 0
+Endereco logico: 33856 | Pagina: 132 | Deslocamento: 64
+Pagina 76 encontrada no frame 88.
+Endereco fisico: 22570 | Valor: 19
+Endereco logico: 19498 | Pagina: 76 | Deslocamento: 42
+Pagina 68 encontrada no frame 34.
+Endereco fisico: 8957 | Valor: 0
+Endereco logico: 17661 | Pagina: 68 | Deslocamento: 253
+Pagina 249 encontrada no frame 85.
+Endereco fisico: 21845 | Valor: 0
+Endereco logico: 63829 | Pagina: 249 | Deslocamento: 85
+Page fault: pagina 164 carregada no frame 91.
+Endereco fisico: 23346 | Valor: 41
+Endereco logico: 42034 | Pagina: 164 | Deslocamento: 50
+Page fault: pagina 113 carregada no frame 92.
+Endereco fisico: 23552 | Valor: 0
+Endereco logico: 28928 | Pagina: 113 | Deslocamento: 0
+Page fault: pagina 119 carregada no frame 94.
+Endereco fisico: 24311 | Valor: -3
+Endereco logico: 30711 | Pagina: 119 | Deslocamento: 247
+Page fault: pagina 34 carregada no frame 95.
+Endereco fisico: 24416 | Valor: 0
+Endereco logico: 8800 | Pagina: 34 | Deslocamento: 96
+Page fault: pagina 204 carregada no frame 99.
+Endereco fisico: 25455 | Valor: 27
+Endereco logico: 52335 | Pagina: 204 | Deslocamento: 111
+Page fault: pagina 151 carregada no frame 100.
+Endereco fisico: 25719 | Valor: -35
+Endereco logico: 38775 | Pagina: 151 | Deslocamento: 119
+Pagina 205 encontrada no frame 117.
+Endereco fisico: 30176 | Valor: 0
+Endereco logico: 52704 | Pagina: 205 | Deslocamento: 224
+Page fault: pagina 95 carregada no frame 103.
+Endereco fisico: 26428 | Valor: 0
+Endereco logico: 24380 | Pagina: 95 | Deslocamento: 60
+Pagina 76 encontrada no frame 88.
+Endereco fisico: 22674 | Valor: 19
+Endereco logico: 19602 | Pagina: 76 | Deslocamento: 146
+Page fault: pagina 226 carregada no frame 105.
+Endereco fisico: 27022 | Valor: 56
+Endereco logico: 57998 | Pagina: 226 | Deslocamento: 142
+Page fault: pagina 11 carregada no frame 68.
+Endereco fisico: 17511 | Valor: -39
+Endereco logico: 2919 | Pagina: 11 | Deslocamento: 103
+Page fault: pagina 32 carregada no frame 107.
+Endereco fisico: 27562 | Valor: 8
+Endereco logico: 8362 | Pagina: 32 | Deslocamento: 170
+Page fault: pagina 69 carregada no frame 108.
+Endereco fisico: 27868 | Valor: 0
+Endereco logico: 17884 | Pagina: 69 | Deslocamento: 220
+Page fault: pagina 178 carregada no frame 110.
+Endereco fisico: 28329 | Valor: 0
+Endereco logico: 45737 | Pagina: 178 | Deslocamento: 169
+Page fault: pagina 187 carregada no frame 8.
+Endereco fisico: 2070 | Valor: 46
+Endereco logico: 47894 | Pagina: 187 | Deslocamento: 22
+Page fault: pagina 233 carregada no frame 5.
+Endereco fisico: 1299 | Valor: 68
+Endereco logico: 59667 | Pagina: 233 | Deslocamento: 19
+Pagina 40 encontrada no frame 57.
+Endereco fisico: 14737 | Valor: 0
+Endereco logico: 10385 | Pagina: 40 | Deslocamento: 145
+Page fault: pagina 206 carregada no frame 87.
+Endereco fisico: 22318 | Valor: 51
+Endereco logico: 52782 | Pagina: 206 | Deslocamento: 46
+Page fault: pagina 251 carregada no frame 48.
+Endereco fisico: 12448 | Valor: 0
+Endereco logico: 64416 | Pagina: 251 | Deslocamento: 160
+Page fault: pagina 159 carregada no frame 113.
+Endereco fisico: 29170 | Valor: 39
+Endereco logico: 40946 | Pagina: 159 | Deslocamento: 242
+Page fault: pagina 65 carregada no frame 114.
+Endereco fisico: 29322 | Valor: 16
+Endereco logico: 16778 | Pagina: 65 | Deslocamento: 138
+Pagina 106 encontrada no frame 112.
+Endereco fisico: 28695 | Valor: -123
+Endereco logico: 27159 | Pagina: 106 | Deslocamento: 23
+Pagina 95 encontrada no frame 103.
+Endereco fisico: 26372 | Valor: 0
+Endereco logico: 24324 | Pagina: 95 | Deslocamento: 4
+Page fault: pagina 126 carregada no frame 115.
+Endereco fisico: 29634 | Valor: 31
+Endereco logico: 32450 | Pagina: 126 | Deslocamento: 194
+Page fault: pagina 35 carregada no frame 116.
+Endereco fisico: 29844 | Valor: 0
+Endereco logico: 9108 | Pagina: 35 | Deslocamento: 148
+Pagina 255 encontrada no frame 119.
+Endereco fisico: 30489 | Valor: 0
+Endereco logico: 65305 | Pagina: 255 | Deslocamento: 25
+Pagina 76 encontrada no frame 88.
+Endereco fisico: 22647 | Valor: 29
+Endereco logico: 19575 | Pagina: 76 | Deslocamento: 119
+Pagina 43 encontrada no frame 61.
+Endereco fisico: 15725 | Valor: 0
+Endereco logico: 11117 | Pagina: 43 | Deslocamento: 109
+Page fault: pagina 254 carregada no frame 120.
+Endereco fisico: 30866 | Valor: 63
+Endereco logico: 65170 | Pagina: 254 | Deslocamento: 146
+Pagina 226 encontrada no frame 105.
+Endereco fisico: 27037 | Valor: 0
+Endereco logico: 58013 | Pagina: 226 | Deslocamento: 157
+Page fault: pagina 240 carregada no frame 121.
+Endereco fisico: 31212 | Valor: 0
+Endereco logico: 61676 | Pagina: 240 | Deslocamento: 236
+Page fault: pagina 248 carregada no frame 54.
+Endereco fisico: 13846 | Valor: 62
+Endereco logico: 63510 | Pagina: 248 | Deslocamento: 22
+Pagina 68 encontrada no frame 34.
+Endereco fisico: 8754 | Valor: 17
+Endereco logico: 17458 | Pagina: 68 | Deslocamento: 50
+Page fault: pagina 213 carregada no frame 123.
+Endereco fisico: 31635 | Valor: 100
+Endereco logico: 54675 | Pagina: 213 | Deslocamento: 147
+Pagina 6 encontrada no frame 82.
+Endereco fisico: 21169 | Valor: 0
+Endereco logico: 1713 | Pagina: 6 | Deslocamento: 177
+Page fault: pagina 215 carregada no frame 125.
+Endereco fisico: 32065 | Valor: 0
+Endereco logico: 55105 | Pagina: 215 | Deslocamento: 65
+Pagina 255 encontrada no frame 119.
+Endereco fisico: 30505 | Valor: 0
+Endereco logico: 65321 | Pagina: 255 | Deslocamento: 41
+Page fault: pagina 176 carregada no frame 70.
+Endereco fisico: 18142 | Valor: 44
+Endereco logico: 45278 | Pagina: 176 | Deslocamento: 222
+Page fault: pagina 102 carregada no frame 0.
+Endereco fisico: 144 | Valor: 0
+Endereco logico: 26256 | Pagina: 102 | Deslocamento: 144
+Pagina 250 encontrada no frame 18.
+Endereco fisico: 4806 | Valor: 62
+Endereco logico: 64198 | Pagina: 250 | Deslocamento: 198
+Page fault: pagina 115 carregada no frame 2.
+Endereco fisico: 513 | Valor: 0
+Endereco logico: 29441 | Pagina: 115 | Deslocamento: 1
+Page fault: pagina 7 carregada no frame 28.
+Endereco fisico: 7304 | Valor: 0
+Endereco logico: 1928 | Pagina: 7 | Deslocamento: 136
+Pagina 154 encontrada no frame 79.
+Endereco fisico: 20225 | Valor: 0
+Endereco logico: 39425 | Pagina: 154 | Deslocamento: 1
+Page fault: pagina 125 carregada no frame 3.
+Endereco fisico: 768 | Valor: 0
+Endereco logico: 32000 | Pagina: 125 | Deslocamento: 0
+Pagina 111 encontrada no frame 109.
+Endereco fisico: 28037 | Valor: 0
+Endereco logico: 28549 | Pagina: 111 | Deslocamento: 133
+Page fault: pagina 180 carregada no frame 6.
+Endereco fisico: 1751 | Valor: 53
+Endereco logico: 46295 | Pagina: 180 | Deslocamento: 215
+Pagina 88 encontrada no frame 11.
+Endereco fisico: 3060 | Valor: 0
+Endereco logico: 22772 | Pagina: 88 | Deslocamento: 244
+Pagina 227 encontrada no frame 9.
+Endereco fisico: 2420 | Valor: 0
+Endereco logico: 58228 | Pagina: 227 | Deslocamento: 116
+Pagina 248 encontrada no frame 54.
+Endereco fisico: 13861 | Valor: 0
+Endereco logico: 63525 | Pagina: 248 | Deslocamento: 37
+Page fault: pagina 127 carregada no frame 126.
+Endereco fisico: 32346 | Valor: 31
+Endereco logico: 32602 | Pagina: 127 | Deslocamento: 90
+Pagina 180 encontrada no frame 6.
+Endereco fisico: 1651 | Valor: 28
+Endereco logico: 46195 | Pagina: 180 | Deslocamento: 115
+Pagina 218 encontrada no frame 17.
+Endereco fisico: 4393 | Valor: 0
+Endereco logico: 55849 | Pagina: 218 | Deslocamento: 41
+Page fault: pagina 181 carregada no frame 16.
+Endereco fisico: 4214 | Valor: 45
+Endereco logico: 46454 | Pagina: 181 | Deslocamento: 118
+Pagina 29 encontrada no frame 46.
+Endereco fisico: 11839 | Valor: 79
+Endereco logico: 7487 | Pagina: 29 | Deslocamento: 63
+Pagina 132 encontrada no frame 71.
+Endereco fisico: 18263 | Valor: 21
+Endereco logico: 33879 | Pagina: 132 | Deslocamento: 87
+Pagina 164 encontrada no frame 91.
+Endereco fisico: 23316 | Valor: 0
+Endereco logico: 42004 | Pagina: 164 | Deslocamento: 20
+Pagina 33 encontrada no frame 89.
+Endereco fisico: 22935 | Valor: 101
+Endereco logico: 8599 | Pagina: 33 | Deslocamento: 151
+Page fault: pagina 72 carregada no frame 14.
+Endereco fisico: 3793 | Valor: 0
+Endereco logico: 18641 | Pagina: 72 | Deslocamento: 209
+Page fault: pagina 191 carregada no frame 67.
+Endereco fisico: 17271 | Valor: -35
+Endereco logico: 49015 | Pagina: 191 | Deslocamento: 119
+Pagina 104 encontrada no frame 77.
+Endereco fisico: 19918 | Valor: 26
+Endereco logico: 26830 | Pagina: 104 | Deslocamento: 206
+Page fault: pagina 135 carregada no frame 127.
+Endereco fisico: 32706 | Valor: 33
+Endereco logico: 34754 | Pagina: 135 | Deslocamento: 194
+Page fault: pagina 57 carregada no frame 20.
+Endereco fisico: 5196 | Valor: 0
+Endereco logico: 14668 | Pagina: 57 | Deslocamento: 76
+Page fault: pagina 149 carregada no frame 124.
+Endereco fisico: 31962 | Valor: 37
+Endereco logico: 38362 | Pagina: 149 | Deslocamento: 218
+Pagina 151 encontrada no frame 100.
+Endereco fisico: 25735 | Valor: -31
+Endereco logico: 38791 | Pagina: 151 | Deslocamento: 135
+Page fault: pagina 16 carregada no frame 118.
+Endereco fisico: 30283 | Valor: 18
+Endereco logico: 4171 | Pagina: 16 | Deslocamento: 75
+Page fault: pagina 179 carregada no frame 96.
+Endereco fisico: 24727 | Valor: -27
+Endereco logico: 45975 | Pagina: 179 | Deslocamento: 151
+Pagina 57 encontrada no frame 20.
+Endereco fisico: 5151 | Valor: 71
+Endereco logico: 14623 | Pagina: 57 | Deslocamento: 31
+Pagina 243 encontrada no frame 93.
+Endereco fisico: 23993 | Valor: 0
+Endereco logico: 62393 | Pagina: 243 | Deslocamento: 185
+Page fault: pagina 252 carregada no frame 24.
+Endereco fisico: 6290 | Valor: 63
+Endereco logico: 64658 | Pagina: 252 | Deslocamento: 146
+Page fault: pagina 42 carregada no frame 25.
+Endereco fisico: 6611 | Valor: -76
+Endereco logico: 10963 | Pagina: 42 | Deslocamento: 211
+Pagina 35 encontrada no frame 116.
+Endereco fisico: 29794 | Valor: 8
+Endereco logico: 9058 | Pagina: 35 | Deslocamento: 98
+Pagina 199 encontrada no frame 58.
+Endereco fisico: 14935 | Valor: -43
+Endereco logico: 51031 | Pagina: 199 | Deslocamento: 87
+Pagina 126 encontrada no frame 115.
+Endereco fisico: 29609 | Valor: 0
+Endereco logico: 32425 | Pagina: 126 | Deslocamento: 169
+Pagina 177 encontrada no frame 90.
+Endereco fisico: 23211 | Valor: 106
+Endereco logico: 45483 | Pagina: 177 | Deslocamento: 171
+Page fault: pagina 174 carregada no frame 27.
+Endereco fisico: 6979 | Valor: -112
+Endereco logico: 44611 | Pagina: 174 | Deslocamento: 67
+Pagina 248 encontrada no frame 54.
+Endereco fisico: 14000 | Valor: 0
+Endereco logico: 63664 | Pagina: 248 | Deslocamento: 176
+Page fault: pagina 214 carregada no frame 29.
+Endereco fisico: 7560 | Valor: 0
+Endereco logico: 54920 | Pagina: 214 | Deslocamento: 136
+Pagina 29 encontrada no frame 46.
+Endereco fisico: 12015 | Valor: 123
+Endereco logico: 7663 | Pagina: 29 | Deslocamento: 239
+Page fault: pagina 220 carregada no frame 30.
+Endereco fisico: 7840 | Valor: 0
+Endereco logico: 56480 | Pagina: 220 | Deslocamento: 160
+Page fault: pagina 5 carregada no frame 31.
+Endereco fisico: 8145 | Valor: 0
+Endereco logico: 1489 | Pagina: 5 | Deslocamento: 209
+Pagina 111 encontrada no frame 109.
+Endereco fisico: 27926 | Valor: 27
+Endereco logico: 28438 | Pagina: 111 | Deslocamento: 22
+Pagina 255 encontrada no frame 119.
+Endereco fisico: 30633 | Valor: 0
+Endereco logico: 65449 | Pagina: 255 | Deslocamento: 169
+Pagina 48 encontrada no frame 64.
+Endereco fisico: 16537 | Valor: 0
+Endereco logico: 12441 | Pagina: 48 | Deslocamento: 153
+Pagina 228 encontrada no frame 60.
+Endereco fisico: 15522 | Valor: 57
+Endereco logico: 58530 | Pagina: 228 | Deslocamento: 162
+Pagina 248 encontrada no frame 54.
+Endereco fisico: 13906 | Valor: 62
+Endereco logico: 63570 | Pagina: 248 | Deslocamento: 82
+Pagina 102 encontrada no frame 0.
+Endereco fisico: 139 | Valor: -94
+Endereco logico: 26251 | Pagina: 102 | Deslocamento: 139
+Page fault: pagina 62 carregada no frame 36.
+Endereco fisico: 9316 | Valor: 0
+Endereco logico: 15972 | Pagina: 62 | Deslocamento: 100
+Pagina 139 encontrada no frame 44.
+Endereco fisico: 11506 | Valor: 34
+Endereco logico: 35826 | Pagina: 139 | Deslocamento: 242
+Page fault: pagina 21 carregada no frame 75.
+Endereco fisico: 19315 | Valor: 92
+Endereco logico: 5491 | Pagina: 21 | Deslocamento: 115
+Page fault: pagina 211 carregada no frame 39.
+Endereco fisico: 10221 | Valor: 0
+Endereco logico: 54253 | Pagina: 211 | Deslocamento: 237
+Pagina 193 encontrada no frame 51.
+Endereco fisico: 13303 | Valor: 125
+Endereco logico: 49655 | Pagina: 193 | Deslocamento: 247
+Page fault: pagina 22 carregada no frame 72.
+Endereco fisico: 18668 | Valor: 0
+Endereco logico: 5868 | Pagina: 22 | Deslocamento: 236
+Pagina 78 encontrada no frame 35.
+Endereco fisico: 9155 | Valor: -80
+Endereco logico: 20163 | Pagina: 78 | Deslocamento: 195
+Pagina 199 encontrada no frame 58.
+Endereco fisico: 14983 | Valor: -31
+Endereco logico: 51079 | Pagina: 199 | Deslocamento: 135
+Page fault: pagina 83 carregada no frame 97.
+Endereco fisico: 24982 | Valor: 20
+Endereco logico: 21398 | Pagina: 83 | Deslocamento: 150
+Pagina 127 encontrada no frame 126.
+Endereco fisico: 32500 | Valor: 0
+Endereco logico: 32756 | Pagina: 127 | Deslocamento: 244
+Pagina 250 encontrada no frame 18.
+Endereco fisico: 4804 | Valor: 0
+Endereco logico: 64196 | Pagina: 250 | Deslocamento: 196
+Page fault: pagina 168 carregada no frame 47.
+Endereco fisico: 12242 | Valor: 42
+Endereco logico: 43218 | Pagina: 168 | Deslocamento: 210
+Page fault: pagina 84 carregada no frame 37.
+Endereco fisico: 9551 | Valor: 19
+Endereco logico: 21583 | Pagina: 84 | Deslocamento: 79
+Page fault: pagina 97 carregada no frame 4.
+Endereco fisico: 1278 | Valor: 24
+Endereco logico: 25086 | Pagina: 97 | Deslocamento: 254
+Pagina 177 encontrada no frame 90.
+Endereco fisico: 23243 | Valor: 114
+Endereco logico: 45515 | Pagina: 177 | Deslocamento: 203
+Page fault: pagina 50 carregada no frame 98.
+Endereco fisico: 25181 | Valor: 0
+Endereco logico: 12893 | Pagina: 50 | Deslocamento: 93
+Page fault: pagina 89 carregada no frame 42.
+Endereco fisico: 10882 | Valor: 22
+Endereco logico: 22914 | Pagina: 89 | Deslocamento: 130
+Page fault: pagina 230 carregada no frame 104.
+Endereco fisico: 26713 | Valor: 0
+Endereco logico: 58969 | Pagina: 230 | Deslocamento: 89
+Pagina 78 encontrada no frame 35.
+Endereco fisico: 9086 | Valor: 19
+Endereco logico: 20094 | Pagina: 78 | Deslocamento: 126
+Page fault: pagina 53 carregada no frame 45.
+Endereco fisico: 11682 | Valor: 13
+Endereco logico: 13730 | Pagina: 53 | Deslocamento: 162
+Page fault: pagina 172 carregada no frame 50.
+Endereco fisico: 12827 | Valor: 6
+Endereco logico: 44059 | Pagina: 172 | Deslocamento: 27
+Pagina 113 encontrada no frame 92.
+Endereco fisico: 23555 | Valor: 64
+Endereco logico: 28931 | Pagina: 113 | Deslocamento: 3
+Page fault: pagina 52 carregada no frame 52.
+Endereco fisico: 13533 | Valor: 0
+Endereco logico: 13533 | Pagina: 52 | Deslocamento: 221
+Page fault: pagina 129 carregada no frame 53.
+Endereco fisico: 13678 | Valor: 32
+Endereco logico: 33134 | Pagina: 129 | Deslocamento: 110
+Pagina 111 encontrada no frame 109.
+Endereco fisico: 27971 | Valor: -48
+Endereco logico: 28483 | Pagina: 111 | Deslocamento: 67
+Pagina 4 encontrada no frame 63.
+Endereco fisico: 16324 | Valor: 0
+Endereco logico: 1220 | Pagina: 4 | Deslocamento: 196
+Pagina 149 encontrada no frame 124.
+Endereco fisico: 31774 | Valor: 37
+Endereco logico: 38174 | Pagina: 149 | Deslocamento: 30
+Pagina 208 encontrada no frame 23.
+Endereco fisico: 6142 | Valor: 52
+Endereco logico: 53502 | Pagina: 208 | Deslocamento: 254
+Page fault: pagina 169 carregada no frame 55.
+Endereco fisico: 14144 | Valor: 0
+Endereco logico: 43328 | Pagina: 169 | Deslocamento: 64
+Pagina 19 encontrada no frame 40.
+Endereco fisico: 10346 | Valor: 4
+Endereco logico: 4970 | Pagina: 19 | Deslocamento: 106
+Pagina 31 encontrada no frame 7.
+Endereco fisico: 1946 | Valor: 7
+Endereco logico: 8090 | Pagina: 31 | Deslocamento: 154
+Page fault: pagina 10 carregada no frame 59.
+Endereco fisico: 15205 | Valor: 0
+Endereco logico: 2661 | Pagina: 10 | Deslocamento: 101
+Page fault: pagina 210 carregada no frame 15.
+Endereco fisico: 3983 | Valor: -93
+Endereco logico: 53903 | Pagina: 210 | Deslocamento: 143
+Pagina 43 encontrada no frame 61.
+Endereco fisico: 15633 | Valor: 0
+Endereco logico: 11025 | Pagina: 43 | Deslocamento: 17
+Pagina 104 encontrada no frame 77.
+Endereco fisico: 19715 | Valor: 0
+Endereco logico: 26627 | Pagina: 104 | Deslocamento: 3
+Page fault: pagina 70 carregada no frame 80.
+Endereco fisico: 20677 | Valor: 0
+Endereco logico: 18117 | Pagina: 70 | Deslocamento: 197
+Page fault: pagina 56 carregada no frame 62.
+Endereco fisico: 16041 | Valor: 0
+Endereco logico: 14505 | Pagina: 56 | Deslocamento: 169
+Pagina 240 encontrada no frame 121.
+Endereco fisico: 31064 | Valor: 0
+Endereco logico: 61528 | Pagina: 240 | Deslocamento: 88
+Pagina 79 encontrada no frame 65.
+Endereco fisico: 16839 | Valor: -15
+Endereco logico: 20423 | Pagina: 79 | Deslocamento: 199
+Page fault: pagina 105 carregada no frame 26.
+Endereco fisico: 6738 | Valor: 26
+Endereco logico: 26962 | Pagina: 105 | Deslocamento: 82
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14376 | Valor: 0
+Endereco logico: 36392 | Pagina: 142 | Deslocamento: 40
+Page fault: pagina 44 carregada no frame 102.
+Endereco fisico: 26213 | Valor: 0
+Endereco logico: 11365 | Pagina: 44 | Deslocamento: 101
+Page fault: pagina 198 carregada no frame 111.
+Endereco fisico: 28610 | Valor: 49
+Endereco logico: 50882 | Pagina: 198 | Deslocamento: 194
+Pagina 162 encontrada no frame 69.
+Endereco fisico: 17860 | Valor: 0
+Endereco logico: 41668 | Pagina: 162 | Deslocamento: 196
+Pagina 119 encontrada no frame 94.
+Endereco fisico: 24097 | Valor: 0
+Endereco logico: 30497 | Pagina: 119 | Deslocamento: 33
+Page fault: pagina 141 carregada no frame 10.
+Endereco fisico: 2680 | Valor: 0
+Endereco logico: 36216 | Pagina: 141 | Deslocamento: 120
+Pagina 21 encontrada no frame 75.
+Endereco fisico: 19443 | Valor: 124
+Endereco logico: 5619 | Pagina: 21 | Deslocamento: 243
+Page fault: pagina 144 carregada no frame 81.
+Endereco fisico: 20855 | Valor: 29
+Endereco logico: 36983 | Pagina: 144 | Deslocamento: 119
+Pagina 232 encontrada no frame 101.
+Endereco fisico: 26021 | Valor: 0
+Endereco logico: 59557 | Pagina: 232 | Deslocamento: 165
+Page fault: pagina 143 carregada no frame 122.
+Endereco fisico: 31287 | Valor: -51
+Endereco logico: 36663 | Pagina: 143 | Deslocamento: 55
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14420 | Valor: 0
+Endereco logico: 36436 | Pagina: 142 | Deslocamento: 84
+Pagina 144 encontrada no frame 81.
+Endereco fisico: 20929 | Valor: 0
+Endereco logico: 37057 | Pagina: 144 | Deslocamento: 193
+Page fault: pagina 92 carregada no frame 66.
+Endereco fisico: 16929 | Valor: 0
+Endereco logico: 23585 | Pagina: 92 | Deslocamento: 33
+Page fault: pagina 229 carregada no frame 41.
+Endereco fisico: 10663 | Valor: 105
+Endereco logico: 58791 | Pagina: 229 | Deslocamento: 167
+Page fault: pagina 182 carregada no frame 74.
+Endereco fisico: 19018 | Valor: 45
+Endereco logico: 46666 | Pagina: 182 | Deslocamento: 74
+Pagina 251 encontrada no frame 48.
+Endereco fisico: 12507 | Valor: -10
+Endereco logico: 64475 | Pagina: 251 | Deslocamento: 219
+Pagina 84 encontrada no frame 37.
+Endereco fisico: 9583 | Valor: 27
+Endereco logico: 21615 | Pagina: 84 | Deslocamento: 111
+Page fault: pagina 160 carregada no frame 12.
+Endereco fisico: 3202 | Valor: 40
+Endereco logico: 41090 | Pagina: 160 | Deslocamento: 130
+Pagina 6 encontrada no frame 82.
+Endereco fisico: 21227 | Valor: -70
+Endereco logico: 1771 | Pagina: 6 | Deslocamento: 235
+Page fault: pagina 185 carregada no frame 1.
+Endereco fisico: 409 | Valor: 0
+Endereco logico: 47513 | Pagina: 185 | Deslocamento: 153
+Page fault: pagina 153 carregada no frame 22.
+Endereco fisico: 5802 | Valor: 38
+Endereco logico: 39338 | Pagina: 153 | Deslocamento: 170
+Pagina 5 encontrada no frame 31.
+Endereco fisico: 8046 | Valor: 1
+Endereco logico: 1390 | Pagina: 5 | Deslocamento: 110
+Pagina 151 encontrada no frame 100.
+Endereco fisico: 25716 | Valor: 0
+Endereco logico: 38772 | Pagina: 151 | Deslocamento: 116
+Pagina 227 encontrada no frame 9.
+Endereco fisico: 2341 | Valor: 0
+Endereco logico: 58149 | Pagina: 227 | Deslocamento: 37
+Pagina 28 encontrada no frame 78.
+Endereco fisico: 19996 | Valor: 0
+Endereco logico: 7196 | Pagina: 28 | Deslocamento: 28
+Pagina 35 encontrada no frame 116.
+Endereco fisico: 29859 | Valor: -24
+Endereco logico: 9123 | Pagina: 35 | Deslocamento: 163
+Pagina 29 encontrada no frame 46.
+Endereco fisico: 11843 | Valor: 80
+Endereco logico: 7491 | Pagina: 29 | Deslocamento: 67
+Page fault: pagina 244 carregada no frame 106.
+Endereco fisico: 27288 | Valor: 0
+Endereco logico: 62616 | Pagina: 244 | Deslocamento: 152
+Page fault: pagina 60 carregada no frame 38.
+Endereco fisico: 9804 | Valor: 0
+Endereco logico: 15436 | Pagina: 60 | Deslocamento: 76
+Pagina 68 encontrada no frame 34.
+Endereco fisico: 8787 | Valor: 20
+Endereco logico: 17491 | Pagina: 68 | Deslocamento: 83
+Page fault: pagina 209 carregada no frame 32.
+Endereco fisico: 8344 | Valor: 0
+Endereco logico: 53656 | Pagina: 209 | Deslocamento: 152
+Page fault: pagina 103 carregada no frame 73.
+Endereco fisico: 18769 | Valor: 0
+Endereco logico: 26449 | Pagina: 103 | Deslocamento: 81
+Page fault: pagina 136 carregada no frame 76.
+Endereco fisico: 19575 | Valor: 29
+Endereco logico: 34935 | Pagina: 136 | Deslocamento: 119
+Page fault: pagina 77 carregada no frame 83.
+Endereco fisico: 21400 | Valor: 0
+Endereco logico: 19864 | Pagina: 77 | Deslocamento: 152
+Page fault: pagina 200 carregada no frame 84.
+Endereco fisico: 21692 | Valor: 0
+Endereco logico: 51388 | Pagina: 200 | Deslocamento: 188
+Page fault: pagina 59 carregada no frame 19.
+Endereco fisico: 4915 | Valor: -52
+Endereco logico: 15155 | Pagina: 59 | Deslocamento: 51
+Page fault: pagina 253 carregada no frame 86.
+Endereco fisico: 22023 | Valor: 65
+Endereco logico: 64775 | Pagina: 253 | Deslocamento: 7
+Pagina 187 encontrada no frame 8.
+Endereco fisico: 2145 | Valor: 0
+Endereco logico: 47969 | Pagina: 187 | Deslocamento: 97
+Page fault: pagina 63 carregada no frame 33.
+Endereco fisico: 8635 | Valor: -18
+Endereco logico: 16315 | Pagina: 63 | Deslocamento: 187
+Pagina 5 encontrada no frame 31.
+Endereco fisico: 7998 | Valor: 1
+Endereco logico: 1342 | Pagina: 5 | Deslocamento: 62
+Pagina 199 encontrada no frame 58.
+Endereco fisico: 15089 | Valor: 0
+Endereco logico: 51185 | Pagina: 199 | Deslocamento: 241
+Page fault: pagina 23 carregada no frame 21.
+Endereco fisico: 5531 | Valor: -26
+Endereco logico: 6043 | Pagina: 23 | Deslocamento: 155
+Pagina 83 encontrada no frame 97.
+Endereco fisico: 24982 | Valor: 20
+Endereco logico: 21398 | Pagina: 83 | Deslocamento: 150
+Page fault: pagina 12 carregada no frame 13.
+Endereco fisico: 3529 | Valor: 0
+Endereco logico: 3273 | Pagina: 12 | Deslocamento: 201
+Page fault: pagina 36 carregada no frame 43.
+Endereco fisico: 11162 | Valor: 9
+Endereco logico: 9370 | Pagina: 36 | Deslocamento: 154
+Page fault: pagina 138 carregada no frame 49.
+Endereco fisico: 12679 | Valor: -95
+Endereco logico: 35463 | Pagina: 138 | Deslocamento: 135
+Page fault: pagina 110 carregada no frame 85.
+Endereco fisico: 21805 | Valor: 0
+Endereco logico: 28205 | Pagina: 110 | Deslocamento: 45
+Page fault: pagina 9 carregada no frame 95.
+Endereco fisico: 24367 | Valor: 75
+Endereco logico: 2351 | Pagina: 9 | Deslocamento: 47
+Pagina 113 encontrada no frame 92.
+Endereco fisico: 23623 | Valor: 81
+Endereco logico: 28999 | Pagina: 113 | Deslocamento: 71
+Page fault: pagina 186 carregada no frame 99.
+Endereco fisico: 25427 | Valor: -108
+Endereco logico: 47699 | Pagina: 186 | Deslocamento: 83
+Page fault: pagina 183 carregada no frame 117.
+Endereco fisico: 29974 | Valor: 45
+Endereco logico: 46870 | Pagina: 183 | Deslocamento: 22
+Page fault: pagina 87 carregada no frame 68.
+Endereco fisico: 17447 | Valor: -55
+Endereco logico: 22311 | Pagina: 87 | Deslocamento: 39
+Page fault: pagina 86 carregada no frame 107.
+Endereco fisico: 27500 | Valor: 0
+Endereco logico: 22124 | Pagina: 86 | Deslocamento: 108
+Pagina 87 encontrada no frame 68.
+Endereco fisico: 17563 | Valor: -26
+Endereco logico: 22427 | Pagina: 87 | Deslocamento: 155
+Page fault: pagina 192 carregada no frame 108.
+Endereco fisico: 27840 | Valor: 0
+Endereco logico: 49344 | Pagina: 192 | Deslocamento: 192
+Page fault: pagina 90 carregada no frame 110.
+Endereco fisico: 28344 | Valor: 0
+Endereco logico: 23224 | Pagina: 90 | Deslocamento: 184
+Pagina 21 encontrada no frame 75.
+Endereco fisico: 19338 | Valor: 5
+Endereco logico: 5514 | Pagina: 21 | Deslocamento: 138
+Page fault: pagina 80 carregada no frame 5.
+Endereco fisico: 1304 | Valor: 0
+Endereco logico: 20504 | Pagina: 80 | Deslocamento: 24
+Page fault: pagina 1 carregada no frame 57.
+Endereco fisico: 14712 | Valor: 0
+Endereco logico: 376 | Pagina: 1 | Deslocamento: 120
+Pagina 7 encontrada no frame 28.
+Endereco fisico: 7390 | Valor: 1
+Endereco logico: 2014 | Pagina: 7 | Deslocamento: 222
+Pagina 151 encontrada no frame 100.
+Endereco fisico: 25644 | Valor: 0
+Endereco logico: 38700 | Pagina: 151 | Deslocamento: 44
+Page fault: pagina 51 carregada no frame 87.
+Endereco fisico: 22314 | Valor: 12
+Endereco logico: 13098 | Pagina: 51 | Deslocamento: 42
+Pagina 243 encontrada no frame 93.
+Endereco fisico: 24035 | Valor: -8
+Endereco logico: 62435 | Pagina: 243 | Deslocamento: 227
+Pagina 187 encontrada no frame 8.
+Endereco fisico: 2222 | Valor: 46
+Endereco logico: 48046 | Pagina: 187 | Deslocamento: 174
+Page fault: pagina 247 carregada no frame 113.
+Endereco fisico: 29160 | Valor: 0
+Endereco logico: 63464 | Pagina: 247 | Deslocamento: 232
+Page fault: pagina 49 carregada no frame 114.
+Endereco fisico: 29438 | Valor: 12
+Endereco logico: 12798 | Pagina: 49 | Deslocamento: 254
+Pagina 199 encontrada no frame 58.
+Endereco fisico: 15082 | Valor: 49
+Endereco logico: 51178 | Pagina: 199 | Deslocamento: 234
+Pagina 33 encontrada no frame 89.
+Endereco fisico: 22963 | Valor: 108
+Endereco logico: 8627 | Pagina: 33 | Deslocamento: 179
+Pagina 105 encontrada no frame 26.
+Endereco fisico: 6859 | Valor: 114
+Endereco logico: 27083 | Pagina: 105 | Deslocamento: 203
+Page fault: pagina 184 carregada no frame 112.
+Endereco fisico: 28766 | Valor: 46
+Endereco logico: 47198 | Pagina: 184 | Deslocamento: 94
+Page fault: pagina 171 carregada no frame 103.
+Endereco fisico: 26613 | Valor: 0
+Endereco logico: 44021 | Pagina: 171 | Deslocamento: 245
+Page fault: pagina 128 carregada no frame 88.
+Endereco fisico: 22552 | Valor: 0
+Endereco logico: 32792 | Pagina: 128 | Deslocamento: 24
+Pagina 171 encontrada no frame 103.
+Endereco fisico: 26588 | Valor: 0
+Endereco logico: 43996 | Pagina: 171 | Deslocamento: 220
+Pagina 160 encontrada no frame 12.
+Endereco fisico: 3238 | Valor: 40
+Endereco logico: 41126 | Pagina: 160 | Deslocamento: 166
+Pagina 250 encontrada no frame 18.
+Endereco fisico: 4852 | Valor: 0
+Endereco logico: 64244 | Pagina: 250 | Deslocamento: 244
+Pagina 144 encontrada no frame 81.
+Endereco fisico: 20919 | Valor: 45
+Endereco logico: 37047 | Pagina: 144 | Deslocamento: 183
+Page fault: pagina 235 carregada no frame 120.
+Endereco fisico: 30841 | Valor: 0
+Endereco logico: 60281 | Pagina: 235 | Deslocamento: 121
+Page fault: pagina 206 carregada no frame 105.
+Endereco fisico: 27048 | Valor: 0
+Endereco logico: 52904 | Pagina: 206 | Deslocamento: 168
+Page fault: pagina 30 carregada no frame 123.
+Endereco fisico: 31576 | Valor: 0
+Endereco logico: 7768 | Pagina: 30 | Deslocamento: 88
+Page fault: pagina 216 carregada no frame 125.
+Endereco fisico: 32063 | Valor: 15
+Endereco logico: 55359 | Pagina: 216 | Deslocamento: 63
+Pagina 12 encontrada no frame 13.
+Endereco fisico: 3486 | Valor: 3
+Endereco logico: 3230 | Pagina: 12 | Deslocamento: 158
+Page fault: pagina 175 carregada no frame 70.
+Endereco fisico: 17933 | Valor: 0
+Endereco logico: 44813 | Pagina: 175 | Deslocamento: 13
+Pagina 16 encontrada no frame 118.
+Endereco fisico: 30228 | Valor: 0
+Endereco logico: 4116 | Pagina: 16 | Deslocamento: 20
+Page fault: pagina 254 carregada no frame 2.
+Endereco fisico: 710 | Valor: 63
+Endereco logico: 65222 | Pagina: 254 | Deslocamento: 198
+Page fault: pagina 109 carregada no frame 79.
+Endereco fisico: 20403 | Valor: 108
+Endereco logico: 28083 | Pagina: 109 | Deslocamento: 179
+Page fault: pagina 236 carregada no frame 3.
+Endereco fisico: 1012 | Valor: 0
+Endereco logico: 60660 | Pagina: 236 | Deslocamento: 244
+Page fault: pagina 0 carregada no frame 11.
+Endereco fisico: 2855 | Valor: 9
+Endereco logico: 39 | Pagina: 0 | Deslocamento: 39
+Pagina 1 encontrada no frame 57.
+Endereco fisico: 14664 | Valor: 0
+Endereco logico: 328 | Pagina: 1 | Deslocamento: 72
+Pagina 186 encontrada no frame 99.
+Endereco fisico: 25596 | Valor: 0
+Endereco logico: 47868 | Pagina: 186 | Deslocamento: 252
+Pagina 50 encontrada no frame 98.
+Endereco fisico: 25297 | Valor: 0
+Endereco logico: 13009 | Pagina: 50 | Deslocamento: 209
+Pagina 87 encontrada no frame 68.
+Endereco fisico: 17514 | Valor: 21
+Endereco logico: 22378 | Pagina: 87 | Deslocamento: 106
+Pagina 153 encontrada no frame 22.
+Endereco fisico: 5768 | Valor: 0
+Endereco logico: 39304 | Pagina: 153 | Deslocamento: 136
+Pagina 43 encontrada no frame 61.
+Endereco fisico: 15779 | Valor: -24
+Endereco logico: 11171 | Pagina: 43 | Deslocamento: 163
+Pagina 31 encontrada no frame 7.
+Endereco fisico: 1935 | Valor: -29
+Endereco logico: 8079 | Pagina: 31 | Deslocamento: 143
+Pagina 206 encontrada no frame 105.
+Endereco fisico: 27023 | Valor: -93
+Endereco logico: 52879 | Pagina: 206 | Deslocamento: 143
+Page fault: pagina 20 carregada no frame 6.
+Endereco fisico: 1539 | Valor: 0
+Endereco logico: 5123 | Pagina: 20 | Deslocamento: 3
+Page fault: pagina 17 carregada no frame 17.
+Endereco fisico: 4356 | Valor: 0
+Endereco logico: 4356 | Pagina: 17 | Deslocamento: 4
+Page fault: pagina 178 carregada no frame 16.
+Endereco fisico: 4273 | Valor: 0
+Endereco logico: 45745 | Pagina: 178 | Deslocamento: 177
+Pagina 128 encontrada no frame 88.
+Endereco fisico: 22712 | Valor: 0
+Endereco logico: 32952 | Pagina: 128 | Deslocamento: 184
+Page fault: pagina 18 carregada no frame 71.
+Endereco fisico: 18225 | Valor: 0
+Endereco logico: 4657 | Pagina: 18 | Deslocamento: 49
+Page fault: pagina 94 carregada no frame 91.
+Endereco fisico: 23374 | Valor: 23
+Endereco logico: 24142 | Pagina: 94 | Deslocamento: 78
+Page fault: pagina 91 carregada no frame 14.
+Endereco fisico: 3607 | Valor: -59
+Endereco logico: 23319 | Pagina: 91 | Deslocamento: 23
+Pagina 53 encontrada no frame 45.
+Endereco fisico: 11559 | Valor: 73
+Endereco logico: 13607 | Pagina: 53 | Deslocamento: 39
+Page fault: pagina 180 carregada no frame 67.
+Endereco fisico: 17376 | Valor: 0
+Endereco logico: 46304 | Pagina: 180 | Deslocamento: 224
+Page fault: pagina 69 carregada no frame 127.
+Endereco fisico: 32525 | Valor: 0
+Endereco logico: 17677 | Pagina: 69 | Deslocamento: 13
+Page fault: pagina 233 carregada no frame 96.
+Endereco fisico: 24619 | Valor: 74
+Endereco logico: 59691 | Pagina: 233 | Deslocamento: 43
+Pagina 199 encontrada no frame 58.
+Endereco fisico: 14871 | Valor: -59
+Endereco logico: 50967 | Pagina: 199 | Deslocamento: 23
+Pagina 30 encontrada no frame 123.
+Endereco fisico: 31625 | Valor: 0
+Endereco logico: 7817 | Pagina: 30 | Deslocamento: 137
+Pagina 33 encontrada no frame 89.
+Endereco fisico: 22881 | Valor: 0
+Endereco logico: 8545 | Pagina: 33 | Deslocamento: 97
+Pagina 216 encontrada no frame 125.
+Endereco fisico: 32001 | Valor: 0
+Endereco logico: 55297 | Pagina: 216 | Deslocamento: 1
+Pagina 206 encontrada no frame 105.
+Endereco fisico: 27098 | Valor: 51
+Endereco logico: 52954 | Pagina: 206 | Deslocamento: 218
+Page fault: pagina 155 carregada no frame 20.
+Endereco fisico: 5160 | Valor: 0
+Endereco logico: 39720 | Pagina: 155 | Deslocamento: 40
+Page fault: pagina 72 carregada no frame 24.
+Endereco fisico: 6167 | Valor: 5
+Endereco logico: 18455 | Pagina: 72 | Deslocamento: 23
+Page fault: pagina 118 carregada no frame 25.
+Endereco fisico: 6541 | Valor: 0
+Endereco logico: 30349 | Pagina: 118 | Deslocamento: 141
+Pagina 247 encontrada no frame 113.
+Endereco fisico: 28966 | Valor: 61
+Endereco logico: 63270 | Pagina: 247 | Deslocamento: 38
+Page fault: pagina 106 carregada no frame 115.
+Endereco fisico: 29460 | Valor: 0
+Endereco logico: 27156 | Pagina: 106 | Deslocamento: 20
+Pagina 80 encontrada no frame 5.
+Endereco fisico: 1414 | Valor: 20
+Endereco logico: 20614 | Pagina: 80 | Deslocamento: 134
+Page fault: pagina 75 carregada no frame 27.
+Endereco fisico: 7084 | Valor: 0
+Endereco logico: 19372 | Pagina: 75 | Deslocamento: 172
+Page fault: pagina 190 carregada no frame 29.
+Endereco fisico: 7473 | Valor: 0
+Endereco logico: 48689 | Pagina: 190 | Deslocamento: 49
+Pagina 192 encontrada no frame 108.
+Endereco fisico: 27882 | Valor: 48
+Endereco logico: 49386 | Pagina: 192 | Deslocamento: 234
+Page fault: pagina 197 carregada no frame 30.
+Endereco fisico: 7832 | Valor: 0
+Endereco logico: 50584 | Pagina: 197 | Deslocamento: 152
+Page fault: pagina 202 carregada no frame 119.
+Endereco fisico: 30688 | Valor: 0
+Endereco logico: 51936 | Pagina: 202 | Deslocamento: 224
+Page fault: pagina 135 carregada no frame 64.
+Endereco fisico: 16529 | Valor: 0
+Endereco logico: 34705 | Pagina: 135 | Deslocamento: 145
+Pagina 53 encontrada no frame 45.
+Endereco fisico: 11605 | Valor: 0
+Endereco logico: 13653 | Pagina: 53 | Deslocamento: 85
+Page fault: pagina 195 carregada no frame 60.
+Endereco fisico: 15517 | Valor: 0
+Endereco logico: 50077 | Pagina: 195 | Deslocamento: 157
+Page fault: pagina 212 carregada no frame 54.
+Endereco fisico: 14070 | Valor: 53
+Endereco logico: 54518 | Pagina: 212 | Deslocamento: 246
+Pagina 162 encontrada no frame 69.
+Endereco fisico: 17674 | Valor: 40
+Endereco logico: 41482 | Pagina: 162 | Deslocamento: 10
+Pagina 16 encontrada no frame 118.
+Endereco fisico: 30281 | Valor: 0
+Endereco logico: 4169 | Pagina: 16 | Deslocamento: 73
+Pagina 141 encontrada no frame 10.
+Endereco fisico: 2582 | Valor: 35
+Endereco logico: 36118 | Pagina: 141 | Deslocamento: 22
+Page fault: pagina 37 carregada no frame 0.
+Endereco fisico: 112 | Valor: 0
+Endereco logico: 9584 | Pagina: 37 | Deslocamento: 112
+Pagina 72 encontrada no frame 24.
+Endereco fisico: 6202 | Valor: 18
+Endereco logico: 18490 | Pagina: 72 | Deslocamento: 58
+Pagina 216 encontrada no frame 125.
+Endereco fisico: 32124 | Valor: 0
+Endereco logico: 55420 | Pagina: 216 | Deslocamento: 124
+Pagina 22 encontrada no frame 72.
+Endereco fisico: 18508 | Valor: 0
+Endereco logico: 5708 | Pagina: 22 | Deslocamento: 76
+Pagina 91 encontrada no frame 14.
+Endereco fisico: 3794 | Valor: 22
+Endereco logico: 23506 | Pagina: 91 | Deslocamento: 210
+Pagina 60 encontrada no frame 38.
+Endereco fisico: 9759 | Valor: 7
+Endereco logico: 15391 | Pagina: 60 | Deslocamento: 31
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14352 | Valor: 0
+Endereco logico: 36368 | Pagina: 142 | Deslocamento: 16
+Page fault: pagina 152 carregada no frame 36.
+Endereco fisico: 9280 | Valor: 0
+Endereco logico: 38976 | Pagina: 152 | Deslocamento: 64
+Page fault: pagina 196 carregada no frame 44.
+Endereco fisico: 11494 | Valor: 49
+Endereco logico: 50406 | Pagina: 196 | Deslocamento: 230
+Pagina 192 encontrada no frame 108.
+Endereco fisico: 27732 | Valor: 0
+Endereco logico: 49236 | Pagina: 192 | Deslocamento: 84
+Pagina 254 encontrada no frame 2.
+Endereco fisico: 523 | Valor: -126
+Endereco logico: 65035 | Pagina: 254 | Deslocamento: 11
+Page fault: pagina 117 carregada no frame 39.
+Endereco fisico: 10152 | Valor: 0
+Endereco logico: 30120 | Pagina: 117 | Deslocamento: 168
+Pagina 244 encontrada no frame 106.
+Endereco fisico: 27223 | Valor: 21
+Endereco logico: 62551 | Pagina: 244 | Deslocamento: 87
+Pagina 182 encontrada no frame 74.
+Endereco fisico: 19161 | Valor: 0
+Endereco logico: 46809 | Pagina: 182 | Deslocamento: 217
+Pagina 84 encontrada no frame 37.
+Endereco fisico: 9655 | Valor: 45
+Endereco logico: 21687 | Pagina: 84 | Deslocamento: 183
+Pagina 210 encontrada no frame 15.
+Endereco fisico: 3919 | Valor: -109
+Endereco logico: 53839 | Pagina: 210 | Deslocamento: 79
+Page fault: pagina 8 carregada no frame 51.
+Endereco fisico: 13106 | Valor: 2
+Endereco logico: 2098 | Pagina: 8 | Deslocamento: 50
+Page fault: pagina 48 carregada no frame 126.
+Endereco fisico: 32332 | Valor: 0
+Endereco logico: 12364 | Pagina: 48 | Deslocamento: 76
+Pagina 177 encontrada no frame 90.
+Endereco fisico: 23094 | Valor: 44
+Endereco logico: 45366 | Pagina: 177 | Deslocamento: 54
+Pagina 197 encontrada no frame 30.
+Endereco fisico: 7685 | Valor: 0
+Endereco logico: 50437 | Pagina: 197 | Deslocamento: 5
+Pagina 143 encontrada no frame 122.
+Endereco fisico: 31299 | Valor: -48
+Endereco logico: 36675 | Pagina: 143 | Deslocamento: 67
+Pagina 216 encontrada no frame 125.
+Endereco fisico: 32086 | Valor: 54
+Endereco logico: 55382 | Pagina: 216 | Deslocamento: 86
+Page fault: pagina 46 carregada no frame 47.
+Endereco fisico: 12102 | Valor: 11
+Endereco logico: 11846 | Pagina: 46 | Deslocamento: 70
+Page fault: pagina 191 carregada no frame 4.
+Endereco fisico: 1255 | Valor: -7
+Endereco logico: 49127 | Pagina: 191 | Deslocamento: 231
+Pagina 77 encontrada no frame 83.
+Endereco fisico: 21436 | Valor: 0
+Endereco logico: 19900 | Pagina: 77 | Deslocamento: 188
+Pagina 80 encontrada no frame 5.
+Endereco fisico: 1354 | Valor: 20
+Endereco logico: 20554 | Pagina: 80 | Deslocamento: 74
+Pagina 75 encontrada no frame 27.
+Endereco fisico: 6931 | Valor: -60
+Endereco logico: 19219 | Pagina: 75 | Deslocamento: 19
+Page fault: pagina 201 carregada no frame 42.
+Endereco fisico: 10779 | Valor: 70
+Endereco logico: 51483 | Pagina: 201 | Deslocamento: 27
+Page fault: pagina 226 carregada no frame 104.
+Endereco fisico: 26858 | Valor: 56
+Endereco logico: 58090 | Pagina: 226 | Deslocamento: 234
+Pagina 152 encontrada no frame 36.
+Endereco fisico: 9378 | Valor: 38
+Endereco logico: 39074 | Pagina: 152 | Deslocamento: 162
+Page fault: pagina 62 carregada no frame 35.
+Endereco fisico: 9148 | Valor: 0
+Endereco logico: 16060 | Pagina: 62 | Deslocamento: 188
+Page fault: pagina 40 carregada no frame 50.
+Endereco fisico: 13007 | Valor: 51
+Endereco logico: 10447 | Pagina: 40 | Deslocamento: 207
+Page fault: pagina 211 carregada no frame 52.
+Endereco fisico: 13465 | Valor: 0
+Endereco logico: 54169 | Pagina: 211 | Deslocamento: 153
+Pagina 80 encontrada no frame 5.
+Endereco fisico: 1434 | Valor: 20
+Endereco logico: 20634 | Pagina: 80 | Deslocamento: 154
+Page fault: pagina 224 carregada no frame 53.
+Endereco fisico: 13779 | Valor: 52
+Endereco logico: 57555 | Pagina: 224 | Deslocamento: 211
+Page fault: pagina 239 carregada no frame 109.
+Endereco fisico: 27930 | Valor: 59
+Endereco logico: 61210 | Pagina: 239 | Deslocamento: 26
+Pagina 1 encontrada no frame 57.
+Endereco fisico: 14605 | Valor: 0
+Endereco logico: 269 | Pagina: 1 | Deslocamento: 13
+Page fault: pagina 129 carregada no frame 63.
+Endereco fisico: 16258 | Valor: 32
+Endereco logico: 33154 | Pagina: 129 | Deslocamento: 130
+Pagina 251 encontrada no frame 48.
+Endereco fisico: 12519 | Valor: -7
+Endereco logico: 64487 | Pagina: 251 | Deslocamento: 231
+Pagina 239 encontrada no frame 109.
+Endereco fisico: 27943 | Valor: -55
+Endereco logico: 61223 | Pagina: 239 | Deslocamento: 39
+Pagina 184 encontrada no frame 112.
+Endereco fisico: 28860 | Valor: 0
+Endereco logico: 47292 | Pagina: 184 | Deslocamento: 188
+Page fault: pagina 85 carregada no frame 124.
+Endereco fisico: 31836 | Valor: 0
+Endereco logico: 21852 | Pagina: 85 | Deslocamento: 92
+Pagina 20 encontrada no frame 6.
+Endereco fisico: 1697 | Valor: 0
+Endereco logico: 5281 | Pagina: 20 | Deslocamento: 161
+Page fault: pagina 179 carregada no frame 23.
+Endereco fisico: 5976 | Valor: 0
+Endereco logico: 45912 | Pagina: 179 | Deslocamento: 88
+Page fault: pagina 127 carregada no frame 55.
+Endereco fisico: 14100 | Valor: 0
+Endereco logico: 32532 | Pagina: 127 | Deslocamento: 20
+Page fault: pagina 246 carregada no frame 40.
+Endereco fisico: 10331 | Valor: -106
+Endereco logico: 63067 | Pagina: 246 | Deslocamento: 91
+Pagina 162 encontrada no frame 69.
+Endereco fisico: 17875 | Valor: -76
+Endereco logico: 41683 | Pagina: 162 | Deslocamento: 211
+Page fault: pagina 81 carregada no frame 59.
+Endereco fisico: 15349 | Valor: 0
+Endereco logico: 20981 | Pagina: 81 | Deslocamento: 245
+Page fault: pagina 132 carregada no frame 77.
+Endereco fisico: 19801 | Valor: 0
+Endereco logico: 33881 | Pagina: 132 | Deslocamento: 89
+Page fault: pagina 163 carregada no frame 80.
+Endereco fisico: 20537 | Valor: 0
+Endereco logico: 41785 | Pagina: 163 | Deslocamento: 57
+Pagina 17 encontrada no frame 17.
+Endereco fisico: 4580 | Valor: 0
+Endereco logico: 4580 | Pagina: 17 | Deslocamento: 228
+Page fault: pagina 161 carregada no frame 62.
+Endereco fisico: 16045 | Valor: 0
+Endereco logico: 41389 | Pagina: 161 | Deslocamento: 173
+Page fault: pagina 111 carregada no frame 121.
+Endereco fisico: 31132 | Valor: 0
+Endereco logico: 28572 | Pagina: 111 | Deslocamento: 156
+Page fault: pagina 3 carregada no frame 65.
+Endereco fisico: 16654 | Valor: 0
+Endereco logico: 782 | Pagina: 3 | Deslocamento: 14
+Pagina 118 encontrada no frame 25.
+Endereco fisico: 6465 | Valor: 0
+Endereco logico: 30273 | Pagina: 118 | Deslocamento: 65
+Pagina 243 encontrada no frame 93.
+Endereco fisico: 23867 | Valor: -50
+Endereco logico: 62267 | Pagina: 243 | Deslocamento: 59
+Page fault: pagina 70 carregada no frame 102.
+Endereco fisico: 26114 | Valor: 17
+Endereco logico: 17922 | Pagina: 70 | Deslocamento: 2
+Pagina 247 encontrada no frame 113.
+Endereco fisico: 28934 | Valor: 61
+Endereco logico: 63238 | Pagina: 247 | Deslocamento: 6
+Pagina 12 encontrada no frame 13.
+Endereco fisico: 3564 | Valor: 0
+Endereco logico: 3308 | Pagina: 12 | Deslocamento: 236
+Pagina 103 encontrada no frame 73.
+Endereco fisico: 18865 | Valor: 0
+Endereco logico: 26545 | Pagina: 103 | Deslocamento: 177
+Page fault: pagina 173 carregada no frame 111.
+Endereco fisico: 28523 | Valor: 90
+Endereco logico: 44395 | Pagina: 173 | Deslocamento: 107
+Pagina 152 encontrada no frame 36.
+Endereco fisico: 9424 | Valor: 0
+Endereco logico: 39120 | Pagina: 152 | Deslocamento: 208
+Pagina 84 encontrada no frame 37.
+Endereco fisico: 9674 | Valor: 21
+Endereco logico: 21706 | Pagina: 84 | Deslocamento: 202
+Page fault: pagina 27 carregada no frame 94.
+Endereco fisico: 24296 | Valor: 0
+Endereco logico: 7144 | Pagina: 27 | Deslocamento: 232
+Pagina 118 encontrada no frame 25.
+Endereco fisico: 6436 | Valor: 0
+Endereco logico: 30244 | Pagina: 118 | Deslocamento: 36
+Page fault: pagina 14 carregada no frame 101.
+Endereco fisico: 25997 | Valor: 0
+Endereco logico: 3725 | Pagina: 14 | Deslocamento: 141
+Page fault: pagina 213 carregada no frame 66.
+Endereco fisico: 17000 | Valor: 0
+Endereco logico: 54632 | Pagina: 213 | Deslocamento: 104
+Page fault: pagina 119 carregada no frame 41.
+Endereco fisico: 10606 | Valor: 29
+Endereco logico: 30574 | Pagina: 119 | Deslocamento: 110
+Pagina 33 encontrada no frame 89.
+Endereco fisico: 22809 | Valor: 0
+Endereco logico: 8473 | Pagina: 33 | Deslocamento: 25
+Pagina 48 encontrada no frame 126.
+Endereco fisico: 32354 | Valor: 12
+Endereco logico: 12386 | Pagina: 48 | Deslocamento: 98
+Pagina 160 encontrada no frame 12.
+Endereco fisico: 3226 | Valor: 40
+Endereco logico: 41114 | Pagina: 160 | Deslocamento: 154
+Pagina 226 encontrada no frame 104.
+Endereco fisico: 26698 | Valor: 56
+Endereco logico: 57930 | Pagina: 226 | Deslocamento: 74
+Pagina 59 encontrada no frame 19.
+Endereco fisico: 5101 | Valor: 0
+Endereco logico: 15341 | Pagina: 59 | Deslocamento: 237
+Pagina 60 encontrada no frame 38.
+Endereco fisico: 9966 | Valor: 15
+Endereco logico: 15598 | Pagina: 60 | Deslocamento: 238
+Page fault: pagina 234 carregada no frame 82.
+Endereco fisico: 21010 | Valor: 58
+Endereco logico: 59922 | Pagina: 234 | Deslocamento: 18
+Page fault: pagina 71 carregada no frame 1.
+Endereco fisico: 306 | Valor: 17
+Endereco logico: 18226 | Pagina: 71 | Deslocamento: 50
+Page fault: pagina 188 carregada no frame 9.
+Endereco fisico: 2338 | Valor: 47
+Endereco logico: 48162 | Pagina: 188 | Deslocamento: 34
+Pagina 161 encontrada no frame 62.
+Endereco fisico: 15906 | Valor: 40
+Endereco logico: 41250 | Pagina: 161 | Deslocamento: 34
+Pagina 5 encontrada no frame 31.
+Endereco fisico: 8168 | Valor: 0
+Endereco logico: 1512 | Pagina: 5 | Deslocamento: 232
+Pagina 9 encontrada no frame 95.
+Endereco fisico: 24562 | Valor: 2
+Endereco logico: 2546 | Pagina: 9 | Deslocamento: 242
+Pagina 162 encontrada no frame 69.
+Endereco fisico: 17874 | Valor: 40
+Endereco logico: 41682 | Pagina: 162 | Deslocamento: 210
+Pagina 1 encontrada no frame 57.
+Endereco fisico: 14658 | Valor: 0
+Endereco logico: 322 | Pagina: 1 | Deslocamento: 66
+Pagina 3 encontrada no frame 65.
+Endereco fisico: 16752 | Valor: 0
+Endereco logico: 880 | Pagina: 3 | Deslocamento: 112
+Pagina 81 encontrada no frame 59.
+Endereco fisico: 15259 | Valor: 102
+Endereco logico: 20891 | Pagina: 81 | Deslocamento: 155
+Page fault: pagina 221 carregada no frame 78.
+Endereco fisico: 19996 | Valor: 0
+Endereco logico: 56604 | Pagina: 221 | Deslocamento: 28
+Page fault: pagina 156 carregada no frame 116.
+Endereco fisico: 29926 | Valor: 39
+Endereco logico: 40166 | Pagina: 156 | Deslocamento: 230
+Page fault: pagina 104 carregada no frame 46.
+Endereco fisico: 11943 | Valor: 41
+Endereco logico: 26791 | Pagina: 104 | Deslocamento: 167
+Page fault: pagina 174 carregada no frame 34.
+Endereco fisico: 8720 | Valor: 0
+Endereco logico: 44560 | Pagina: 174 | Deslocamento: 16
+Pagina 151 encontrada no frame 100.
+Endereco fisico: 25642 | Valor: 37
+Endereco logico: 38698 | Pagina: 151 | Deslocamento: 42
+Pagina 250 encontrada no frame 18.
+Endereco fisico: 4735 | Valor: -97
+Endereco logico: 64127 | Pagina: 250 | Deslocamento: 127
+Page fault: pagina 58 carregada no frame 32.
+Endereco fisico: 8372 | Valor: 0
+Endereco logico: 15028 | Pagina: 58 | Deslocamento: 180
+Pagina 151 encontrada no frame 100.
+Endereco fisico: 25613 | Valor: 0
+Endereco logico: 38669 | Pagina: 151 | Deslocamento: 13
+Pagina 178 encontrada no frame 16.
+Endereco fisico: 4165 | Valor: 0
+Endereco logico: 45637 | Pagina: 178 | Deslocamento: 69
+Page fault: pagina 168 carregada no frame 76.
+Endereco fisico: 19599 | Valor: 35
+Endereco logico: 43151 | Pagina: 168 | Deslocamento: 143
+Pagina 36 encontrada no frame 43.
+Endereco fisico: 11257 | Valor: 0
+Endereco logico: 9465 | Pagina: 36 | Deslocamento: 249
+Pagina 9 encontrada no frame 95.
+Endereco fisico: 24514 | Valor: 2
+Endereco logico: 2498 | Pagina: 9 | Deslocamento: 194
+Page fault: pagina 54 carregada no frame 84.
+Endereco fisico: 21658 | Valor: 13
+Endereco logico: 13978 | Pagina: 54 | Deslocamento: 154
+Pagina 63 encontrada no frame 33.
+Endereco fisico: 8646 | Valor: 15
+Endereco logico: 16326 | Pagina: 63 | Deslocamento: 198
+Page fault: pagina 200 carregada no frame 86.
+Endereco fisico: 22258 | Valor: 50
+Endereco logico: 51442 | Pagina: 200 | Deslocamento: 242
+Page fault: pagina 136 carregada no frame 21.
+Endereco fisico: 5405 | Valor: 0
+Endereco logico: 34845 | Pagina: 136 | Deslocamento: 29
+Page fault: pagina 248 carregada no frame 97.
+Endereco fisico: 25011 | Valor: 44
+Endereco logico: 63667 | Pagina: 248 | Deslocamento: 179
+Pagina 153 encontrada no frame 22.
+Endereco fisico: 5834 | Valor: 38
+Endereco logico: 39370 | Pagina: 153 | Deslocamento: 202
+Page fault: pagina 217 carregada no frame 49.
+Endereco fisico: 12663 | Valor: 93
+Endereco logico: 55671 | Pagina: 217 | Deslocamento: 119
+Pagina 251 encontrada no frame 48.
+Endereco fisico: 12528 | Valor: 0
+Endereco logico: 64496 | Pagina: 251 | Deslocamento: 240
+Pagina 30 encontrada no frame 123.
+Endereco fisico: 31575 | Valor: -107
+Endereco logico: 7767 | Pagina: 30 | Deslocamento: 87
+Page fault: pagina 24 carregada no frame 85.
+Endereco fisico: 21899 | Valor: 34
+Endereco logico: 6283 | Pagina: 24 | Deslocamento: 139
+Page fault: pagina 218 carregada no frame 92.
+Endereco fisico: 23628 | Valor: 0
+Endereco logico: 55884 | Pagina: 218 | Deslocamento: 76
+Page fault: pagina 238 carregada no frame 117.
+Endereco fisico: 30127 | Valor: -85
+Endereco logico: 61103 | Pagina: 238 | Deslocamento: 175
+Page fault: pagina 39 carregada no frame 107.
+Endereco fisico: 27592 | Valor: 0
+Endereco logico: 10184 | Pagina: 39 | Deslocamento: 200
+Page fault: pagina 154 carregada no frame 110.
+Endereco fisico: 28279 | Valor: -99
+Endereco logico: 39543 | Pagina: 154 | Deslocamento: 119
+Pagina 37 encontrada no frame 0.
+Endereco fisico: 83 | Valor: 84
+Endereco logico: 9555 | Pagina: 37 | Deslocamento: 83
+Pagina 54 encontrada no frame 84.
+Endereco fisico: 21643 | Valor: -94
+Endereco logico: 13963 | Pagina: 54 | Deslocamento: 139
+Page fault: pagina 230 carregada no frame 75.
+Endereco fisico: 19295 | Valor: -105
+Endereco logico: 58975 | Pagina: 230 | Deslocamento: 95
+Page fault: pagina 76 carregada no frame 28.
+Endereco fisico: 7249 | Valor: 0
+Endereco logico: 19537 | Pagina: 76 | Deslocamento: 81
+Page fault: pagina 23 carregada no frame 87.
+Endereco fisico: 22485 | Valor: 0
+Endereco logico: 6101 | Pagina: 23 | Deslocamento: 213
+Pagina 161 encontrada no frame 62.
+Endereco fisico: 16077 | Valor: 0
+Endereco logico: 41421 | Pagina: 161 | Deslocamento: 205
+Pagina 177 encontrada no frame 90.
+Endereco fisico: 23230 | Valor: 44
+Endereco logico: 45502 | Pagina: 177 | Deslocamento: 190
+Page fault: pagina 114 carregada no frame 8.
+Endereco fisico: 2192 | Valor: 0
+Endereco logico: 29328 | Pagina: 114 | Deslocamento: 144
+Pagina 31 encontrada no frame 7.
+Endereco fisico: 2005 | Valor: 0
+Endereco logico: 8149 | Pagina: 31 | Deslocamento: 213
+Page fault: pagina 99 carregada no frame 114.
+Endereco fisico: 29290 | Valor: 24
+Endereco logico: 25450 | Pagina: 99 | Deslocamento: 106
+Pagina 230 encontrada no frame 75.
+Endereco fisico: 19264 | Valor: 0
+Endereco logico: 58944 | Pagina: 230 | Deslocamento: 64
+Pagina 197 encontrada no frame 30.
+Endereco fisico: 7914 | Valor: 49
+Endereco logico: 50666 | Pagina: 197 | Deslocamento: 234
+Page fault: pagina 90 carregada no frame 26.
+Endereco fisico: 6700 | Valor: 0
+Endereco logico: 23084 | Pagina: 90 | Deslocamento: 44
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14452 | Valor: 0
+Endereco logico: 36468 | Pagina: 142 | Deslocamento: 116
+Page fault: pagina 131 carregada no frame 103.
+Endereco fisico: 26477 | Valor: 0
+Endereco logico: 33645 | Pagina: 131 | Deslocamento: 109
+Page fault: pagina 97 carregada no frame 81.
+Endereco fisico: 20906 | Valor: 24
+Endereco logico: 25002 | Pagina: 97 | Deslocamento: 170
+Page fault: pagina 209 carregada no frame 120.
+Endereco fisico: 30931 | Valor: 116
+Endereco logico: 53715 | Pagina: 209 | Deslocamento: 211
+Page fault: pagina 235 carregada no frame 70.
+Endereco fisico: 17933 | Valor: 0
+Endereco logico: 60173 | Pagina: 235 | Deslocamento: 13
+Page fault: pagina 181 carregada no frame 79.
+Endereco fisico: 20242 | Valor: 45
+Endereco logico: 46354 | Pagina: 181 | Deslocamento: 18
+Pagina 18 encontrada no frame 71.
+Endereco fisico: 18276 | Valor: 0
+Endereco logico: 4708 | Pagina: 18 | Deslocamento: 100
+Page fault: pagina 110 carregada no frame 3.
+Endereco fisico: 816 | Valor: 0
+Endereco logico: 28208 | Pagina: 110 | Deslocamento: 48
+Page fault: pagina 229 carregada no frame 11.
+Endereco fisico: 3036 | Valor: 0
+Endereco logico: 58844 | Pagina: 229 | Deslocamento: 220
+Page fault: pagina 86 carregada no frame 99.
+Endereco fisico: 25501 | Valor: 0
+Endereco logico: 22173 | Pagina: 86 | Deslocamento: 157
+Pagina 33 encontrada no frame 89.
+Endereco fisico: 22871 | Valor: 85
+Endereco logico: 8535 | Pagina: 33 | Deslocamento: 87
+Page fault: pagina 165 carregada no frame 98.
+Endereco fisico: 25109 | Valor: 0
+Endereco logico: 42261 | Pagina: 165 | Deslocamento: 21
+Page fault: pagina 115 carregada no frame 68.
+Endereco fisico: 17655 | Valor: -3
+Endereco logico: 29687 | Pagina: 115 | Deslocamento: 247
+Page fault: pagina 147 carregada no frame 61.
+Endereco fisico: 15783 | Valor: -23
+Endereco logico: 37799 | Pagina: 147 | Deslocamento: 167
+Page fault: pagina 88 carregada no frame 88.
+Endereco fisico: 22566 | Valor: 22
+Endereco logico: 22566 | Pagina: 88 | Deslocamento: 38
+Pagina 244 encontrada no frame 106.
+Endereco fisico: 27192 | Valor: 0
+Endereco logico: 62520 | Pagina: 244 | Deslocamento: 56
+Pagina 16 encontrada no frame 118.
+Endereco fisico: 30210 | Valor: 4
+Endereco logico: 4098 | Pagina: 16 | Deslocamento: 2
+Page fault: pagina 187 carregada no frame 91.
+Endereco fisico: 23423 | Valor: -33
+Endereco logico: 47999 | Pagina: 187 | Deslocamento: 127
+Page fault: pagina 193 carregada no frame 67.
+Endereco fisico: 17404 | Valor: 0
+Endereco logico: 49660 | Pagina: 193 | Deslocamento: 252
+Page fault: pagina 144 carregada no frame 127.
+Endereco fisico: 32711 | Valor: 49
+Endereco logico: 37063 | Pagina: 144 | Deslocamento: 199
+Pagina 163 encontrada no frame 80.
+Endereco fisico: 20608 | Valor: 0
+Endereco logico: 41856 | Pagina: 163 | Deslocamento: 128
+Page fault: pagina 21 carregada no frame 96.
+Endereco fisico: 24617 | Valor: 0
+Endereco logico: 5417 | Pagina: 21 | Deslocamento: 41
+Pagina 190 encontrada no frame 29.
+Endereco fisico: 7640 | Valor: 0
+Endereco logico: 48856 | Pagina: 190 | Deslocamento: 216
+Page fault: pagina 41 carregada no frame 58.
+Endereco fisico: 15034 | Valor: 10
+Endereco logico: 10682 | Pagina: 41 | Deslocamento: 186
+Page fault: pagina 87 carregada no frame 105.
+Endereco fisico: 26978 | Valor: 21
+Endereco logico: 22370 | Pagina: 87 | Deslocamento: 98
+Pagina 247 encontrada no frame 113.
+Endereco fisico: 28977 | Valor: 0
+Endereco logico: 63281 | Pagina: 247 | Deslocamento: 49
+Pagina 243 encontrada no frame 93.
+Endereco fisico: 24052 | Valor: 0
+Endereco logico: 62452 | Pagina: 243 | Deslocamento: 244
+Pagina 197 encontrada no frame 30.
+Endereco fisico: 7780 | Valor: 0
+Endereco logico: 50532 | Pagina: 197 | Deslocamento: 100
+Page fault: pagina 35 carregada no frame 20.
+Endereco fisico: 5182 | Valor: 8
+Endereco logico: 9022 | Pagina: 35 | Deslocamento: 62
+Page fault: pagina 231 carregada no frame 115.
+Endereco fisico: 29604 | Valor: 0
+Endereco logico: 59300 | Pagina: 231 | Deslocamento: 164
+Pagina 229 encontrada no frame 11.
+Endereco fisico: 2852 | Valor: 0
+Endereco logico: 58660 | Pagina: 229 | Deslocamento: 36
+Page fault: pagina 220 carregada no frame 119.
+Endereco fisico: 30545 | Valor: 0
+Endereco logico: 56401 | Pagina: 220 | Deslocamento: 81
+Pagina 33 encontrada no frame 89.
+Endereco fisico: 22854 | Valor: 8
+Endereco logico: 8518 | Pagina: 33 | Deslocamento: 70
+Pagina 246 encontrada no frame 40.
+Endereco fisico: 10330 | Valor: 61
+Endereco logico: 63066 | Pagina: 246 | Deslocamento: 90
+Pagina 247 encontrada no frame 113.
+Endereco fisico: 28946 | Valor: 61
+Endereco logico: 63250 | Pagina: 247 | Deslocamento: 18
+Page fault: pagina 189 carregada no frame 64.
+Endereco fisico: 16592 | Valor: 0
+Endereco logico: 48592 | Pagina: 189 | Deslocamento: 208
+Page fault: pagina 112 carregada no frame 45.
+Endereco fisico: 11619 | Valor: 24
+Endereco logico: 28771 | Pagina: 112 | Deslocamento: 99
+Pagina 147 encontrada no frame 61.
+Endereco fisico: 15657 | Valor: 0
+Endereco logico: 37673 | Pagina: 147 | Deslocamento: 41
+Page fault: pagina 237 carregada no frame 60.
+Endereco fisico: 15464 | Valor: 0
+Endereco logico: 60776 | Pagina: 237 | Deslocamento: 104
+Pagina 220 encontrada no frame 119.
+Endereco fisico: 30582 | Valor: 55
+Endereco logico: 56438 | Pagina: 220 | Deslocamento: 118
+Page fault: pagina 236 carregada no frame 54.
+Endereco fisico: 13832 | Valor: 0
+Endereco logico: 60424 | Pagina: 236 | Deslocamento: 8
+Pagina 156 encontrada no frame 116.
+Endereco fisico: 29753 | Valor: 0
+Endereco logico: 39993 | Pagina: 156 | Deslocamento: 57
+Pagina 218 encontrada no frame 92.
+Endereco fisico: 23748 | Valor: 0
+Endereco logico: 56004 | Pagina: 218 | Deslocamento: 196
+Pagina 230 encontrada no frame 75.
+Endereco fisico: 19322 | Valor: 57
+Endereco logico: 59002 | Pagina: 230 | Deslocamento: 122
+Pagina 132 encontrada no frame 77.
+Endereco fisico: 19902 | Valor: 33
+Endereco logico: 33982 | Pagina: 132 | Deslocamento: 190
+Pagina 99 encontrada no frame 114.
+Endereco fisico: 29338 | Valor: 24
+Endereco logico: 25498 | Pagina: 99 | Deslocamento: 154
+Page fault: pagina 222 carregada no frame 10.
+Endereco fisico: 2775 | Valor: -75
+Endereco logico: 57047 | Pagina: 222 | Deslocamento: 215
+Pagina 5 encontrada no frame 31.
+Endereco fisico: 8057 | Valor: 0
+Endereco logico: 1401 | Pagina: 5 | Deslocamento: 121
+Pagina 59 encontrada no frame 19.
+Endereco fisico: 4890 | Valor: 14
+Endereco logico: 15130 | Pagina: 59 | Deslocamento: 26
+Page fault: pagina 167 carregada no frame 24.
+Endereco fisico: 6352 | Valor: 0
+Endereco logico: 42960 | Pagina: 167 | Deslocamento: 208
+Page fault: pagina 241 carregada no frame 72.
+Endereco fisico: 18563 | Valor: 96
+Endereco logico: 61827 | Pagina: 241 | Deslocamento: 131
+Page fault: pagina 126 carregada no frame 14.
+Endereco fisico: 3770 | Valor: 31
+Endereco logico: 32442 | Pagina: 126 | Deslocamento: 186
+Pagina 251 encontrada no frame 48.
+Endereco fisico: 12336 | Valor: 0
+Endereco logico: 64304 | Pagina: 251 | Deslocamento: 48
+Pagina 118 encontrada no frame 25.
+Endereco fisico: 6465 | Valor: 0
+Endereco logico: 30273 | Pagina: 118 | Deslocamento: 65
+Page fault: pagina 148 carregada no frame 44.
+Endereco fisico: 11458 | Valor: 37
+Endereco logico: 38082 | Pagina: 148 | Deslocamento: 194
+Pagina 87 encontrada no frame 105.
+Endereco fisico: 27012 | Valor: 0
+Endereco logico: 22404 | Pagina: 87 | Deslocamento: 132
+Pagina 14 encontrada no frame 101.
+Endereco fisico: 26080 | Valor: 0
+Endereco logico: 3808 | Pagina: 14 | Deslocamento: 224
+Page fault: pagina 65 carregada no frame 108.
+Endereco fisico: 27891 | Valor: 124
+Endereco logico: 16883 | Pagina: 65 | Deslocamento: 243
+Pagina 90 encontrada no frame 26.
+Endereco fisico: 6727 | Valor: -111
+Endereco logico: 23111 | Pagina: 90 | Deslocamento: 71
+Pagina 243 encontrada no frame 93.
+Endereco fisico: 24017 | Valor: 0
+Endereco logico: 62417 | Pagina: 243 | Deslocamento: 209
+Pagina 235 encontrada no frame 70.
+Endereco fisico: 18124 | Valor: 0
+Endereco logico: 60364 | Pagina: 235 | Deslocamento: 204
+Pagina 17 encontrada no frame 17.
+Endereco fisico: 4542 | Valor: 4
+Endereco logico: 4542 | Pagina: 17 | Deslocamento: 190
+Page fault: pagina 57 carregada no frame 2.
+Endereco fisico: 749 | Valor: 0
+Endereco logico: 14829 | Pagina: 57 | Deslocamento: 237
+Page fault: pagina 175 carregada no frame 39.
+Endereco fisico: 10148 | Valor: 0
+Endereco logico: 44964 | Pagina: 175 | Deslocamento: 164
+Pagina 132 encontrada no frame 77.
+Endereco fisico: 19844 | Valor: 0
+Endereco logico: 33924 | Pagina: 132 | Deslocamento: 132
+Pagina 8 encontrada no frame 51.
+Endereco fisico: 13149 | Valor: 0
+Endereco logico: 2141 | Pagina: 8 | Deslocamento: 93
+Pagina 75 encontrada no frame 27.
+Endereco fisico: 6957 | Valor: 0
+Endereco logico: 19245 | Pagina: 75 | Deslocamento: 45
+Pagina 184 encontrada no frame 112.
+Endereco fisico: 28736 | Valor: 0
+Endereco logico: 47168 | Pagina: 184 | Deslocamento: 64
+Page fault: pagina 93 carregada no frame 74.
+Endereco fisico: 19184 | Valor: 0
+Endereco logico: 24048 | Pagina: 93 | Deslocamento: 240
+Pagina 3 encontrada no frame 65.
+Endereco fisico: 16894 | Valor: 0
+Endereco logico: 1022 | Pagina: 3 | Deslocamento: 254
+Pagina 90 encontrada no frame 26.
+Endereco fisico: 6691 | Valor: -120
+Endereco logico: 23075 | Pagina: 90 | Deslocamento: 35
+Pagina 97 encontrada no frame 81.
+Endereco fisico: 20792 | Valor: 0
+Endereco logico: 24888 | Pagina: 97 | Deslocamento: 56
+Page fault: pagina 192 carregada no frame 15.
+Endereco fisico: 3935 | Valor: 23
+Endereco logico: 49247 | Pagina: 192 | Deslocamento: 95
+Page fault: pagina 19 carregada no frame 122.
+Endereco fisico: 31268 | Valor: 0
+Endereco logico: 4900 | Pagina: 19 | Deslocamento: 36
+Pagina 88 encontrada no frame 88.
+Endereco fisico: 22656 | Valor: 0
+Endereco logico: 22656 | Pagina: 88 | Deslocamento: 128
+Page fault: pagina 133 carregada no frame 125.
+Endereco fisico: 32069 | Valor: 0
+Endereco logico: 34117 | Pagina: 133 | Deslocamento: 69
+Pagina 217 encontrada no frame 49.
+Endereco fisico: 12547 | Valor: 64
+Endereco logico: 55555 | Pagina: 217 | Deslocamento: 3
+Pagina 191 encontrada no frame 4.
+Endereco fisico: 1075 | Valor: -52
+Endereco logico: 48947 | Pagina: 191 | Deslocamento: 51
+Page fault: pagina 232 carregada no frame 47.
+Endereco fisico: 12173 | Valor: 0
+Endereco logico: 59533 | Pagina: 232 | Deslocamento: 141
+Page fault: pagina 83 carregada no frame 83.
+Endereco fisico: 21312 | Valor: 0
+Endereco logico: 21312 | Pagina: 83 | Deslocamento: 64
+Pagina 83 encontrada no frame 83.
+Endereco fisico: 21415 | Valor: -23
+Endereco logico: 21415 | Pagina: 83 | Deslocamento: 167
+Pagina 3 encontrada no frame 65.
+Endereco fisico: 16685 | Valor: 0
+Endereco logico: 813 | Pagina: 3 | Deslocamento: 45
+Pagina 75 encontrada no frame 27.
+Endereco fisico: 7131 | Valor: -10
+Endereco logico: 19419 | Pagina: 75 | Deslocamento: 219
+Page fault: pagina 7 carregada no frame 42.
+Endereco fisico: 10959 | Valor: -13
+Endereco logico: 1999 | Pagina: 7 | Deslocamento: 207
+Page fault: pagina 78 carregada no frame 35.
+Endereco fisico: 9147 | Valor: -82
+Endereco logico: 20155 | Pagina: 78 | Deslocamento: 187
+Pagina 84 encontrada no frame 37.
+Endereco fisico: 9489 | Valor: 0
+Endereco logico: 21521 | Pagina: 84 | Deslocamento: 17
+Page fault: pagina 53 carregada no frame 50.
+Endereco fisico: 12902 | Valor: 13
+Endereco logico: 13670 | Pagina: 53 | Deslocamento: 102
+Pagina 75 encontrada no frame 27.
+Endereco fisico: 7001 | Valor: 0
+Endereco logico: 19289 | Pagina: 75 | Deslocamento: 89
+Page fault: pagina 228 carregada no frame 52.
+Endereco fisico: 13427 | Valor: 28
+Endereco logico: 58483 | Pagina: 228 | Deslocamento: 115
+Pagina 161 encontrada no frame 62.
+Endereco fisico: 15974 | Valor: 40
+Endereco logico: 41318 | Pagina: 161 | Deslocamento: 102
+Pagina 63 encontrada no frame 33.
+Endereco fisico: 8471 | Valor: -59
+Endereco logico: 16151 | Pagina: 63 | Deslocamento: 23
+Pagina 53 encontrada no frame 50.
+Endereco fisico: 12843 | Valor: 74
+Endereco logico: 13611 | Pagina: 53 | Deslocamento: 43
+Pagina 84 encontrada no frame 37.
+Endereco fisico: 9482 | Valor: 21
+Endereco logico: 21514 | Pagina: 84 | Deslocamento: 10
+Page fault: pagina 52 carregada no frame 5.
+Endereco fisico: 1467 | Valor: 46
+Endereco logico: 13499 | Pagina: 52 | Deslocamento: 187
+Pagina 178 encontrada no frame 16.
+Endereco fisico: 4111 | Valor: -125
+Endereco logico: 45583 | Pagina: 178 | Deslocamento: 15
+Pagina 191 encontrada no frame 4.
+Endereco fisico: 1141 | Valor: 0
+Endereco logico: 49013 | Pagina: 191 | Deslocamento: 117
+Page fault: pagina 253 carregada no frame 53.
+Endereco fisico: 13643 | Valor: 82
+Endereco logico: 64843 | Pagina: 253 | Deslocamento: 75
+Pagina 247 encontrada no frame 113.
+Endereco fisico: 29181 | Valor: 0
+Endereco logico: 63485 | Pagina: 247 | Deslocamento: 253
+Pagina 151 encontrada no frame 100.
+Endereco fisico: 25641 | Valor: 0
+Endereco logico: 38697 | Pagina: 151 | Deslocamento: 41
+Pagina 231 encontrada no frame 115.
+Endereco fisico: 29492 | Valor: 0
+Endereco logico: 59188 | Pagina: 231 | Deslocamento: 52
+Page fault: pagina 96 carregada no frame 63.
+Endereco fisico: 16145 | Valor: 0
+Endereco logico: 24593 | Pagina: 96 | Deslocamento: 17
+Page fault: pagina 225 carregada no frame 109.
+Endereco fisico: 27945 | Valor: 0
+Endereco logico: 57641 | Pagina: 225 | Deslocamento: 41
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14508 | Valor: 0
+Endereco logico: 36524 | Pagina: 142 | Deslocamento: 172
+Pagina 222 encontrada no frame 10.
+Endereco fisico: 2708 | Valor: 0
+Endereco logico: 56980 | Pagina: 222 | Deslocamento: 148
+Page fault: pagina 143 carregada no frame 124.
+Endereco fisico: 31946 | Valor: 35
+Endereco logico: 36810 | Pagina: 143 | Deslocamento: 202
+Pagina 23 encontrada no frame 87.
+Endereco fisico: 22480 | Valor: 0
+Endereco logico: 6096 | Pagina: 23 | Deslocamento: 208
+Page fault: pagina 43 carregada no frame 6.
+Endereco fisico: 1598 | Valor: 10
+Endereco logico: 11070 | Pagina: 43 | Deslocamento: 62
+Pagina 234 encontrada no frame 82.
+Endereco fisico: 21212 | Valor: 0
+Endereco logico: 60124 | Pagina: 234 | Deslocamento: 220
+Page fault: pagina 146 carregada no frame 23.
+Endereco fisico: 6088 | Valor: 0
+Endereco logico: 37576 | Pagina: 146 | Deslocamento: 200
+Pagina 58 encontrada no frame 32.
+Endereco fisico: 8440 | Valor: 0
+Endereco logico: 15096 | Pagina: 58 | Deslocamento: 248
+Page fault: pagina 176 carregada no frame 55.
+Endereco fisico: 14271 | Valor: 47
+Endereco logico: 45247 | Pagina: 176 | Deslocamento: 191
+Page fault: pagina 128 carregada no frame 121.
+Endereco fisico: 30991 | Valor: 3
+Endereco logico: 32783 | Pagina: 128 | Deslocamento: 15
+Pagina 228 encontrada no frame 52.
+Endereco fisico: 13334 | Valor: 57
+Endereco logico: 58390 | Pagina: 228 | Deslocamento: 22
+Pagina 237 encontrada no frame 60.
+Endereco fisico: 15561 | Valor: 0
+Endereco logico: 60873 | Pagina: 237 | Deslocamento: 201
+Page fault: pagina 92 carregada no frame 102.
+Endereco fisico: 26279 | Valor: 41
+Endereco logico: 23719 | Pagina: 92 | Deslocamento: 167
+Page fault: pagina 95 carregada no frame 13.
+Endereco fisico: 3393 | Valor: 0
+Endereco logico: 24385 | Pagina: 95 | Deslocamento: 65
+Pagina 87 encontrada no frame 105.
+Endereco fisico: 26915 | Valor: -56
+Endereco logico: 22307 | Pagina: 87 | Deslocamento: 35
+Page fault: pagina 67 carregada no frame 73.
+Endereco fisico: 18911 | Valor: -9
+Endereco logico: 17375 | Pagina: 67 | Deslocamento: 223
+Page fault: pagina 62 carregada no frame 111.
+Endereco fisico: 28534 | Valor: 15
+Endereco logico: 15990 | Pagina: 62 | Deslocamento: 118
+Page fault: pagina 80 carregada no frame 36.
+Endereco fisico: 9262 | Valor: 20
+Endereco logico: 20526 | Pagina: 80 | Deslocamento: 46
+Page fault: pagina 101 carregada no frame 94.
+Endereco fisico: 24112 | Valor: 0
+Endereco logico: 25904 | Pagina: 101 | Deslocamento: 48
+Page fault: pagina 164 carregada no frame 66.
+Endereco fisico: 17136 | Valor: 0
+Endereco logico: 42224 | Pagina: 164 | Deslocamento: 240
+Pagina 36 encontrada no frame 43.
+Endereco fisico: 11103 | Valor: 23
+Endereco logico: 9311 | Pagina: 36 | Deslocamento: 95
+Pagina 30 encontrada no frame 123.
+Endereco fisico: 31670 | Valor: 7
+Endereco logico: 7862 | Pagina: 30 | Deslocamento: 182
+Pagina 14 encontrada no frame 101.
+Endereco fisico: 26107 | Valor: -66
+Endereco logico: 3835 | Pagina: 14 | Deslocamento: 251
+Pagina 119 encontrada no frame 41.
+Endereco fisico: 10567 | Valor: -47
+Endereco logico: 30535 | Pagina: 119 | Deslocamento: 71
+Page fault: pagina 254 carregada no frame 126.
+Endereco fisico: 32411 | Valor: -90
+Endereco logico: 65179 | Pagina: 254 | Deslocamento: 155
+Page fault: pagina 224 carregada no frame 12.
+Endereco fisico: 3115 | Valor: 10
+Endereco logico: 57387 | Pagina: 224 | Deslocamento: 43
+Pagina 248 encontrada no frame 97.
+Endereco fisico: 24923 | Valor: 22
+Endereco logico: 63579 | Pagina: 248 | Deslocamento: 91
+Pagina 19 encontrada no frame 122.
+Endereco fisico: 31314 | Valor: 4
+Endereco logico: 4946 | Pagina: 19 | Deslocamento: 82
+Pagina 35 encontrada no frame 20.
+Endereco fisico: 5197 | Valor: 0
+Endereco logico: 9037 | Pagina: 35 | Deslocamento: 77
+Pagina 238 encontrada no frame 117.
+Endereco fisico: 30057 | Valor: 0
+Endereco logico: 61033 | Pagina: 238 | Deslocamento: 105
+Page fault: pagina 216 carregada no frame 104.
+Endereco fisico: 26871 | Valor: 61
+Endereco logico: 55543 | Pagina: 216 | Deslocamento: 247
+Page fault: pagina 196 carregada no frame 38.
+Endereco fisico: 9913 | Valor: 0
+Endereco logico: 50361 | Pagina: 196 | Deslocamento: 185
+Page fault: pagina 25 carregada no frame 1.
+Endereco fisico: 336 | Valor: 0
+Endereco logico: 6480 | Pagina: 25 | Deslocamento: 80
+Pagina 54 encontrada no frame 84.
+Endereco fisico: 21722 | Valor: 13
+Endereco logico: 14042 | Pagina: 54 | Deslocamento: 218
+Pagina 84 encontrada no frame 37.
+Endereco fisico: 9499 | Valor: 6
+Endereco logico: 21531 | Pagina: 84 | Deslocamento: 27
+Pagina 153 encontrada no frame 22.
+Endereco fisico: 5659 | Valor: 70
+Endereco logico: 39195 | Pagina: 153 | Deslocamento: 27
+Pagina 146 encontrada no frame 23.
+Endereco fisico: 6023 | Valor: -95
+Endereco logico: 37511 | Pagina: 146 | Deslocamento: 135
+Pagina 92 encontrada no frame 102.
+Endereco fisico: 26256 | Valor: 0
+Endereco logico: 23696 | Pagina: 92 | Deslocamento: 144
+Page fault: pagina 107 carregada no frame 9.
+Endereco fisico: 2352 | Valor: 0
+Endereco logico: 27440 | Pagina: 107 | Deslocamento: 48
+Pagina 110 encontrada no frame 3.
+Endereco fisico: 809 | Valor: 0
+Endereco logico: 28201 | Pagina: 110 | Deslocamento: 41
+Pagina 90 encontrada no frame 26.
+Endereco fisico: 6688 | Valor: 0
+Endereco logico: 23072 | Pagina: 90 | Deslocamento: 32
+Pagina 30 encontrada no frame 123.
+Endereco fisico: 31622 | Valor: 7
+Endereco logico: 7814 | Pagina: 30 | Deslocamento: 134
+Pagina 25 encontrada no frame 1.
+Endereco fisico: 408 | Valor: 0
+Endereco logico: 6552 | Pagina: 25 | Deslocamento: 152
+Page fault: pagina 170 carregada no frame 69.
+Endereco fisico: 17781 | Valor: 0
+Endereco logico: 43637 | Pagina: 170 | Deslocamento: 117
+Page fault: pagina 137 carregada no frame 57.
+Endereco fisico: 14633 | Valor: 0
+Endereco logico: 35113 | Pagina: 137 | Deslocamento: 41
+Pagina 136 encontrada no frame 21.
+Endereco fisico: 5450 | Valor: 34
+Endereco logico: 34890 | Pagina: 136 | Deslocamento: 74
+Page fault: pagina 239 carregada no frame 59.
+Endereco fisico: 15217 | Valor: 0
+Endereco logico: 61297 | Pagina: 239 | Deslocamento: 113
+Pagina 178 encontrada no frame 16.
+Endereco fisico: 4161 | Valor: 0
+Endereco logico: 45633 | Pagina: 178 | Deslocamento: 65
+Pagina 239 encontrada no frame 59.
+Endereco fisico: 15351 | Valor: -3
+Endereco logico: 61431 | Pagina: 239 | Deslocamento: 247
+Page fault: pagina 179 carregada no frame 78.
+Endereco fisico: 20176 | Valor: 0
+Endereco logico: 46032 | Pagina: 179 | Deslocamento: 208
+Page fault: pagina 73 carregada no frame 46.
+Endereco fisico: 11862 | Valor: 18
+Endereco logico: 18774 | Pagina: 73 | Deslocamento: 86
+Pagina 246 encontrada no frame 40.
+Endereco fisico: 10255 | Valor: -125
+Endereco logico: 62991 | Pagina: 246 | Deslocamento: 15
+Page fault: pagina 109 carregada no frame 34.
+Endereco fisico: 8859 | Valor: 102
+Endereco logico: 28059 | Pagina: 109 | Deslocamento: 155
+Pagina 137 encontrada no frame 57.
+Endereco fisico: 14749 | Valor: 0
+Endereco logico: 35229 | Pagina: 137 | Deslocamento: 157
+Pagina 200 encontrada no frame 86.
+Endereco fisico: 22046 | Valor: 50
+Endereco logico: 51230 | Pagina: 200 | Deslocamento: 30
+Page fault: pagina 56 carregada no frame 18.
+Endereco fisico: 4677 | Valor: 0
+Endereco logico: 14405 | Pagina: 56 | Deslocamento: 69
+Page fault: pagina 204 carregada no frame 76.
+Endereco fisico: 19474 | Valor: 51
+Endereco logico: 52242 | Pagina: 204 | Deslocamento: 18
+Page fault: pagina 168 carregada no frame 95.
+Endereco fisico: 24465 | Valor: 0
+Endereco logico: 43153 | Pagina: 168 | Deslocamento: 145
+Page fault: pagina 10 carregada no frame 85.
+Endereco fisico: 21909 | Valor: 0
+Endereco logico: 2709 | Pagina: 10 | Deslocamento: 149
+Pagina 187 encontrada no frame 91.
+Endereco fisico: 23387 | Valor: -42
+Endereco logico: 47963 | Pagina: 187 | Deslocamento: 91
+Pagina 144 encontrada no frame 127.
+Endereco fisico: 32591 | Valor: 19
+Endereco logico: 36943 | Pagina: 144 | Deslocamento: 79
+Page fault: pagina 211 carregada no frame 107.
+Endereco fisico: 27442 | Valor: 52
+Endereco logico: 54066 | Pagina: 211 | Deslocamento: 50
+Page fault: pagina 39 carregada no frame 110.
+Endereco fisico: 28230 | Valor: 9
+Endereco logico: 10054 | Pagina: 39 | Deslocamento: 70
+Pagina 168 encontrada no frame 95.
+Endereco fisico: 24363 | Valor: 10
+Endereco logico: 43051 | Pagina: 168 | Deslocamento: 43
+Page fault: pagina 45 carregada no frame 0.
+Endereco fisico: 5 | Valor: 0
+Endereco logico: 11525 | Pagina: 45 | Deslocamento: 5
+Page fault: pagina 69 carregada no frame 28.
+Endereco fisico: 7188 | Valor: 0
+Endereco logico: 17684 | Pagina: 69 | Deslocamento: 20
+Page fault: pagina 162 carregada no frame 90.
+Endereco fisico: 23249 | Valor: 0
+Endereco logico: 41681 | Pagina: 162 | Deslocamento: 209
+Page fault: pagina 108 carregada no frame 8.
+Endereco fisico: 2283 | Valor: 58
+Endereco logico: 27883 | Pagina: 108 | Deslocamento: 235
+Pagina 222 encontrada no frame 10.
+Endereco fisico: 2637 | Valor: 0
+Endereco logico: 56909 | Pagina: 222 | Deslocamento: 77
+Pagina 178 encontrada no frame 16.
+Endereco fisico: 4300 | Valor: 0
+Endereco logico: 45772 | Pagina: 178 | Deslocamento: 204
+Pagina 107 encontrada no frame 9.
+Endereco fisico: 2408 | Valor: 0
+Endereco logico: 27496 | Pagina: 107 | Deslocamento: 104
+Page fault: pagina 182 carregada no frame 7.
+Endereco fisico: 2042 | Valor: 45
+Endereco logico: 46842 | Pagina: 182 | Deslocamento: 250
+Pagina 151 encontrada no frame 100.
+Endereco fisico: 25678 | Valor: 37
+Endereco logico: 38734 | Pagina: 151 | Deslocamento: 78
+Page fault: pagina 113 carregada no frame 103.
+Endereco fisico: 26412 | Valor: 0
+Endereco logico: 28972 | Pagina: 113 | Deslocamento: 44
+Page fault: pagina 233 carregada no frame 120.
+Endereco fisico: 30756 | Valor: 0
+Endereco logico: 59684 | Pagina: 233 | Deslocamento: 36
+Page fault: pagina 44 carregada no frame 79.
+Endereco fisico: 20344 | Valor: 0
+Endereco logico: 11384 | Pagina: 44 | Deslocamento: 120
+Page fault: pagina 82 carregada no frame 71.
+Endereco fisico: 18202 | Valor: 20
+Endereco logico: 21018 | Pagina: 82 | Deslocamento: 26
+Pagina 8 encontrada no frame 51.
+Endereco fisico: 13200 | Valor: 0
+Endereco logico: 2192 | Pagina: 8 | Deslocamento: 144
+Page fault: pagina 71 carregada no frame 99.
+Endereco fisico: 25552 | Valor: 0
+Endereco logico: 18384 | Pagina: 71 | Deslocamento: 208
+Pagina 52 encontrada no frame 5.
+Endereco fisico: 1432 | Valor: 0
+Endereco logico: 13464 | Pagina: 52 | Deslocamento: 152
+Page fault: pagina 121 carregada no frame 98.
+Endereco fisico: 25130 | Valor: 30
+Endereco logico: 31018 | Pagina: 121 | Deslocamento: 42
+Page fault: pagina 245 carregada no frame 68.
+Endereco fisico: 17646 | Valor: 61
+Endereco logico: 62958 | Pagina: 245 | Deslocamento: 238
+Pagina 119 encontrada no frame 41.
+Endereco fisico: 10643 | Valor: -28
+Endereco logico: 30611 | Pagina: 119 | Deslocamento: 147
+Pagina 7 encontrada no frame 42.
+Endereco fisico: 10873 | Valor: 0
+Endereco logico: 1913 | Pagina: 7 | Deslocamento: 121
+Pagina 73 encontrada no frame 46.
+Endereco fisico: 11992 | Valor: 0
+Endereco logico: 18904 | Pagina: 73 | Deslocamento: 216
+Page fault: pagina 104 carregada no frame 106.
+Endereco fisico: 27285 | Valor: 0
+Endereco logico: 26773 | Pagina: 104 | Deslocamento: 149
+Pagina 216 encontrada no frame 104.
+Endereco fisico: 26819 | Valor: 48
+Endereco logico: 55491 | Pagina: 216 | Deslocamento: 195
+Page fault: pagina 85 carregada no frame 118.
+Endereco fisico: 30347 | Valor: 98
+Endereco logico: 21899 | Pagina: 85 | Deslocamento: 139
+Pagina 251 encontrada no frame 48.
+Endereco fisico: 12445 | Valor: 0
+Endereco logico: 64413 | Pagina: 251 | Deslocamento: 157
+Pagina 184 encontrada no frame 112.
+Endereco fisico: 28702 | Valor: 46
+Endereco logico: 47134 | Pagina: 184 | Deslocamento: 30
+Pagina 90 encontrada no frame 26.
+Endereco fisico: 6788 | Valor: 0
+Endereco logico: 23172 | Pagina: 90 | Deslocamento: 132
+Page fault: pagina 28 carregada no frame 67.
+Endereco fisico: 17246 | Valor: 7
+Endereco logico: 7262 | Pagina: 28 | Deslocamento: 94
+Page fault: pagina 49 carregada no frame 80.
+Endereco fisico: 20641 | Valor: 0
+Endereco logico: 12705 | Pagina: 49 | Deslocamento: 161
+Page fault: pagina 29 carregada no frame 96.
+Endereco fisico: 24674 | Valor: 7
+Endereco logico: 7522 | Pagina: 29 | Deslocamento: 98
+Pagina 229 encontrada no frame 11.
+Endereco fisico: 3007 | Valor: 111
+Endereco logico: 58815 | Pagina: 229 | Deslocamento: 191
+Pagina 136 encontrada no frame 21.
+Endereco fisico: 5476 | Valor: 0
+Endereco logico: 34916 | Pagina: 136 | Deslocamento: 100
+Pagina 14 encontrada no frame 101.
+Endereco fisico: 26074 | Valor: 3
+Endereco logico: 3802 | Pagina: 14 | Deslocamento: 218
+Page fault: pagina 226 carregada no frame 29.
+Endereco fisico: 7576 | Valor: 0
+Endereco logico: 58008 | Pagina: 226 | Deslocamento: 152
+Page fault: pagina 4 carregada no frame 58.
+Endereco fisico: 15063 | Valor: 53
+Endereco logico: 1239 | Pagina: 4 | Deslocamento: 215
+Page fault: pagina 249 carregada no frame 30.
+Endereco fisico: 7883 | Valor: 114
+Endereco logico: 63947 | Pagina: 249 | Deslocamento: 203
+Page fault: pagina 1 carregada no frame 89.
+Endereco fisico: 22909 | Valor: 0
+Endereco logico: 381 | Pagina: 1 | Deslocamento: 125
+Pagina 237 encontrada no frame 60.
+Endereco fisico: 15422 | Valor: 59
+Endereco logico: 60734 | Pagina: 237 | Deslocamento: 62
+Page fault: pagina 190 carregada no frame 64.
+Endereco fisico: 16513 | Valor: 0
+Endereco logico: 48769 | Pagina: 190 | Deslocamento: 129
+Page fault: pagina 163 carregada no frame 45.
+Endereco fisico: 11730 | Valor: 40
+Endereco logico: 41938 | Pagina: 163 | Deslocamento: 210
+Pagina 148 encontrada no frame 44.
+Endereco fisico: 11401 | Valor: 0
+Endereco logico: 38025 | Pagina: 148 | Deslocamento: 137
+Page fault: pagina 215 carregada no frame 61.
+Endereco fisico: 15675 | Valor: -50
+Endereco logico: 55099 | Pagina: 215 | Deslocamento: 59
+Page fault: pagina 221 carregada no frame 119.
+Endereco fisico: 30579 | Valor: 92
+Endereco logico: 56691 | Pagina: 221 | Deslocamento: 115
+Page fault: pagina 154 carregada no frame 54.
+Endereco fisico: 13930 | Valor: 38
+Endereco logico: 39530 | Pagina: 154 | Deslocamento: 106
+Pagina 230 encontrada no frame 75.
+Endereco fisico: 19323 | Valor: -98
+Endereco logico: 59003 | Pagina: 230 | Deslocamento: 123
+Pagina 23 encontrada no frame 87.
+Endereco fisico: 22413 | Valor: 0
+Endereco logico: 6029 | Pagina: 23 | Deslocamento: 141
+Page fault: pagina 81 carregada no frame 116.
+Endereco fisico: 29880 | Valor: 0
+Endereco logico: 20920 | Pagina: 81 | Deslocamento: 184
+Page fault: pagina 31 carregada no frame 92.
+Endereco fisico: 23693 | Valor: 0
+Endereco logico: 8077 | Pagina: 31 | Deslocamento: 141
+Page fault: pagina 166 carregada no frame 114.
+Endereco fisico: 29321 | Valor: 0
+Endereco logico: 42633 | Pagina: 166 | Deslocamento: 137
+Page fault: pagina 68 carregada no frame 31.
+Endereco fisico: 7971 | Valor: 8
+Endereco logico: 17443 | Pagina: 68 | Deslocamento: 35
+Page fault: pagina 209 carregada no frame 19.
+Endereco fisico: 4930 | Valor: 52
+Endereco logico: 53570 | Pagina: 209 | Deslocamento: 66
+Page fault: pagina 89 carregada no frame 24.
+Endereco fisico: 6193 | Valor: 0
+Endereco logico: 22833 | Pagina: 89 | Deslocamento: 49
+Pagina 14 encontrada no frame 101.
+Endereco fisico: 26054 | Valor: 3
+Endereco logico: 3782 | Pagina: 14 | Deslocamento: 198
+Page fault: pagina 186 carregada no frame 72.
+Endereco fisico: 18574 | Valor: 46
+Endereco logico: 47758 | Pagina: 186 | Deslocamento: 142
+Page fault: pagina 86 carregada no frame 14.
+Endereco fisico: 3704 | Valor: 0
+Endereco logico: 22136 | Pagina: 86 | Deslocamento: 120
+Pagina 87 encontrada no frame 105.
+Endereco fisico: 27035 | Valor: -26
+Endereco logico: 22427 | Pagina: 87 | Deslocamento: 155
+Pagina 93 encontrada no frame 74.
+Endereco fisico: 19003 | Valor: 78
+Endereco logico: 23867 | Pagina: 93 | Deslocamento: 59
+Pagina 234 encontrada no frame 82.
+Endereco fisico: 21056 | Valor: 0
+Endereco logico: 59968 | Pagina: 234 | Deslocamento: 64
+Page fault: pagina 242 carregada no frame 25.
+Endereco fisico: 6614 | Valor: 60
+Endereco logico: 62166 | Pagina: 242 | Deslocamento: 214
+Page fault: pagina 27 carregada no frame 108.
+Endereco fisico: 27708 | Valor: 0
+Endereco logico: 6972 | Pagina: 27 | Deslocamento: 60
+Pagina 248 encontrada no frame 97.
+Endereco fisico: 25028 | Valor: 0
+Endereco logico: 63684 | Pagina: 248 | Deslocamento: 196
+Page fault: pagina 181 carregada no frame 93.
+Endereco fisico: 23860 | Valor: 0
+Endereco logico: 46388 | Pagina: 181 | Deslocamento: 52
+Pagina 163 encontrada no frame 45.
+Endereco fisico: 11734 | Valor: 40
+Endereco logico: 41942 | Pagina: 163 | Deslocamento: 214
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14508 | Valor: 0
+Endereco logico: 36524 | Pagina: 142 | Deslocamento: 172
+Pagina 36 encontrada no frame 43.
+Endereco fisico: 11115 | Valor: 26
+Endereco logico: 9323 | Pagina: 36 | Deslocamento: 107
+Pagina 121 encontrada no frame 98.
+Endereco fisico: 25226 | Valor: 30
+Endereco logico: 31114 | Pagina: 121 | Deslocamento: 138
+Pagina 87 encontrada no frame 105.
+Endereco fisico: 26953 | Valor: 0
+Endereco logico: 22345 | Pagina: 87 | Deslocamento: 73
+Pagina 181 encontrada no frame 93.
+Endereco fisico: 23935 | Valor: 95
+Endereco logico: 46463 | Pagina: 181 | Deslocamento: 127
+Page fault: pagina 213 carregada no frame 70.
+Endereco fisico: 18063 | Valor: 99
+Endereco logico: 54671 | Pagina: 213 | Deslocamento: 143
+Pagina 35 encontrada no frame 20.
+Endereco fisico: 5374 | Valor: 8
+Endereco logico: 9214 | Pagina: 35 | Deslocamento: 254
+Pagina 28 encontrada no frame 67.
+Endereco fisico: 17241 | Valor: 0
+Endereco logico: 7257 | Pagina: 28 | Deslocamento: 89
+Page fault: pagina 129 carregada no frame 17.
+Endereco fisico: 4478 | Valor: 32
+Endereco logico: 33150 | Pagina: 129 | Deslocamento: 126
+Pagina 162 encontrada no frame 90.
+Endereco fisico: 23133 | Valor: 0
+Endereco logico: 41565 | Pagina: 162 | Deslocamento: 93
+Page fault: pagina 102 carregada no frame 2.
+Endereco fisico: 614 | Valor: 25
+Endereco logico: 26214 | Pagina: 102 | Deslocamento: 102
+Pagina 14 encontrada no frame 101.
+Endereco fisico: 25867 | Valor: -126
+Endereco logico: 3595 | Pagina: 14 | Deslocamento: 11
+Page fault: pagina 70 carregada no frame 39.
+Endereco fisico: 9996 | Valor: 0
+Endereco logico: 17932 | Pagina: 70 | Deslocamento: 12
+Page fault: pagina 135 carregada no frame 77.
+Endereco fisico: 19812 | Valor: 0
+Endereco logico: 34660 | Pagina: 135 | Deslocamento: 100
+Page fault: pagina 202 carregada no frame 81.
+Endereco fisico: 20985 | Valor: 0
+Endereco logico: 51961 | Pagina: 202 | Deslocamento: 249
+Pagina 229 encontrada no frame 11.
+Endereco fisico: 2826 | Valor: 57
+Endereco logico: 58634 | Pagina: 229 | Deslocamento: 10
+Pagina 226 encontrada no frame 29.
+Endereco fisico: 7558 | Valor: 56
+Endereco logico: 57990 | Pagina: 226 | Deslocamento: 134
+Page fault: pagina 112 carregada no frame 15.
+Endereco fisico: 4016 | Valor: 0
+Endereco logico: 28848 | Pagina: 112 | Deslocamento: 176
+Page fault: pagina 195 carregada no frame 88.
+Endereco fisico: 22528 | Valor: 0
+Endereco logico: 49920 | Pagina: 195 | Deslocamento: 0
+Pagina 71 encontrada no frame 99.
+Endereco fisico: 25519 | Valor: -21
+Endereco logico: 18351 | Pagina: 71 | Deslocamento: 175
+Pagina 209 encontrada no frame 19.
+Endereco fisico: 5029 | Valor: 0
+Endereco logico: 53669 | Pagina: 209 | Deslocamento: 165
+Page fault: pagina 132 carregada no frame 125.
+Endereco fisico: 32204 | Valor: 0
+Endereco logico: 33996 | Pagina: 132 | Deslocamento: 204
+Page fault: pagina 26 carregada no frame 49.
+Endereco fisico: 12629 | Valor: 0
+Endereco logico: 6741 | Pagina: 26 | Deslocamento: 85
+Page fault: pagina 250 carregada no frame 47.
+Endereco fisico: 12130 | Valor: 62
+Endereco logico: 64098 | Pagina: 250 | Deslocamento: 98
+Page fault: pagina 2 carregada no frame 83.
+Endereco fisico: 21342 | Valor: 0
+Endereco logico: 606 | Pagina: 2 | Deslocamento: 94
+Page fault: pagina 106 carregada no frame 65.
+Endereco fisico: 16887 | Valor: -67
+Endereco logico: 27383 | Pagina: 106 | Deslocamento: 247
+Pagina 246 encontrada no frame 40.
+Endereco fisico: 10404 | Valor: 0
+Endereco logico: 63140 | Pagina: 246 | Deslocamento: 164
+Page fault: pagina 125 carregada no frame 35.
+Endereco fisico: 9188 | Valor: 0
+Endereco logico: 32228 | Pagina: 125 | Deslocamento: 228
+Pagina 247 encontrada no frame 113.
+Endereco fisico: 29133 | Valor: 0
+Endereco logico: 63437 | Pagina: 247 | Deslocamento: 205
+Pagina 113 encontrada no frame 103.
+Endereco fisico: 26525 | Valor: 0
+Endereco logico: 29085 | Pagina: 113 | Deslocamento: 157
+Pagina 254 encontrada no frame 126.
+Endereco fisico: 32312 | Valor: 0
+Endereco logico: 65080 | Pagina: 254 | Deslocamento: 56
+Pagina 151 encontrada no frame 100.
+Endereco fisico: 25697 | Valor: 0
+Endereco logico: 38753 | Pagina: 151 | Deslocamento: 97
+Pagina 62 encontrada no frame 111.
+Endereco fisico: 28585 | Valor: 0
+Endereco logico: 16041 | Pagina: 62 | Deslocamento: 169
+Pagina 35 encontrada no frame 20.
+Endereco fisico: 5201 | Valor: 0
+Endereco logico: 9041 | Pagina: 35 | Deslocamento: 81
+Pagina 164 encontrada no frame 66.
+Endereco fisico: 17002 | Valor: 41
+Endereco logico: 42090 | Pagina: 164 | Deslocamento: 106
+Pagina 181 encontrada no frame 93.
+Endereco fisico: 23860 | Valor: 0
+Endereco logico: 46388 | Pagina: 181 | Deslocamento: 52
+Pagina 248 encontrada no frame 97.
+Endereco fisico: 24994 | Valor: 62
+Endereco logico: 63650 | Pagina: 248 | Deslocamento: 162
+Pagina 143 encontrada no frame 124.
+Endereco fisico: 31772 | Valor: 0
+Endereco logico: 36636 | Pagina: 143 | Deslocamento: 28
+Pagina 85 encontrada no frame 118.
+Endereco fisico: 30395 | Valor: 110
+Endereco logico: 21947 | Pagina: 85 | Deslocamento: 187
+Page fault: pagina 77 carregada no frame 27.
+Endereco fisico: 7033 | Valor: 0
+Endereco logico: 19833 | Pagina: 77 | Deslocamento: 121
+Pagina 142 encontrada no frame 56.
+Endereco fisico: 14448 | Valor: 0
+Endereco logico: 36464 | Pagina: 142 | Deslocamento: 112
+Page fault: pagina 33 carregada no frame 62.
+Endereco fisico: 15965 | Valor: 0
+Endereco logico: 8541 | Pagina: 33 | Deslocamento: 93
+Pagina 49 encontrada no frame 80.
+Endereco fisico: 20648 | Valor: 0
+Endereco logico: 12712 | Pagina: 49 | Deslocamento: 168
+Pagina 191 encontrada no frame 4.
+Endereco fisico: 1083 | Valor: -50
+Endereco logico: 48955 | Pagina: 191 | Deslocamento: 59
+Pagina 153 encontrada no frame 22.
+Endereco fisico: 5670 | Valor: 38
+Endereco logico: 39206 | Pagina: 153 | Deslocamento: 38
+Page fault: pagina 60 carregada no frame 33.
+Endereco fisico: 8666 | Valor: 15
+Endereco logico: 15578 | Pagina: 60 | Deslocamento: 218
+Page fault: pagina 192 carregada no frame 50.
+Endereco fisico: 12853 | Valor: 0
+Endereco logico: 49205 | Pagina: 192 | Deslocamento: 53
+Pagina 30 encontrada no frame 123.
+Endereco fisico: 31539 | Valor: -116
+Endereco logico: 7731 | Pagina: 30 | Deslocamento: 51
+Pagina 168 encontrada no frame 95.
+Endereco fisico: 24358 | Valor: 42
+Endereco logico: 43046 | Pagina: 168 | Deslocamento: 38
+Page fault: pagina 236 carregada no frame 53.
+Endereco fisico: 13650 | Valor: 59
+Endereco logico: 60498 | Pagina: 236 | Deslocamento: 82
+Pagina 36 encontrada no frame 43.
+Endereco fisico: 11029 | Valor: 0
+Endereco logico: 9237 | Pagina: 36 | Deslocamento: 21
+Pagina 186 encontrada no frame 72.
+Endereco fisico: 18522 | Valor: 46
+Endereco logico: 47706 | Pagina: 186 | Deslocamento: 90
+Page fault: pagina 171 carregada no frame 115.
+Endereco fisico: 29637 | Valor: 0
+Endereco logico: 43973 | Pagina: 171 | Deslocamento: 197
+Pagina 164 encontrada no frame 66.
+Endereco fisico: 16920 | Valor: 0
+Endereco logico: 42008 | Pagina: 164 | Deslocamento: 24
+Pagina 107 encontrada no frame 9.
+Endereco fisico: 2372 | Valor: 0
+Endereco logico: 27460 | Pagina: 107 | Deslocamento: 68
+Page fault: pagina 97 carregada no frame 63.
+Endereco fisico: 16295 | Valor: 105
+Endereco logico: 24999 | Pagina: 97 | Deslocamento: 167
+Pagina 202 encontrada no frame 81.
+Endereco fisico: 20957 | Valor: 0
+Endereco logico: 51933 | Pagina: 202 | Deslocamento: 221
+Page fault: pagina 133 carregada no frame 109.
+Endereco fisico: 27926 | Valor: 33
+Endereco logico: 34070 | Pagina: 133 | Deslocamento: 22
+Pagina 254 encontrada no frame 126.
+Endereco fisico: 32387 | Valor: -96
+Endereco logico: 65155 | Pagina: 254 | Deslocamento: 131
+Pagina 234 encontrada no frame 82.
+Endereco fisico: 21043 | Valor: -116
+Endereco logico: 59955 | Pagina: 234 | Deslocamento: 51
+Pagina 36 encontrada no frame 43.
+Endereco fisico: 11069 | Valor: 0
+Endereco logico: 9277 | Pagina: 36 | Deslocamento: 61
+Page fault: pagina 79 carregada no frame 6.
+Endereco fisico: 1732 | Valor: 0
+Endereco logico: 20420 | Pagina: 79 | Deslocamento: 196
+Page fault: pagina 175 carregada no frame 32.
+Endereco fisico: 8252 | Valor: 0
+Endereco logico: 44860 | Pagina: 175 | Deslocamento: 60
+Page fault: pagina 199 carregada no frame 55.
+Endereco fisico: 14128 | Valor: 0
+Endereco logico: 50992 | Pagina: 199 | Deslocamento: 48
+Page fault: pagina 41 carregada no frame 121.
+Endereco fisico: 31063 | Valor: 85
+Endereco logico: 10583 | Pagina: 41 | Deslocamento: 87
+Page fault: pagina 225 carregada no frame 52.
+Endereco fisico: 13463 | Valor: 101
+Endereco logico: 57751 | Pagina: 225 | Deslocamento: 151
+Pagina 90 encontrada no frame 26.
+Endereco fisico: 6811 | Valor: -90
+Endereco logico: 23195 | Pagina: 90 | Deslocamento: 155
+Pagina 106 encontrada no frame 65.
+Endereco fisico: 16731 | Valor: -106
+Endereco logico: 27227 | Pagina: 106 | Deslocamento: 91
+Page fault: pagina 167 carregada no frame 13.
+Endereco fisico: 3392 | Valor: 0
+Endereco logico: 42816 | Pagina: 167 | Deslocamento: 64
+Page fault: pagina 227 carregada no frame 73.
+Endereco fisico: 18795 | Valor: -38
+Endereco logico: 58219 | Pagina: 227 | Deslocamento: 107
+Pagina 146 encontrada no frame 23.
+Endereco fisico: 6118 | Valor: 36
+Endereco logico: 37606 | Pagina: 146 | Deslocamento: 230
+Pagina 71 encontrada no frame 99.
+Endereco fisico: 25594 | Valor: 17
+Endereco logico: 18426 | Pagina: 71 | Deslocamento: 250
+Pagina 82 encontrada no frame 71.
+Endereco fisico: 18422 | Valor: 20
+Endereco logico: 21238 | Pagina: 82 | Deslocamento: 246
+Page fault: pagina 46 carregada no frame 36.
+Endereco fisico: 9423 | Valor: -77
+Endereco logico: 11983 | Pagina: 46 | Deslocamento: 207
+Page fault: pagina 189 carregada no frame 94.
+Endereco fisico: 24074 | Valor: 47
+Endereco logico: 48394 | Pagina: 189 | Deslocamento: 10
+Page fault: pagina 43 carregada no frame 12.
+Endereco fisico: 3100 | Valor: 0
+Endereco logico: 11036 | Pagina: 43 | Deslocamento: 28
+Pagina 119 encontrada no frame 41.
+Endereco fisico: 10589 | Valor: 0
+Endereco logico: 30557 | Pagina: 119 | Deslocamento: 93
+Page fault: pagina 91 carregada no frame 122.
+Endereco fisico: 31389 | Valor: 0
+Endereco logico: 23453 | Pagina: 91 | Deslocamento: 157
+Page fault: pagina 194 carregada no frame 117.
+Endereco fisico: 30135 | Valor: -83
+Endereco logico: 49847 | Pagina: 194 | Deslocamento: 183
+Page fault: pagina 117 carregada no frame 38.
+Endereco fisico: 9808 | Valor: 0
+Endereco logico: 30032 | Pagina: 117 | Deslocamento: 80
+Pagina 187 encontrada no frame 91.
+Endereco fisico: 23489 | Valor: 0
+Endereco logico: 48065 | Pagina: 187 | Deslocamento: 193
+Pagina 27 encontrada no frame 108.
+Endereco fisico: 27693 | Valor: 0
+Endereco logico: 6957 | Pagina: 27 | Deslocamento: 45
+Pagina 8 encontrada no frame 51.
+Endereco fisico: 13309 | Valor: 0
+Endereco logico: 2301 | Pagina: 8 | Deslocamento: 253
+Pagina 30 encontrada no frame 123.
+Endereco fisico: 31544 | Valor: 0
+Endereco logico: 7736 | Pagina: 30 | Deslocamento: 56
+Page fault: pagina 122 carregada no frame 84.
+Endereco fisico: 21532 | Valor: 0
+Endereco logico: 31260 | Pagina: 122 | Deslocamento: 28
+Page fault: pagina 66 carregada no frame 37.
+Endereco fisico: 9647 | Valor: -85
+Endereco logico: 17071 | Pagina: 66 | Deslocamento: 175
+Page fault: pagina 34 carregada no frame 102.
+Endereco fisico: 26348 | Valor: 0
+Endereco logico: 8940 | Pagina: 34 | Deslocamento: 236
+Page fault: pagina 38 carregada no frame 3.
+Endereco fisico: 969 | Valor: 0
+Endereco logico: 9929 | Pagina: 38 | Deslocamento: 201
+Page fault: pagina 177 carregada no frame 1.
+Endereco fisico: 507 | Valor: 126
+Endereco logico: 45563 | Pagina: 177 | Deslocamento: 251
+Page fault: pagina 47 carregada no frame 69.
+Endereco fisico: 17739 | Valor: -46
+Endereco logico: 12107 | Pagina: 47 | Deslocamento: 75
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ echo $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt fifo fifo | grep "Page fault:" | wc -l[27m[C[C[C[C[C[C[C[C./vm addresses.txt fifo fifo | grep "Page fault:" | wc -l
+[?2004l538
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt fifo fifo | grep "Page fault:" | wc -l[27m[C[C[C[C[C[C[C[C./vm addresses.txt fifo fifo | grep "Page fault:" | wc -l
+[?2004l538
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt lru fifo | grep "Page fault:" | wc -l[27m[C[C[C[C[C[C[C[C./vm addresses.txt lru fifo | grep "Page fault:" | wc -l
+[?2004l539
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -n -A 35 'void registrar_acesso_lru\|int escolher_frame_lru' [27m[7mm[27m[7memoria.c[27m[Agrep -n -A 35 'void registrar_acesso_lru\|int escolher_frame_lru' memoria.c
+[?2004l[32m[K56[m[K[36m[K:[m[K[01;31m[Kvoid registrar_acesso_lru[m[K(Memoria *memoria, int numero_do_frame) {
+[32m[K57[m[K[36m[K-[m[K    if (numero_do_frame < 0 || numero_do_frame >= NUM_FRAMES) {
+[32m[K58[m[K[36m[K-[m[K        return;
+[32m[K59[m[K[36m[K-[m[K    }
+[32m[K60[m[K[36m[K-[m[K
+[32m[K61[m[K[36m[K-[m[K    memoria->contador_acessos++;
+[32m[K62[m[K[36m[K-[m[K    memoria->ultimo_acesso[numero_do_frame] = memoria->contador_acessos;
+[32m[K63[m[K[36m[K-[m[K}
+[32m[K64[m[K[36m[K-[m[K
+[32m[K65[m[K[36m[K:[m[K[01;31m[Kint escolher_frame_lru[m[K(const Memoria *memoria) {
+[32m[K66[m[K[36m[K-[m[K    int frame_escolhido = 0;
+[32m[K67[m[K[36m[K-[m[K
+[32m[K68[m[K[36m[K-[m[K    for (int frame_index = 1; frame_index < NUM_FRAMES; frame_index++) {
+[32m[K69[m[K[36m[K-[m[K        if (memoria->ultimo_acesso[frame_index] < memoria->ultimo_acesso[frame_escolhido]) {
+[32m[K70[m[K[36m[K-[m[K            frame_escolhido = frame_index;
+[32m[K71[m[K[36m[K-[m[K        }
+[32m[K72[m[K[36m[K-[m[K    }
+[32m[K73[m[K[36m[K-[m[K
+[32m[K74[m[K[36m[K-[m[K    return frame_escolhido;
+[32m[K75[m[K[36m[K-[m[K}
+[32m[K76[m[K[36m[K-[m[K
+[32m[K77[m[K[36m[K-[m[Kvoid inicializar_gerenciador(Memoria *memoria) {
+[32m[K78[m[K[36m[K-[m[K    inicializar_tabela_paginas(memoria->tabela_paginas);
+[32m[K79[m[K[36m[K-[m[K
+[32m[K80[m[K[36m[K-[m[K    for (int frame_index = 0; frame_index < NUM_FRAMES; frame_index++) {
+[32m[K81[m[K[36m[K-[m[K        memoria->vetor_paginas_dos_frames[frame_index] = -1;
+[32m[K82[m[K[36m[K-[m[K        memoria->ultimo_acesso[frame_index] = 0;
+[32m[K83[m[K[36m[K-[m[K        for (int byte_index = 0; byte_index < FRAME_SIZE; byte_index++) {
+[32m[K84[m[K[36m[K-[m[K            memoria->memoria_fisica[frame_index][byte_index] = 0;
+[32m[K85[m[K[36m[K-[m[K        }
+[32m[K86[m[K[36m[K-[m[K    }
+[32m[K87[m[K[36m[K-[m[K
+[32m[K88[m[K[36m[K-[m[K    memoria->proximo_frame = 0;
+[32m[K89[m[K[36m[K-[m[K    memoria->proximo_frame_fifo = 0;
+[32m[K90[m[K[36m[K-[m[K    memoria->contador_acessos = 0;
+[32m[K91[m[K[36m[K-[m[K}
+[32m[K92[m[K[36m[K-[m[K
+[32m[K93[m[K[36m[K-[m[K
+[32m[K94[m[K[36m[K-[m[Kint carregar_pagina(Memoria *memoria, FILE *arquivo_binario, int numero_da_pagina, int numero_do_frame) {
+[32m[K95[m[K[36m[K-[m[K    if (memoria == NULL || arquivo_binario == NULL) {
+[32m[K96[m[K[36m[K-[m[K        return -1;
+[32m[K97[m[K[36m[K-[m[K    }
+[32m[K98[m[K[36m[K-[m[K
+[32m[K99[m[K[36m[K-[m[K    if (numero_da_pagina < 0 || numero_da_pagina >= NUM_PAGES) {
+[32m[K100[m[K[36m[K-[m[K        return -1;
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mgrep -n -C 20 'registrar_acesso_lru\|escolher_frame_lru\|seleciona[27m[7mr[27m[7m_frame_fifo' vm.c[27m[A[C[C[C[C[C[C[C[Cgrep -n -C 20 'registrar_acesso_lru\|escolher_frame_lru\|selecionar_frame_fifo' vm.c
+[?2004l[32m[K83[m[K[36m[K-[m[K        fclose(arquivo_enderecos);
+[32m[K84[m[K[36m[K-[m[K        return 1;
+[32m[K85[m[K[36m[K-[m[K    }
+[32m[K86[m[K[36m[K-[m[K
+[32m[K87[m[K[36m[K-[m[K    rewind(arquivo_enderecos);
+[32m[K88[m[K[36m[K-[m[K
+[32m[K89[m[K[36m[K-[m[K    while (fgets(linha, sizeof(linha), arquivo_enderecos) != NULL) {
+[32m[K90[m[K[36m[K-[m[K        endereco_logico = strtol(linha, &fim_conversao, 10);
+[32m[K91[m[K[36m[K-[m[K
+[32m[K92[m[K[36m[K-[m[K        int endereco_16bits = (int) (endereco_logico & 0xFFFF);
+[32m[K93[m[K[36m[K-[m[K        int numero_da_pagina = calcular_numero_pagina(endereco_16bits);
+[32m[K94[m[K[36m[K-[m[K        int valor_deslocamento = calcular_valor_deslocamento(endereco_16bits);
+[32m[K95[m[K[36m[K-[m[K        int numero_do_frame = consultar_tabela_paginas(&memoria, numero_da_pagina);
+[32m[K96[m[K[36m[K-[m[K
+[32m[K97[m[K[36m[K-[m[K        if (numero_do_frame == -1) {
+[32m[K98[m[K[36m[K-[m[K            int pagina_antiga = -1;
+[32m[K99[m[K[36m[K-[m[K            numero_do_frame = obter_proximo_frame(&memoria);
+[32m[K100[m[K[36m[K-[m[K
+[32m[K101[m[K[36m[K-[m[K            if (numero_do_frame == -1) {
+[32m[K102[m[K[36m[K-[m[K                if (strcmp(argv[2], "fifo") == 0) {
+[32m[K103[m[K[36m[K:[m[K                    numero_do_frame = [01;31m[Kselecionar_frame_fifo[m[K(&memoria);
+[32m[K104[m[K[36m[K-[m[K                } else {
+[32m[K105[m[K[36m[K:[m[K                    numero_do_frame = [01;31m[Kescolher_frame_lru[m[K(&memoria);
+[32m[K106[m[K[36m[K-[m[K                }
+[32m[K107[m[K[36m[K-[m[K
+[32m[K108[m[K[36m[K-[m[K                pagina_antiga = memoria.vetor_paginas_dos_frames[numero_do_frame];
+[32m[K109[m[K[36m[K-[m[K            }
+[32m[K110[m[K[36m[K-[m[K
+[32m[K111[m[K[36m[K-[m[K            if (carregar_pagina(&memoria, arquivo_binario, numero_da_pagina, numero_do_frame) == -1) {
+[32m[K112[m[K[36m[K-[m[K                fprintf(stderr, "Erro ao carregar pagina %d.\n", numero_da_pagina);
+[32m[K113[m[K[36m[K-[m[K                fclose(arquivo_binario);
+[32m[K114[m[K[36m[K-[m[K                fclose(arquivo_enderecos);
+[32m[K115[m[K[36m[K-[m[K                return 1;
+[32m[K116[m[K[36m[K-[m[K            }
+[32m[K117[m[K[36m[K-[m[K
+[32m[K118[m[K[36m[K-[m[K            if (pagina_antiga != -1) {
+[32m[K119[m[K[36m[K-[m[K                memoria.tabela_paginas[pagina_antiga] = -1;
+[32m[K120[m[K[36m[K-[m[K            }
+[32m[K121[m[K[36m[K-[m[K
+[32m[K122[m[K[36m[K-[m[K            linkar_pagina_ao_frame(&memoria, numero_da_pagina, numero_do_frame);
+[32m[K123[m[K[36m[K-[m[K
+[32m[K124[m[K[36m[K-[m[K            printf("Page fault: pagina %d carregada no frame %d.\n",
+[32m[K125[m[K[36m[K-[m[K                   numero_da_pagina, numero_do_frame);
+[32m[K126[m[K[36m[K-[m[K        } else {
+[32m[K127[m[K[36m[K-[m[K            printf("Pagina %d encontrada no frame %d.\n",
+[32m[K128[m[K[36m[K-[m[K                   numero_da_pagina, numero_do_frame);
+[32m[K129[m[K[36m[K-[m[K        }
+[32m[K130[m[K[36m[K-[m[K
+[32m[K131[m[K[36m[K-[m[K        int endereco_fisico = numero_do_frame * FRAME_SIZE + valor_deslocamento;
+[32m[K132[m[K[36m[K-[m[K
+[32m[K133[m[K[36m[K-[m[K        signed char valor_byte = (signed char) memoria.memoria_fisica[numero_do_frame][valor_deslocamento];
+[32m[K134[m[K[36m[K-[m[K
+[32m[K135[m[K[36m[K-[m[K        if (strcmp(argv[2], "lru") == 0) {
+[32m[K136[m[K[36m[K:[m[K            [01;31m[Kregistrar_acesso_lru[m[K(&memoria, numero_do_frame);
+[32m[K137[m[K[36m[K-[m[K        }
+[32m[K138[m[K[36m[K-[m[K
+[32m[K139[m[K[36m[K-[m[K        printf("Endereco fisico: %d | Valor: %d\n", endereco_fisico, (int) valor_byte);
+[32m[K140[m[K[36m[K-[m[K
+[32m[K141[m[K[36m[K-[m[K
+[32m[K142[m[K[36m[K-[m[K        printf("Endereco logico: %ld | Pagina: %d | Deslocamento: %d\n",
+[32m[K143[m[K[36m[K-[m[K               endereco_logico, numero_da_pagina, valor_deslocamento);
+[32m[K144[m[K[36m[K-[m[K    }
+[32m[K145[m[K[36m[K-[m[K
+[32m[K146[m[K[36m[K-[m[K    if (ferror(arquivo_enderecos)) {
+[32m[K147[m[K[36m[K-[m[K        fprintf(stderr, "Erro durante a leitura dos enderecos.\n");
+[32m[K148[m[K[36m[K-[m[K        fclose(arquivo_binario);
+[32m[K149[m[K[36m[K-[m[K        fclose(arquivo_enderecos);
+[32m[K150[m[K[36m[K-[m[K        return 1;
+[32m[K151[m[K[36m[K-[m[K    }
+[32m[K152[m[K[36m[K-[m[K
+[32m[K153[m[K[36m[K-[m[K    fclose(arquivo_binario);
+[32m[K154[m[K[36m[K-[m[K    fclose(arquivo_enderecos);
+[32m[K155[m[K[36m[K-[m[K
+[32m[K156[m[K[36m[K-[m[K    return 0;
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7m./vm addresses.txt fifo fifo | grep -c "Page fault:"[27m[C[C[C[C[C[C[C[C./vm addresses.txt fifo fifo | grep -c "Page fault:"
+[?2004l538
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-24 23:41:57-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-11-24 23:42:59-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="74" LINES="26"]
+nvm is not compatible with the "PREFIX" environment variable: currently set to "/home/luizhlcosta/InfrSW/toolchain/x86_64"
+Run `unset PREFIX` to unset it.
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ python3 - <<'PY'
+import subprocess
+
+with open("addresses.txt") as arquivo:
+    enderecos = [int(linha.strip()) & 0xFFFF for linha in arquivo]
+
+resultado = subprocess.run(
+    ["./vm", "addresses.txt", "lru", "fifo"],
+    capture_output=True, text=True
+)
+
+frames = [-1] * 128
+ultimos_acessos = [0] * 128
+contador = 0
+falhas = 0
+proximo_frame = 0
+
+[7mfor endereco in enderecos:[27m
+[7m    pagina = endereco // 256[27m
+[7m    contador += 1[27m
+
+[7m    if pagina in frames:[27m
+[7m        frame = frames.index(pagina)[27m
+[7m    else:[27m
+[7m        falhas += 1[27m
+[7m        if proximo_frame < 128:[27m[7m            frame = proximo_frame[27m[7m            proximo_frame += 1[27m[7m        else:[27m[7m            frame = min(range(128), key=lambda i: ultimos_acessos[i])[27m[7m        frames[frame] = pagina[27m[7m    ultimos_acessos[frame] = contador[27m[7mfalhas_programa = resultado.stdout.count("Page fault:")[27m[7mprint("Page faults esperados:", falhas)[27m[7mprint("Page faults do programa:", falhas_programa)[27m[7mprint("Codigo de retorno:", resultado.returncode)[27m[7mprint("Resultado:", "APROVADO" if resultado.returncode == 0 and falhas == [27m[7mfalhas_programa else "REVISAR")[27m[7mPY[27m[A[A[A[A[A[A[A[Afor endereco in enderecos:
+    pagina = endereco // 256
+    contador += 1
+
+    if pagina in frames:
+        frame = frames.index(pagina)
+    else:
+        falhas += 1
+        if proximo_frame < 128:            frame = proximo_frame            proximo_frame += 1        else:            frame = min(range(128), key=lambda i: ultimos_acessos[i])        frames[frame] = pagina    ultimos_acessos[frame] = contadorfalhas_programa = resultado.stdout.count("Page fault:")print("Page faults esperados:", falhas)print("Page faults do programa:", falhas_programa)print("Codigo de retorno:", resultado.returncode)print("Resultado:", "APROVADO" if resultado.returncode == 0 and falhas == falhas_programa else "REVISAR")PY
+[?2004lPage faults esperados: 539
+Page faults do programa: 539
+Codigo de retorno: 0
+Resultado: APROVADO
+[?2004h]0;luizhlcosta@DESKTOP-233HMBM: /mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[01;32mluizhlcosta@DESKTOP-233HMBM[00m:[01;34m/mnt/c/Users/luizh/Projetando_uma_Memoria_Virtual_SO[00m$ ei[Kxt[Kit
+[?2004lexit
+
+Script done on 2026-11-24 23:44:12-03:00 [COMMAND_EXIT_CODE="0"]

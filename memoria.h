@@ -14,6 +14,8 @@ typedef struct {
     int proximo_frame;
     int vetor_paginas_dos_frames[NUM_FRAMES];
     int proximo_frame_fifo;
+    unsigned long long contador_acessos;
+    unsigned long long ultimo_acesso[NUM_FRAMES];
 } Memoria;
 
 int calcular_numero_pagina(int endereco_logico);
@@ -26,6 +28,8 @@ int consultar_tabela_paginas(const Memoria *memoria, int numero_pagina);
 void linkar_pagina_ao_frame(Memoria *memoria, int numero_da_pagina, int numero_do_frame);
 int obter_proximo_frame(Memoria *memoria);
 int selecionar_frame_fifo(Memoria *memoria);
+void registrar_acesso_lru(Memoria *memoria, int numero_do_frame);
+int escolher_frame_lru(const Memoria *memoria);
 
 int carregar_pagina(Memoria *memoria, FILE *arquivo_binario, int numero_da_pagina, int numero_do_frame);
 

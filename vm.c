@@ -101,13 +101,11 @@ int main(int argc, char *argv[]) {
             if (numero_do_frame == -1) {
                 if (strcmp(argv[2], "fifo") == 0) {
                     numero_do_frame = selecionar_frame_fifo(&memoria);
-                    pagina_antiga = memoria.vetor_paginas_dos_frames[numero_do_frame];
                 } else {
-                    fprintf(stderr, "Memoria cheia. Algoritmo LRU ainda nao implementado.\n");
-                    fclose(arquivo_binario);
-                    fclose(arquivo_enderecos);
-                    return 1;
+                    numero_do_frame = escolher_frame_lru(&memoria);
                 }
+
+                pagina_antiga = memoria.vetor_paginas_dos_frames[numero_do_frame];
             }
 
             if (carregar_pagina(&memoria, arquivo_binario, numero_da_pagina, numero_do_frame) == -1) {
@@ -133,6 +131,10 @@ int main(int argc, char *argv[]) {
         int endereco_fisico = numero_do_frame * FRAME_SIZE + valor_deslocamento;
 
         signed char valor_byte = (signed char) memoria.memoria_fisica[numero_do_frame][valor_deslocamento];
+
+        if (strcmp(argv[2], "lru") == 0) {
+            registrar_acesso_lru(&memoria, numero_do_frame);
+        }
 
         printf("Endereco fisico: %d | Valor: %d\n", endereco_fisico, (int) valor_byte);
 

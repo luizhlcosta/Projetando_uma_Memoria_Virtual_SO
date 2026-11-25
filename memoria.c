@@ -53,11 +53,33 @@ int selecionar_frame_fifo(Memoria *memoria) {
     return frame_selecionado;
 }
 
+void registrar_acesso_lru(Memoria *memoria, int numero_do_frame) {
+    if (numero_do_frame < 0 || numero_do_frame >= NUM_FRAMES) {
+        return;
+    }
+
+    memoria->contador_acessos++;
+    memoria->ultimo_acesso[numero_do_frame] = memoria->contador_acessos;
+}
+
+int escolher_frame_lru(const Memoria *memoria) {
+    int frame_escolhido = 0;
+
+    for (int frame_index = 1; frame_index < NUM_FRAMES; frame_index++) {
+        if (memoria->ultimo_acesso[frame_index] < memoria->ultimo_acesso[frame_escolhido]) {
+            frame_escolhido = frame_index;
+        }
+    }
+
+    return frame_escolhido;
+}
+
 void inicializar_gerenciador(Memoria *memoria) {
     inicializar_tabela_paginas(memoria->tabela_paginas);
 
     for (int frame_index = 0; frame_index < NUM_FRAMES; frame_index++) {
         memoria->vetor_paginas_dos_frames[frame_index] = -1;
+        memoria->ultimo_acesso[frame_index] = 0;
         for (int byte_index = 0; byte_index < FRAME_SIZE; byte_index++) {
             memoria->memoria_fisica[frame_index][byte_index] = 0;
         }
@@ -65,6 +87,7 @@ void inicializar_gerenciador(Memoria *memoria) {
 
     memoria->proximo_frame = 0;
     memoria->proximo_frame_fifo = 0;
+    memoria->contador_acessos = 0;
 }
 
 
