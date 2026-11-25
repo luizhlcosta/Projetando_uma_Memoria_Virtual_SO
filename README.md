@@ -18,7 +18,7 @@ Quando um endereço lógico é recebido, o programa calcula o número da página
 
 Primeiro, consulta a TLB. Caso a página não seja encontrada, consulta a tabela de páginas.
 
-Se a página não estiver carregada na memória física, ocorre um *page fault*. Nesse caso, o programa busca os dados correspondentes no arquivo `BACKING_STORE.bin`.
+Se a página não estiver carregada na memória física, ocorre um *page fault*. Nesse caso, o programa busca os dados correspondentes no arquivo `testes/BACKING_STORE.bin`.
 
 Quando a memória física está cheia, uma página precisa ser substituída para permitir o carregamento da nova página.
 
@@ -39,12 +39,14 @@ Os algoritmos são escolhidos por argumentos na execução do programa.
 | `memoria.c` | Implementação da memória, da TLB e dos algoritmos de substituição |
 | `memoria.h` | Estruturas, constantes e protótipos das funções |
 | `Makefile` | Compilação do programa |
-| `addresses.txt` | Arquivo de entrada com os endereços lógicos |
-| `BACKING_STORE.bin` | Arquivo binário utilizado para carregar as páginas |
-| `correct.txt` | Saída de referência para comparação dos resultados |
+| `testes/addresses.txt` | Arquivo de entrada com os endereços lógicos |
+| `testes/BACKING_STORE.bin` | Arquivo binário utilizado para carregar as páginas |
+| `testes/correct.txt` | Saída de referência para comparação dos resultados |
 | `evidencias.log` | Registro das compilações e dos testes realizados |
 
-Os arquivos de entrada e referência devem estar disponíveis no diretório de execução.
+Execute os comandos a partir da raiz do repositório. Os arquivos de entrada e referência ficam em `testes/`, enquanto `evidencias.log` permanece na raiz.
+
+Os fontes e executáveis dos testes auxiliares, as saídas temporárias e os artefatos de compilações anteriores também ficam em `testes/`. Os testes auxiliares que abrem `BACKING_STORE.bin` devem ser executados a partir dessa pasta.
 
 ## 4. Compilação
 
@@ -72,7 +74,7 @@ A execução utiliza três argumentos:
 ./vm <arquivo> <algoritmo_paginas> <algoritmo_tlb>
 ```
 
-O primeiro argumento indica o arquivo com os endereços lógicos.
+O primeiro argumento indica o caminho de qualquer arquivo válido com os endereços lógicos.
 
 O segundo define o algoritmo de substituição das páginas da memória física.
 
@@ -81,10 +83,10 @@ O terceiro define o algoritmo de substituição das entradas da TLB.
 Exemplos:
 
 ```bash
-./vm addresses.txt fifo fifo
-./vm addresses.txt fifo lru
-./vm addresses.txt lru fifo
-./vm addresses.txt lru lru
+./vm testes/addresses.txt fifo fifo
+./vm testes/addresses.txt fifo lru
+./vm testes/addresses.txt lru fifo
+./vm testes/addresses.txt lru lru
 ```
 
 ## 6. Saída do programa
@@ -110,7 +112,7 @@ As taxas são apresentadas como valores entre 0 e 1.
 
 Foram realizados testes de compilação e execução com as quatro combinações de FIFO e LRU.
 
-Utilizando os 1.000 endereços do arquivo `addresses.txt`, foram obtidos:
+Utilizando os 1.000 endereços do arquivo `testes/addresses.txt`, foram obtidos:
 
 | Páginas | TLB | Page faults |
 |---|---|---:|
@@ -121,15 +123,21 @@ Utilizando os 1.000 endereços do arquivo `addresses.txt`, foram obtidos:
 
 Também foram realizados testes de tradução de endereços e conferência dos valores retornados pelo programa.
 
-Na configuração LRU para páginas e FIFO para a TLB, a saída foi comparada com o arquivo `correct.txt` por meio do comando:
+Na configuração LRU para páginas e FIFO para a TLB, a saída foi comparada com o arquivo `testes/correct.txt` por meio do comando:
 
 ```bash
-diff -u correct.txt <(./vm addresses.txt lru fifo)
+diff -u testes/correct.txt <(./vm testes/addresses.txt lru fifo)
 ```
 
 A comparação não apresentou diferenças.
 
 Os registros dos testes estão documentados em `evidencias.log`.
+
+Para registrar novas evidências, inicie a sessão a partir da raiz:
+
+```bash
+script -a evidencias.log
+```
 
 ## 8. Considerações finais
 
